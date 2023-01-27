@@ -19,12 +19,8 @@ Folders:
         /neofetch
         /vifm
 
-
-
 .vimfm
 .vim/colors/molokai.vim
 demo-c/
-
-
 </pre>
 
