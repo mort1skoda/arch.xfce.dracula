@@ -1,4 +1,4 @@
-# linux.basic.dotfiles
+## linux.basic.dotfiles
 
 <pre>
 My basic Linux dotfiles, that should work with most systems:
@@ -15,7 +15,18 @@ Files:
 README.md
 
 Folders:
-.config
+.config /htop
+        /neofetch
+        /vifm
+
+
+
 .vimfm
 .vim/colors/molokai.vim
 demo-c/
+
+[0m[01;34mgh[0m
+[01;34mhtop[0m
+
+</pre>
+
