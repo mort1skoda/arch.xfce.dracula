@@ -58,7 +58,7 @@ alias g='grep --color=auto'
 alias hg='cat .bash_history | grep -i '
 alias os='cat /etc/os-release'
 alias wa='whoami'
-alias rm='ls'
+#alias rm='echo "use: sudo rm -rf"'
 #Watch List Diretory:
 alias wl='watch --color ls -la --color --group-directories-first'
 #alias 
@@ -86,7 +86,7 @@ alias ,eahk='vim /mnt/c/Users/Monica/Documents/AutoHotKey/myHotKeys.ahk'
 alias i='sudo apt install '
 alias u='sudo apt update -y && sudo apt upgrade -y && autoremove'
 
-
+alias a='alias'
 # quit or exit shell.  same as quiting vim (whitout save)
 alias q='exit'
 
