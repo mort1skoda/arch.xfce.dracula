@@ -9,12 +9,10 @@
 # umask 022
 
 clear
+echo ' ~/.profile '
 neofetch
-
 stty -ixon
 set -o vi
-
-echo ' ~/.profile '
 
 # if running bash:  -n means if length of string is not 0
 if [ -n "$BASH_VERSION" ]; then
@@ -24,7 +22,6 @@ if [ -n "$BASH_VERSION" ]; then
       source "$HOME/.bashrc"
     fi
 fi
-
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
