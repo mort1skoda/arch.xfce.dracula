@@ -1,0 +1,2 @@
+xterm &
+exec xfce4
