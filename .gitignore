@@ -1,11 +1,18 @@
+#.config
 .config/gh
+.config/Thunar
+
 .viminfo
 .gdb_history
-Thrash
 .bash_history
 clone
 .lesshst
 .cache
 .Xauthority
 xorg
+.ICEauthority
+
+#.locale
+Thrash
+recently-used.xbel
 
