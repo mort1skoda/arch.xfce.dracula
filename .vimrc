@@ -3,7 +3,7 @@
 """"""""""""""""""""""""
 
 " Author: Morten Håkestad <mort1skoda@gmail.com>
-echom"in /home/m/.vimrc"
+"echom"in /home/m/.vimrc"
 
 "--- folds -------------------{{{
 setlocal foldmethod=marker
