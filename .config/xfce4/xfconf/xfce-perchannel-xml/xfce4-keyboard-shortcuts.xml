@@ -46,19 +46,18 @@
       </property>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="orca"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;k" type="string" value="xfce4-keyboard-settings"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;e" type="string" value="pcmanfm"/>
+      <property name="&lt;Super&gt;l" type="string" value="xfce4-session-logout -l"/>
+      <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
