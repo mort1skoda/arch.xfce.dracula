@@ -83,8 +83,10 @@ alias sa='source ~/.aliases.sh'
 # windows:
 alias ,eahk='vim /mnt/c/Users/Monica/Documents/AutoHotKey/myHotKeys.ahk'
 
-alias i='sudo apt install '
-alias u='sudo apt update -y && sudo apt upgrade -y && autoremove'
+alias sai='sudo apt install '
+alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
+alias psyu='sudo pacman -Syu'
+alias ps='sudo pacman -S '
 
 alias a='alias'
 # quit or exit shell.  same as quiting vim (whitout save)
