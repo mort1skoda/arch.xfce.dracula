@@ -96,9 +96,11 @@ alias q='exit'
 #- git aliases ----------------------------------------------------{{{
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 #echo $DATE  
-alias gs='git status && git remote -v && ag git'
+alias gs='git status'
+alias gr='git remote -v'
 alias gc='git commit -m "$DATE"'
 alias ga='git add'
+alias gaa='git add --all'
 alias gp='git push'
 # mapleader = , 
 alias ,gi='vim .gitignore'
