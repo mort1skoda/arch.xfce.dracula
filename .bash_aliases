@@ -14,7 +14,7 @@
 # ag vim    will list all aliases that contains 'vim'
 # cag vim   will list all accourences of 'vim' in the whole file.
 
-echo -e '        3... begin ' $ALIASES ' ............\n'
+echo -e '        3... begin ' $ALIASES ' ............'
 #-----------------------------------------------------------------}}}
 
 
@@ -133,7 +133,8 @@ alias ,md='make dbg'
 #- footer --------------------------------------------------------{{{
 shopt -s expand_aliases
 #source .bash_aliases
-echo -e '\n        3... end   ' $ALIASES ' ............'
+echo    '                   Sourced: ' $ALIASES 
+echo -e '        3... end   ' $ALIASES ' ............'
 #--------------------------------------------------------------}}}
 
 

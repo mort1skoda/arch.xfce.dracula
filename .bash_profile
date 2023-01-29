@@ -16,8 +16,8 @@
 # umask 022
 
 clear
-echo ' ~/.profile '
 neofetch
+echo '~/.bash_profile'
 stty -ixon
 set -o vi
 
@@ -35,5 +35,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+
+echo 'end ~/.bash_profile'
 
 
