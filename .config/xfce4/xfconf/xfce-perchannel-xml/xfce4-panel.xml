@@ -27,8 +27,8 @@
         <value type="int" value="14"/>
       </property>
       <property name="nrows" type="uint" value="1"/>
-      <property name="enter-opacity" type="uint" value="85"/>
-      <property name="leave-opacity" type="uint" value="50"/>
+      <property name="enter-opacity" type="uint" value="90"/>
+      <property name="leave-opacity" type="uint" value="70"/>
     </property>
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="1"/>
@@ -42,17 +42,17 @@
         <value type="int" value="16"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
+        <value type="int" value="7"/>
         <value type="int" value="19"/>
         <value type="int" value="20"/>
-        <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="23"/>
         <value type="int" value="24"/>
         <value type="int" value="21"/>
       </property>
       <property name="mode" type="uint" value="1"/>
-      <property name="enter-opacity" type="uint" value="85"/>
-      <property name="leave-opacity" type="uint" value="50"/>
+      <property name="enter-opacity" type="uint" value="90"/>
+      <property name="leave-opacity" type="uint" value="70"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="length-adjust" type="bool" value="false"/>
     </property>
@@ -122,7 +122,11 @@
         <value type="string" value="16750187331.desktop"/>
       </property>
     </property>
-    <property name="plugin-23" type="string" value="launcher"/>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16750260091.desktop"/>
+      </property>
+    </property>
     <property name="plugin-24" type="string" value="launcher"/>
   </property>
 </channel>

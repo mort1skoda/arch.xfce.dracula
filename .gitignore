@@ -23,4 +23,8 @@ xfce4-appfinder.xml
 *xfce4-appfinder.xml
 .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml
 Downloads
+Desktop
+.icons/
+.themes/
+.wallpaper/
 

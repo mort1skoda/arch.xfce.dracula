@@ -6,7 +6,8 @@
 
 """""""""""  SETTINGS  """""""""""{{{
 
-colorscheme molokai
+colorscheme dracula 
+"colorscheme molokai
 "colorscheme blue
 
 " make it posible for aliases to function within vifm :!m r

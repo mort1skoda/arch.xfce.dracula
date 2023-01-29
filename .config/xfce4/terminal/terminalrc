@@ -37,4 +37,5 @@ CommandLoginShell=TRUE
 TitleInitial=
 TitleMode=TERMINAL_TITLE_REPLACE
 OverlayScrolling=TRUE
+ColorUseTheme=TRUE
 

@@ -11,9 +11,9 @@
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
   <property name="misc-volume-management" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,141,50,50,50,50,50,178,50,50,71,50,141"/>
-  <property name="last-window-width" type="int" value="1254"/>
-  <property name="last-window-height" type="int" value="844"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,141,50,50,50,50,50,449,50,50,71,50,141"/>
+  <property name="last-window-width" type="int" value="973"/>
+  <property name="last-window-height" type="int" value="1064"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-splitview-separator-position" type="int" value="549"/>
