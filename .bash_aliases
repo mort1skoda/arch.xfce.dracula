@@ -106,8 +106,8 @@ alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
 # mapleader = , 
-alias ,gi='vim .gitignore'
-alias ,gc='vim .gitconfig'
+alias ,gi='vim ~/.gitignore'
+alias ,gc='vim ~/.gitconfig'
 #-------------------------------------------------------------}}}
 
 

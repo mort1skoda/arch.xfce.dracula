@@ -5,4 +5,7 @@ Thrash
 .bash_history
 clone
 .lesshst
+.cache
+.Xauthority
+xorg
 
