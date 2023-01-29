@@ -21,6 +21,7 @@ echo -e '        3... begin ' $ALIASES ' ............'
 #- aliases for bash --------------------------------------------------------{{{
 # start programs:
 alias f='vifm /home/m  /01data'
+alias x='startx'
 
 # change directory:
 alias ..='cd .. && ls -la --color --group-directories-first'

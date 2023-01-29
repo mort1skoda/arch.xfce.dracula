@@ -1,3 +1,3 @@
-xsetkbmap=no &
-xterm &
-exec xfce4
+xsetkbmap no &
+exec startxfce4
+
