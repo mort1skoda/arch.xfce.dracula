@@ -27,4 +27,7 @@ Desktop
 .icons/
 .themes/
 .wallpaper/
+*bashtop*
+*dconf*
+*mimeapps*
 
