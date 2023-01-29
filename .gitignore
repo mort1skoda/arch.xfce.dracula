@@ -30,4 +30,5 @@ Desktop
 *bashtop*
 *dconf*
 *mimeapps*
-
+.local/share/xfce4*
+*vim/pack/*

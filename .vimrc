@@ -97,6 +97,15 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+
+"################ DRACULA dracula ###########
+packadd! dracula
+syntax enable
+colorscheme dracula
+"################ dracula DRACULA ###########
+
+
+
 " }}}
 
 " --- MAPPINGS ---------------------------------------------------------{{{
