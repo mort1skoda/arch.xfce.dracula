@@ -86,8 +86,8 @@ alias ,eahk='vim /mnt/c/Users/Monica/Documents/AutoHotKey/myHotKeys.ahk'
 
 alias sai='sudo apt install '
 alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
-alias psyu='sudo pacman -Syu'
-alias ps='sudo pacman -S '
+alias pu='sudo pacman -Syyu'
+alias pi='sudo pacman -S '
 alias rb='sudo reboot'
 
 alias a='alias'
