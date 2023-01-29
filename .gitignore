@@ -6,7 +6,6 @@
 .viminfo
 .gdb_history
 .bash_history
-clone
 .lesshst
 .cache
 .Xauthority
@@ -15,5 +14,12 @@ xorg
 
 #.locale
 Thrash
+.vifm/Trash
 recently-used.xbel
+
+repos
+.config/xfce4/appfinder
+xfce4-appfinder.xml
+*xfce4-appfinder.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml
 
