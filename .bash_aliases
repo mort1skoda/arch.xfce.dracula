@@ -19,7 +19,7 @@ echo -e '        3... begin ' $ALIASES ' ............'
 
 
 #- aliases for bash --------------------------------------------------------{{{
-# start programs
+# start programs:
 alias f='vifm /home/m  /01data'
 
 # change directory:
@@ -87,6 +87,7 @@ alias sai='sudo apt install '
 alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
 alias psyu='sudo pacman -Syu'
 alias ps='sudo pacman -S '
+alias rb='sudo reboot'
 
 alias a='alias'
 # quit or exit shell.  same as quiting vim (whitout save)

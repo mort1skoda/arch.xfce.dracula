@@ -100,6 +100,10 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 " }}}
 
 " --- MAPPINGS ---------------------------------------------------------{{{
+set noesckeys
+set ttimeout
+set ttimeoutlen=100
+set timeoutlen=3000
 
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
@@ -180,23 +184,12 @@ nnoremap <F7> :!make dbg<CR>
 "nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
 
-" ctrl-s write (save) and source ~/.vimrc
-" in normal, insert, visual and comand mode.
-"nnoremap <C-s> :w<CR>:source $VIM/vimfiles/archlinux.vim<CR>:echom"-- NORMAL -- Saved: " . expand('%') . "   Sourced: " . $VIM."/vimfiles/archlinux.vim"<cr>
-" NB!!! ::: Do NOT remove the l after <CR> ::: !!!
-" It adjusts the position of the coursor!!
-"inoremap <C-s> <ESC>:w<CR>l<esc>:source $VIM/vimfiles/archlinux.vim<CR>:echom"-- NORMAL -- Saved: " . expand('%') . "   Sourced: " . $VIM."/vimfiles/archlinux.vim"<cr>
-"vnoremap <C-s> <ESC>:w<CR>:source $VIM/vimfiles/archlinux.vim<CR>:echom"-- NORMAL -- Saved: " . expand('%') . "   Sourced: " . $VIM."/vimfiles/archlinux.vim"<cr>
-"cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Change->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
-
-noremap <C-s> <esc><esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL --"<cr>
+"Save & Source:
+nnoremap <C-s> <esc><esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+inoremap <C-s> <esc><esc>:w<cr>l<esc>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
 
 
-
-
-
-
-nnoremap u u:echo'Normal u = undo last change'<cr>
+nnoremap u u:echom"-- NORMAL -- u=undo last change"<cr>
 
 " U: Undo latest changes to one line. This command is unique because it will
 " create a new entry instead of reverting back to an old entry. This means you
@@ -232,15 +225,15 @@ nnoremap P P:echo'P = Paste line abowe / Paste token at cursor'<cr>
 nnoremap p p:echo'p = paste line below / paste token after cursor'<cr>
 
 " Shift-x insert space, only x delete one character.
-nnoremap X i<space><esc>:echo'Normal X=insert space'<esc>
-nnoremap x x:echo'Normal x=delete one char.'<esc>
+nnoremap X i<space><esc>:echom"-- NORMAL -- X=shift-x=insert space"<cr>
+nnoremap x x:echom"-- NORMAL -- x=delete one char"<cr>
 
-"h jh   kj  k
+"h jh    h          kj  k
 
 " Space to type :!  to enter shell comands.
-nnoremap <SPACE> :!
+nnoremap <space> i<space><esc>:echom"-- NORMAL -- space=insert space"<cr> 
 "inoremap <TAB> <SPACE><SPACE><SPACE><SPACE>
-nnoremap <TAB> :
+"nnoremap <TAB> 
     
 " ctrl-x to search and replace.
 nnoremap <C-x> :%s/
@@ -249,8 +242,8 @@ nnoremap <C-f> /
 
 
 "-------------------------- ESC mapping ------------------------------------
-"nnoremap <esc> <esc>:echo'Normal -> Normal esc = back to normal mode'<cr>
-inoremap <esc> <esc>l:echo'Insert -> Normal esc = back to normal mode'<cr>
+nnoremap <esc> <esc>:echom"-- NORMAL --"<cr>
+inoremap <esc> <esc>l<esc>:echom"-- NORMAL --"<cr>
 "vnoremap <esc> <esc>:echo'Visual -> Normal esc = back to normal mode'<cr>'
 "cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
 
