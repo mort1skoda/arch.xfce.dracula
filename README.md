@@ -2,6 +2,7 @@
 
 <pre>
 My basic Linux dotfiles, that should work with most systems:
+Including an install of xfce4 over archlinux
 Files:
 .bash_aliases
 .bash_logout
