@@ -20,7 +20,7 @@ nnoremap fo zr
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
 set nowrap
 "set wrap
-"set textwidth=80
+set textwidth=200
 "set spell spelllang=en_us
 "Turn off spell
 set nospell
@@ -182,12 +182,14 @@ nnoremap <F7> :!make dbg<CR>
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
-nnoremap <C-s> :w<CR>:source $VIMRC<CR>:echo'ctrl-s save'$VIMRC ' sourced:'$VIMRC<CR>
+"nnoremap <C-s> :w<CR>:source $VIM/vimfiles/archlinux.vim<CR>:echom"-- NORMAL -- Saved: " . expand('%') . "   Sourced: " . $VIM."/vimfiles/archlinux.vim"<cr>
 " NB!!! ::: Do NOT remove the l after <CR> ::: !!!
 " It adjusts the position of the coursor!!
-inoremap <C-s> <ESC>:w<CR>l:source $VIMRC<CR>:echo'Insert->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
-vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
+"inoremap <C-s> <ESC>:w<CR>l<esc>:source $VIM/vimfiles/archlinux.vim<CR>:echom"-- NORMAL -- Saved: " . expand('%') . "   Sourced: " . $VIM."/vimfiles/archlinux.vim"<cr>
+"vnoremap <C-s> <ESC>:w<CR>:source $VIM/vimfiles/archlinux.vim<CR>:echom"-- NORMAL -- Saved: " . expand('%') . "   Sourced: " . $VIM."/vimfiles/archlinux.vim"<cr>
 "cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Change->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
+
+noremap <C-s> <esc><esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL --"<cr>
 
 
 

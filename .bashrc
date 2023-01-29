@@ -18,15 +18,15 @@ set -o vi
 export SHELL=/bin/bash
 # do NOT export TERM here, it interferes up tmux, it is set in .tmux.conf
 #export TERM=screen-256color
-#export BASH_ENV='~/.bash_aliases.sh'
+export BASH_ENV='~/.bash_aliases.sh'
 export ALIASES='~/.bash_aliases.sh'
 export BASHRC='~/.bashrc'
 export VIFMRC='~/.vifm/vifmrc.vim'
 export TMUXCONF='~/.tmux.conf'
 export VIMRC='~/.vimrc'
 export EDITOR=/usr/bin/vim
-#----------------------------------------------------------------------}}}
 export TERM='xterm-256color'
+#----------------------------------------------------------------------}}}
 
 
 #  prompt -------------------------------------------------------{{{

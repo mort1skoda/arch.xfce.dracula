@@ -7,6 +7,7 @@
 """""""""""  SETTINGS  """""""""""{{{
 
 colorscheme molokai
+"colorscheme blue
 
 " make it posible for aliases to function within vifm :!m r
 let $BASH_ENV = "~/.aliases.sh"
