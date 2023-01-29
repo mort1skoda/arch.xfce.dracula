@@ -3,6 +3,7 @@
 """"""""""""""""""""""""
 
 " Author: Morten Håkestad <mort1skoda@gmail.com>
+echom"in /home/m/.vimrc"
 
 "--- folds -------------------{{{
 setlocal foldmethod=marker
@@ -336,7 +337,7 @@ augroup END
 "---------------}}}
 
 "--- statusline ---{{{
-set laststatus=2
+set laststatus=3
 set statusline=
 set statusline+=%F
 set statusline+=%=

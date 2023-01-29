@@ -26,6 +26,7 @@ export TMUXCONF='~/.tmux.conf'
 export VIMRC='~/.vimrc'
 export EDITOR=/usr/bin/vim
 #----------------------------------------------------------------------}}}
+export TERM='xterm-256color'
 
 
 #  prompt -------------------------------------------------------{{{
@@ -47,7 +48,7 @@ echo "    SHELL    =$SHELL      BASH_ENV =$BASH_ENV"
 echo "    ALIASES  =$ALIASES  BASHRC   =$BASHRC"
 echo "    VIMRC    =$VIMRC       VIFMRC   =$VIFMRC"
 echo "    TMUXCONF =$TMUXCONF   EDITOR   =$EDITOR" 
-echo
+echo "    TERM     =$TERM"
 #------------------------------------------------------------------}}}
 
 
