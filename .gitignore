@@ -20,7 +20,7 @@ Pictures/
 #demo-c
 repo
 #.ICEauthority
-#.Xauthority
+.Xauthority
 #.bash_aliases
 .bash_history
 #,bash_logout
