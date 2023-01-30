@@ -7,7 +7,8 @@ The main parts:
 OS:
 ===
 archlinux:
-se: myArchInstallGuide.md
+install.archlinux.md
+install.archlinux.LTT.md  (Learn Linux TV)
 
 
 CLI:
