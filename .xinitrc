@@ -1,8 +1,8 @@
 setxkbmap no &
 #~/caps-to-esc.sh &
 
-setxkbmap -option caps:swapescape &
-
+#setxkbmap -option caps:swapescape &
+                  caps:swapescape 
 exec startxfce4
 
 #

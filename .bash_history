@@ -1,4 +1,3 @@
-l
 ,gi
 cd Doc*
 l
@@ -498,3 +497,4 @@ tmux
 q
 , .xinitrc
 q
+, .xinitrc
