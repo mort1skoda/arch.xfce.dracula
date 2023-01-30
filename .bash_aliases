@@ -16,13 +16,19 @@
 # cag vim   will list all accourences of 'vim' in this file.
 
 echo -e "---|---|....start" $ALIASES "....|---|---"
-#-----------------------------------------------------------------}}}
+#-----------------------------------------------------------}}}
 
 
 #--- bash --------------------------------------------------{{{
 # start programs:
+alias bl='bash --login'
 alias f='vifm /home/m /home/m/repos'
 alias x='startx'
+alias a='alias' #list all aliases
+alias s='sudo'
+
+# clear screen:
+alias cs='clear'
 
 # change directory:
 alias ..='cd .. && ls -la --color --group-directories-first'
@@ -30,13 +36,19 @@ alias ...='cd ../.. && ls -la --color --group-directories-first'
 alias .r='cd / && ls -la --color --group-directories-first'
 alias .h='cd ~ && ls -la --color --group-directories-first'
 alias .d='cd /dat && ls -la --color --group-directories-first'
-# windows c:\
+
+# windows C:\ and D:\
 alias .wc='cd /mnt/c && ls -la --color --group-directories-first'
-# windows d:\
 alias .wd='cd /mnt/d && ls -la --color --group-directories-first'
 
-# clear screen:
-alias cs='clear'
+# list directories:
+alias l='ls -la --color --group-directories-first'
+alias ll='ls -l --color --group-directories-first'
+alias ls='ls --color --group-directories-first'
+alias lg='ls -la --color --group-directories-first | grep -i --color '
+alias md='mkdir -p'
+alias rd='rmdir -p'
+alias wl='watch --color ls -la --color --group-directories-first'
 
 # cat aliases then grep for <token>
 alias ag='alias | grep -i --color '
@@ -44,58 +56,37 @@ alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
 
 # su  =  su root  by default in bash. 
 
-# directories:
-alias l='ls -la --color --group-directories-first'
-alias ll='ls -l --color --group-directories-first'
-alias ls='ls --color --group-directories-first'
-alias lg='ls -la --color --group-directories-first | grep -i --color '
-alias md='mkdir -p'
-alias rd='rmdir -p'
-
-alias bl='bash --login'
-
 # shortcuts:
 alias c='cat'
 alias g='grep --color=auto'
 alias hg='cat .bash_history | grep -i '
 alias os='cat /etc/os-release'
 alias wa='whoami'
-#alias rm='echo "use: sudo rm -rf"'
-#Watch List Diretory:
-alias wl='watch --color ls -la --color --group-directories-first'
-#alias 
-alias s='sudo'
 
-
-# linux:
+# vim edit resources:
 alias ,='vim'
-alias ,a='vim ~/.bash_aliases && source ~/.profile'
+alias ,a='vim ~/.bash_aliases && source ~/.bash_profile'
 alias ,b='vim ~/.bashrc && source ~/.bashrc'
 alias ,f='vim ~/.vifm/vifmrc.vim'
 alias ,p='vim ~/.profile'
 alias ,v='vim ~/.vimrc'
 
-
 # source profile, bashrc, aliases 
-alias sp='source ~/.profile'
+alias sp='source ~/.bash_profile'
 alias sb='source ~/.bashrc'
 alias sa='source ~/.bash_aliases'
 
-
-# windows:
-alias ,eahk='vim /mnt/c/Users/Monica/Documents/AutoHotKey/myHotKeys.ahk'
-
+# package managers:
 alias sai='sudo apt install '
 alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
 alias pu='sudo pacman -Syyu'
 alias pi='sudo pacman -S '
 alias rb='sudo reboot'
 
-alias a='alias'
 # quit or exit shell.  same as quiting vim (whitout save)
 alias q='exit'
 
-#------------------------------------------------------------------}}}
+#-----------------------------------------------------------}}}
 
 
 #--- git ---------------------------------------------------{{{
@@ -107,7 +98,7 @@ alias gc='git commit -m "$DATE"'
 alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
-# mapleader = , 
+# mapleader = , here , is vim 
 alias ,gi='vim ~/.gitignore'
 alias ,gc='vim ~/.gitconfig'
 #-----------------------------------------------------------}}}
