@@ -2,7 +2,7 @@ setxkbmap no &
 ~/caps-to-esc.sh &
 
 
-exec xfce4-terminal --fullscreen
+exec xfce4-terminal --maximize
 #exec startxfce4
 
 #
