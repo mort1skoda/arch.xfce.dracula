@@ -802,22 +802,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/a/.vifm" added="2023-01-30T16:02:40.871448Z" modified="2023-01-30T16:12:41.969445Z" visited="2023-01-30T16:02:40.871449Z">
+  <bookmark href="file:///home/a/.vifm" added="2023-01-30T16:02:40.871448Z" modified="2023-01-30T16:20:28.821973Z" visited="2023-01-30T16:02:40.871449Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:12:41.969439Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:20:28.821966Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/a/.vifm/vifmrc" added="2023-01-30T16:02:51.570033Z" modified="2023-01-30T16:02:51.570052Z" visited="2023-01-30T16:02:51.570036Z">
+  <bookmark href="file:///home/a/.vifm/vifmrc" added="2023-01-30T16:02:51.570033Z" modified="2023-01-30T16:20:55.541703Z" visited="2023-01-30T16:02:51.570036Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:02:51.570044Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:20:55.541695Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -892,12 +892,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/a/.vifm/vifmrc.vim" added="2023-01-30T16:12:58.431846Z" modified="2023-01-30T16:12:58.431855Z" visited="2023-01-30T16:12:58.431848Z">
+  <bookmark href="file:///home/a/.vifm/vifmrc.vim" added="2023-01-30T16:12:58.431846Z" modified="2023-01-30T16:20:47.251700Z" visited="2023-01-30T16:12:58.431848Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:12:58.431851Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:20:47.251694Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
