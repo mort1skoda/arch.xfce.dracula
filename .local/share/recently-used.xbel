@@ -125,12 +125,142 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/.config" added="2023-01-30T13:24:36.515784Z" modified="2023-01-30T13:24:36.515795Z" visited="2023-01-30T13:24:36.515786Z">
+  <bookmark href="file:///home/m/.config" added="2023-01-30T13:24:36.515784Z" modified="2023-01-30T13:27:08.965979Z" visited="2023-01-30T13:24:36.515786Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:24:36.515789Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:27:08.965973Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/GIMP" added="2023-01-30T13:27:16.334276Z" modified="2023-01-30T13:30:16.049987Z" visited="2023-01-30T13:27:16.334278Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:30:16.049979Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/GIMP/2.10" added="2023-01-30T13:27:17.830910Z" modified="2023-01-30T13:30:17.993797Z" visited="2023-01-30T13:27:17.830912Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:30:17.993790Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/GIMP/2.10/backups" added="2023-01-30T13:27:18.742655Z" modified="2023-01-30T13:27:18.742673Z" visited="2023-01-30T13:27:18.742658Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:27:18.742664Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/GIMP/2.10/gimpressionist" added="2023-01-30T13:27:21.870393Z" modified="2023-01-30T13:27:21.870410Z" visited="2023-01-30T13:27:21.870396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:27:21.870401Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/gtk-3.0" added="2023-01-30T13:27:25.998966Z" modified="2023-01-30T13:33:08.953474Z" visited="2023-01-30T13:27:25.998969Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:33:08.953466Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/neofetch" added="2023-01-30T13:27:28.754095Z" modified="2023-01-30T13:33:30.685818Z" visited="2023-01-30T13:27:28.754098Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:33:30.685811Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/dconf" added="2023-01-30T13:27:31.677644Z" modified="2023-01-30T13:27:31.677663Z" visited="2023-01-30T13:27:31.677647Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:27:31.677654Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/dconf/user" added="2023-01-30T13:27:32.641958Z" modified="2023-01-30T13:29:50.575644Z" visited="2023-01-30T13:27:32.641960Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:29:50.575636Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/test.gvim.txt" added="2023-01-30T13:28:54.806831Z" modified="2023-01-30T13:28:54.806853Z" visited="2023-01-30T13:28:54.806834Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Vim" exec="&apos;gvim %u&apos;" modified="2023-01-30T13:28:54.806843Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/gh" added="2023-01-30T13:30:13.125926Z" modified="2023-01-30T13:30:13.125944Z" visited="2023-01-30T13:30:13.125929Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:30:13.125935Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/GIMP/2.10/tmp" added="2023-01-30T13:30:22.176449Z" modified="2023-01-30T13:30:22.176467Z" visited="2023-01-30T13:30:22.176452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:30:22.176459Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/GIMP/2.10/tmp/asdf.txt" added="2023-01-30T13:30:33.631918Z" modified="2023-01-30T13:30:46.372735Z" visited="2023-01-30T13:30:33.631921Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:30:46.372730Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/gtk-3.0/qwer.txt" added="2023-01-30T13:33:21.941166Z" modified="2023-01-30T13:33:21.941178Z" visited="2023-01-30T13:33:21.941168Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:33:21.941172Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
