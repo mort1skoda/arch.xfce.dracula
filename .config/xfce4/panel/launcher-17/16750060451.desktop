@@ -1,14 +1,14 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=exo-open --launch TerminalEmulator
+Exec=st -g 100x72 bash -l
 Icon=terminal
-StartupNotify=true
+StartupNotify=false
 Terminal=false
 Categories=Utility;X-XFCE;X-Xfce-Toplevel;
 OnlyShowIn=XFCE;
 X-AppStream-Ignore=True
-Name=Terminal Emulator
-Comment=Use the command line
+Name=st
+Comment=terminal
 X-XFCE-Source=file:///usr/share/applications/xfce4-terminal-emulator.desktop
-Path=
+Path=/home/m

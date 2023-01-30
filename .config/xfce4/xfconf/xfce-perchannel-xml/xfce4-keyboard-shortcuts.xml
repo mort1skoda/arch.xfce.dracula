@@ -44,6 +44,7 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder --collapsed"/>
       <property name="&lt;Super&gt;m" type="string" value="exo-open --launch MailReader"/>
+      <property name="&lt;Super&gt;s" type="string" value="st"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
