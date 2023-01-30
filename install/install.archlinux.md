@@ -30,7 +30,6 @@ ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0
 
 
 ####Start installing:
-=================
 ```
 loadkeys no
 alias l='ls -la --color --group-directories-first'
@@ -38,7 +37,7 @@ ls /sys/firmware/efi/efivars
 ip link
 ip a
 timedatectl status
-
+```
 
 <pre>
 fdisk -l
