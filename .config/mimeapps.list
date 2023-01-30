@@ -1,5 +1,5 @@
 [Default Applications]
 application/octet-stream=gvim.desktop
+application/xml=gvim.desktop
 
 [Added Associations]
-application/octet-stream=gvim.desktop;
