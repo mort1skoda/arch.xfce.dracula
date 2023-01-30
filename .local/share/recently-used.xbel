@@ -812,12 +812,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/a/.vifm/vifmrc" added="2023-01-30T16:02:51.570033Z" modified="2023-01-30T16:20:55.541703Z" visited="2023-01-30T16:02:51.570036Z">
+  <bookmark href="file:///home/a/.vifm/vifmrc" added="2023-01-30T16:02:51.570033Z" modified="2023-01-30T16:24:47.575209Z" visited="2023-01-30T16:02:51.570036Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:20:55.541695Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T16:24:47.575202Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
