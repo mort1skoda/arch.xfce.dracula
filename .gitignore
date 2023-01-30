@@ -1,15 +1,9 @@
 .cache
 .git
 .gnupg
-.icons
 .config/gh/
-.config/bashtop/user_themes/
-.vifm/Trash/000_archlinux/
-.local
 .mozilla
-.themes
 .viminfo
-.wallpaper/
 
 Desktop/
 Documents
@@ -21,9 +15,8 @@ repo
 
 .bash_history
 .ICEauthority
+.Xauthority
 .lesshst
 
-.config/*
-.local/*
 
 
