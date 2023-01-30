@@ -742,12 +742,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Wallpapers" added="2023-01-30T15:05:39.091438Z" modified="2023-01-30T15:05:39.091457Z" visited="2023-01-30T15:05:39.091442Z">
+  <bookmark href="file:///home/m/Wallpapers" added="2023-01-30T15:05:39.091438Z" modified="2023-01-30T15:24:00.010760Z" visited="2023-01-30T15:05:39.091442Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2023-01-30T15:05:39.091448Z" count="1"/>
+          <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2023-01-30T15:24:00.010753Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
