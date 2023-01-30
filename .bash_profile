@@ -35,6 +35,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+git pull
 
 echo 'end ~/.bash_profile'
 
