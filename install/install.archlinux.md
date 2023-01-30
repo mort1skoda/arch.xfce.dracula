@@ -21,11 +21,12 @@ sudo dd bs=4M if=archlinux-2023.01.01-x86_64.iso of=/dev/sdb conv=fsync oflag=di
 
 [Installation guide](https://wiki.archlinux.org/title/Installation_guide)
 
-<pre>
-To install via ssh:
+
+####To install via ssh:
+```
 passwd root
 ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0.198
-</pre>
+```
 
 <pre>
 Start installing:
