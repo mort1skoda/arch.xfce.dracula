@@ -35,5 +35,4 @@ gp
 
 echo '.... end   ~/:bash_logout ....'
 
-sleep 4
 
