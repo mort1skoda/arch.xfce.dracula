@@ -125,4 +125,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/.config" added="2023-01-30T13:24:36.515784Z" modified="2023-01-30T13:24:36.515795Z" visited="2023-01-30T13:24:36.515786Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:24:36.515789Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
