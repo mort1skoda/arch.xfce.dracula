@@ -2,8 +2,8 @@ setxkbmap no &
 ~/caps-to-esc.sh &
 
 
-
-exec startxfce4
+exec xfce4-terminal
+#exec startxfce4
 
 #
 #TODO: make esc send <ctrl-b>
