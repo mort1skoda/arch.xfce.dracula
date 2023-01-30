@@ -31,7 +31,7 @@ git status
 git add --all
 git status
 gc
-
+gp
 echo '.... end   ~/:bash_logout ....'
 
 
