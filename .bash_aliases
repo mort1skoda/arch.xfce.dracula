@@ -29,6 +29,7 @@ alias s='sudo'
 alias gv='gvim '
 # clear screen:
 alias cs='clear'
+alias nf="clear && neofetch"
 
 # change directory:
 alias ..='cd .. && ls -la --color --group-directories-first'
