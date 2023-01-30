@@ -55,7 +55,7 @@
       <property name="&lt;Alt&gt;&lt;Super&gt;r" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Super&gt;b" type="string" value="bashtop"/>
+      <property name="&lt;Super&gt;b" type="string" value="xfce4-terminal -e &apos;/usr/bin/bashtop&apos;"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

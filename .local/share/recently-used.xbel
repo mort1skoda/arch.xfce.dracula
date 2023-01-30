@@ -912,4 +912,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///usr/bin/bashtop" added="2023-01-30T17:15:38.148425Z" modified="2023-01-30T17:15:38.148439Z" visited="2023-01-30T17:15:38.148428Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-keyboard-settings" exec="&apos;xfce4-keyboard-settings %u&apos;" modified="2023-01-30T17:15:38.148431Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
