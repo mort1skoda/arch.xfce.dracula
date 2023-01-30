@@ -109,10 +109,6 @@ colorscheme dracula
 " }}}
 
 " --- MAPPINGS ---------------------------------------------------------{{{
-set noesckeys
-set ttimeout
-set ttimeoutlen=100
-set timeoutlen=3000
 
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
@@ -193,9 +189,6 @@ nnoremap <F7> :!make dbg<CR>
 "nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
 
 
-"Save & Source:
-nnoremap <C-s> <esc><esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
-inoremap <C-s> <esc><esc>:w<cr>l<esc>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
 
 
 nnoremap u u:echom"-- NORMAL -- u=undo last change"<cr>
@@ -251,10 +244,19 @@ nnoremap <C-f> /
 
 
 "-------------------------- ESC mapping ------------------------------------
-nnoremap <esc> <esc>:echom"-- NORMAL --"<cr>
-inoremap <esc> <esc>l<esc>:echom"-- NORMAL --"<cr>
-"vnoremap <esc> <esc>:echo'Visual -> Normal esc = back to normal mode'<cr>'
+set noesckeys
+set ttimeout
+set ttimeoutlen=100
+set timeoutlen=500
+
+nnoremap <esc>:echom"-- NORMAL -- esc"<cr>
+inoremap <esc>l:echom"-- NORMAL -- esc"<cr>
+"vnoremap <esc>:echom';lklllllhhhhhhh'Visual -> Normal esc = back to normal mode'<cr>'
 "cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
+
+"Save & Source:
+nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
 
 "------------------------------------ end mappings ---------------------------}}}
 

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=vim
+Exec=/usr/bin/xfce4-terminal %f
+Categories=Other;
+NoDisplay=true
+MimeType=text/plain
+Terminal=true
+X-KeepTerminal=true
