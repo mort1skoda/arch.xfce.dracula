@@ -1,8 +1,8 @@
 setxkbmap no &
-~/caps-to-esc.sh &
+#~/caps-to-esc.sh &
 
 
-exec xfce4-terminal --maximize
+exec firefox
 #exec startxfce4
 
 #
