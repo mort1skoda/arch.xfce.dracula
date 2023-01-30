@@ -1,9 +1,9 @@
 setxkbmap no &
-#~/caps-to-esc.sh &
+~/caps-to-esc.sh &
 
 
-exec firefox
-#exec startxfce4
+#exec firefox
+exec startxfce4
 
 #
 #TODO: make esc send <ctrl-b>
