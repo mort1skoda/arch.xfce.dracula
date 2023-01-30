@@ -545,3 +545,40 @@ X Protocol Version 11, Revision 0
 [ 15891.112] (II) modeset(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
 [ 15891.112] (II) modeset(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
 [ 15891.112] (II) modeset(0): Modeline "1600x1200"x0.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[ 16101.314] (II) modeset(0): Disabling kernel dirty updates, not required.
+[ 16101.386] (**) Option "fd" "25"
+[ 16101.387] (II) event1  - Power Button: device removed
+[ 16101.387] (**) Option "fd" "28"
+[ 16101.387] (II) event0  - Power Button: device removed
+[ 16101.387] (**) Option "fd" "29"
+[ 16101.387] (II) event14 - C505 HD Webcam: device removed
+[ 16101.387] (**) Option "fd" "30"
+[ 16101.387] (II) event7  - Logitech Anywhere MX: device removed
+[ 16101.387] (**) Option "fd" "31"
+[ 16101.387] (II) event2  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[ 16101.387] (**) Option "fd" "32"
+[ 16101.387] (II) event3  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[ 16101.388] (**) Option "fd" "33"
+[ 16101.388] (**) Option "fd" "34"
+[ 16101.388] (II) event5  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
+[ 16101.388] (**) Option "fd" "33"
+[ 16101.388] (II) event4  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
+[ 16101.392] (II) UnloadModule: "libinput"
+[ 16101.393] (II) systemd-logind: not releasing fd for 13:68, still in use
+[ 16101.393] (II) UnloadModule: "libinput"
+[ 16101.393] (II) systemd-logind: releasing fd for 13:69
+[ 16101.411] (II) UnloadModule: "libinput"
+[ 16101.411] (II) systemd-logind: releasing fd for 13:68
+[ 16101.451] (II) UnloadModule: "libinput"
+[ 16101.451] (II) systemd-logind: releasing fd for 13:67
+[ 16101.514] (II) UnloadModule: "libinput"
+[ 16101.514] (II) systemd-logind: releasing fd for 13:66
+[ 16101.531] (II) UnloadModule: "libinput"
+[ 16101.531] (II) systemd-logind: releasing fd for 13:71
+[ 16101.601] (II) UnloadModule: "libinput"
+[ 16101.601] (II) systemd-logind: releasing fd for 13:78
+[ 16101.641] (II) UnloadModule: "libinput"
+[ 16101.641] (II) systemd-logind: releasing fd for 13:64
+[ 16101.655] (II) UnloadModule: "libinput"
+[ 16101.655] (II) systemd-logind: releasing fd for 13:65
+[ 16101.782] (II) Server terminated successfully (0). Closing log file.
