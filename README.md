@@ -1,4 +1,4 @@
-## archXfce4
+## arch.xfce4.dracula
 ### linux.basic.dotfiles
 
 <pre>
