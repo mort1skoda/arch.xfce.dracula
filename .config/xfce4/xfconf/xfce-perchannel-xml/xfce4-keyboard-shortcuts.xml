@@ -36,21 +36,13 @@
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder -c">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
-      <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
-      <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
-      <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;k" type="string" value="xfce4-keyboard-settings"/>
       <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
@@ -58,6 +50,12 @@
       <property name="&lt;Super&gt;g" type="string" value="gvim"/>
       <property name="&lt;Super&gt;q" type="string" value="xfce4-session-logout -l"/>
       <property name="&lt;Super&gt;l" type="string" value="xfce4-session-logout -l"/>
+      <property name="&lt;Super&gt;m" type="string" value="exo-open --launch MailReader"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;e" type="string" value="pcmanfm"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;r" type="string" value="xfce4-appfinder">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Super&gt;b" type="string" value="bashtop"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
