@@ -82,6 +82,12 @@ alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
 alias pu='sudo pacman -Syyu'
 alias pi='sudo pacman -S '
 alias rb='sudo reboot'
+alias sd="sudo shutdown -h now"
+
+# filesystem:
+alias lbl="lsblk -o NAME,MODEL,PARTTYPENAME,FSTYPE,SIZE,MOUNTPOINTS,SERIAL"
+alias cp="cp -iv"
+
 
 # quit or exit shell.  same as quiting vim (whitout save)
 alias q='exit'
