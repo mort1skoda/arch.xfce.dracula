@@ -6,7 +6,8 @@ The main parts:
 
 OS:
 ===
-archlinux 
+archlinux:
+se: myArchInstallGuide.md
 
 
 CLI:
