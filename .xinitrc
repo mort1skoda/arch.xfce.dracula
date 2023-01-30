@@ -1,9 +1,8 @@
 setxkbmap no &
-#~/caps-to-esc.sh &
+~/caps-to-esc.sh &
 
-/usr/bin/setxkbmap -option caps:swapescape &
 
-exec firefox &
+
 exec startxfce4
 
 #
