@@ -26,7 +26,7 @@ alias f='vifm /home/m /home/m/repos'
 alias x='startx'
 alias a='alias' #list all aliases
 alias s='sudo'
-alias g='gvim '
+alias gv='gvim '
 # clear screen:
 alias cs='clear'
 
