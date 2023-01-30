@@ -27,6 +27,11 @@ if [ "$TMUX" == "" ]; then
     #echo '-----------------> git push dotfiles READY!!        !!!!!!!!!'
 fi
 
+git status
+git add --all
+git status
+gc
+
 echo '.... end   ~/:bash_logout ....'
 
 
