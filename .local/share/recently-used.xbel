@@ -1110,4 +1110,147 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///repo/wallpaper/first-collection/android-1.png" added="2023-01-30T23:10:25.598911Z" modified="2023-01-30T23:10:25.598924Z" visited="2023-01-30T23:10:25.598913Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:10:25.598919Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/xfce4/Wallpapers/arch.png" added="2023-01-30T23:13:37.942535Z" modified="2023-01-30T23:13:37.942549Z" visited="2023-01-30T23:13:37.942537Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:13:37.942543Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/illustrations/cat-and-bats/dracula-cat-282a36.png" added="2023-01-30T23:14:55.760936Z" modified="2023-01-30T23:14:55.760953Z" visited="2023-01-30T23:14:55.760940Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:14:55.760947Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/illustrations/galaxy/dracula-galaxy-282a36.png" added="2023-01-30T23:17:09.104585Z" modified="2023-01-30T23:18:21.645503Z" visited="2023-01-30T23:17:09.104588Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:18:21.645497Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/illustrations/trees-and-mountains/dracula-mnt-282a36.png" added="2023-01-30T23:18:46.514754Z" modified="2023-01-30T23:18:46.514769Z" visited="2023-01-30T23:18:46.514756Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:18:46.514763Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/leaves/dracula-leaves-6272a4.png" added="2023-01-30T23:19:16.877272Z" modified="2023-01-30T23:19:16.877287Z" visited="2023-01-30T23:19:16.877275Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:19:16.877281Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/maps/portolans/dracula-portolans-ff79c6.png" added="2023-01-30T23:19:34.764924Z" modified="2023-01-30T23:19:34.764937Z" visited="2023-01-30T23:19:34.764926Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:19:34.764932Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/soft-waves/dracula-soft-waves-6272a4.png" added="2023-01-30T23:19:45.940306Z" modified="2023-01-30T23:19:45.940322Z" visited="2023-01-30T23:19:45.940310Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:19:45.940316Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/spooky-minimal/dracula-spooky-6272a4.png" added="2023-01-30T23:20:23.780889Z" modified="2023-01-30T23:20:23.780906Z" visited="2023-01-30T23:20:23.780891Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:20:23.780899Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/xfce4/Wallpapers/dracula-spooky-44475a.png" added="2023-01-30T23:20:46.861732Z" modified="2023-01-30T23:20:46.861747Z" visited="2023-01-30T23:20:46.861735Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:20:46.861741Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///repo/wallpaper/second-collection/waves/dracula-waves-6272a4.png" added="2023-01-30T23:21:06.104262Z" modified="2023-01-30T23:21:06.104279Z" visited="2023-01-30T23:21:06.104265Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:21:06.104271Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

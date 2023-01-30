@@ -546,3 +546,4 @@ X Protocol Version 11, Revision 0
 [  6473.022] (II) modeset(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
 [  6473.022] (II) modeset(0): Modeline "1600x1200"x0.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
 [  6473.044] (II) modeset(0): Disabling kernel dirty updates, not required.
+[ 13035.943] (II) event7  - Logitech Anywhere MX: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.22.1/button-debouncing.html for details
