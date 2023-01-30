@@ -686,12 +686,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/a/Wallpapers" added="2023-01-30T14:49:24.887795Z" modified="2023-01-30T14:59:18.281937Z" visited="2023-01-30T14:49:24.887798Z">
+  <bookmark href="file:///home/a/Wallpapers" added="2023-01-30T14:49:24.887795Z" modified="2023-01-30T15:45:33.265212Z" visited="2023-01-30T14:49:24.887798Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2023-01-30T14:49:24.887804Z" count="1"/>
+          <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2023-01-30T15:45:33.265205Z" count="2"/>
           <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:59:18.281928Z" count="1"/>
         </bookmark:applications>
       </metadata>
