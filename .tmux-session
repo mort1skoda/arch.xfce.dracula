@@ -1,1 +1,4 @@
-0	bash	/home/a
+tpm	tmux	/home/m
+tpm	bash	/home/m
+tpm	git	/home/m
+tpm	bash	/home/m
