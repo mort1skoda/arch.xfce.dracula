@@ -11,6 +11,7 @@
 .mozilla/
 #.themes
 #.vifm/
+.vifm/Trash*
 #.vim/
 Desktop/
 Documents/

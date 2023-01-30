@@ -9,7 +9,7 @@ MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
 MiscDefaultGeometry=97x64
 MiscInheritGeometry=FALSE
 MiscMenubarDefault=FALSE
-MiscMouseAutohide=FALSE
+MiscMouseAutohide=TRUE
 MiscMouseWheelZoom=TRUE
 MiscToolbarDefault=FALSE
 MiscConfirmClose=TRUE
@@ -38,4 +38,8 @@ TabActivityColor=#dc322f
 TitleMode=TERMINAL_TITLE_HIDE
 ColorBoldUseDefault=FALSE
 ColorUseTheme=TRUE
+TitleInitial=tmux
+ShortcutsNoHelpkey=TRUE
+ShortcutsNoMenukey=TRUE
+ShortcutsNoMnemonics=TRUE
 
