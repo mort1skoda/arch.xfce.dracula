@@ -99,20 +99,15 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-
 "################ DRACULA dracula ###########
 packadd! dracula
 syntax enable
 colorscheme dracula
 "################ dracula DRACULA ###########
+"------------------------------------------------------------------------------}}}
 
 
-
-" }}}
-
-
-" --- MAPPINGS ---------------------------------------------------------{{{
-
+"--- mapping ------------------------------------------------------------------{{{
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
 " ctrl-q write and quit
@@ -127,10 +122,10 @@ nnoremap ff za
 
 " å = go to end of line, 0=go to beginning of line.
 nnoremap å $:echo'å=go to end of line'<CR>
-nnoremap 0 0:echo'0=go to beginning of line'<CR>
+nnoremap 0 0:echo'0=go to start of line'<CR>
 
 nnoremap h h:echo'-- NORMAL --   h-left'<CR>
-nnoremap j j:echo'-- NORMAL --   j-dwn'<CR>
+nnoremap j j:echo'-- NORMAL --   j-down'<CR>
 nnoremap k k:echo'-- NORMAL --   k-up'<CR>
 nnoremap l l:echo'-- NORMAL --   l-right'<CR>
 
@@ -144,8 +139,8 @@ nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>
 let mapleader = ","
 "
 " ,vv for vertical split ,hh for horizonal split
-nnoremap <Leader>v :vs<CR>: source ~/.vimrc<CR>
-nnoremap <Leader>h :sp<CR>: source ~/.vimrc<cr>
+nnoremap <Leader>vv :vs<CR>: source ~/.vimrc<CR>
+nnoremap <Leader>hh :sp<CR>: source ~/.vimrc<cr>
 " ctrl-hjkl navigate panes
 nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
 nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
@@ -264,9 +259,7 @@ inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr
 "------------------------------------ end mappings ---------------------------}}}
 
 
-" ----- , mapleader MACROS -----------------{{{
-
-
+"--- mapleader , -------------------------------------------------------------------------{{{
 " ,va ,vb ... edit dotfiles
 let $ALIASES = '~/.aliases.sh'
 let $BASHRC  = '~/.bashrc'
@@ -289,7 +282,6 @@ nnoremap <Leader>mm :!make all<CR>
 nnoremap <Leader>mr :!make run<CR>
 nnoremap <Leader>md :!make dbg<CR>
 
-
 " open vim integrated file explorer
 nnoremap <Leader>ex :Lexplore<CR>7<C-w><
 
@@ -299,13 +291,11 @@ nnoremap <Leader>ch I#<ESC>j
 nnoremap <Leader>ca I"<ESC>j
 " ,cc = leader comment c source code
 nnoremap <Leader>cc I//<ESC>j
+"-----------------------------------------------------------------------------------------}}}
 
-" }}}
 
-
-" ------- @ MACROS -----------------{{{
-
-" @c comment C line
+"--- @ macros --------------------------------------------------------{{{
+" @c comment C line  //
 let @c="I// \<Esc>j"
 
 " @u uncomment C line
@@ -316,8 +306,7 @@ let @p = "Iprintf(\""
 
 " @f for(int i = 0; i < 10; i++){
 let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
-
-"-------------------------------------------}}}
+"---------------------------------------------------------------------}}}
 
 
 "--- scripts ---------------------------------------------------------{{{
