@@ -1,0 +1,16 @@
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/mort1skoda/archXfce4.git
+git push -u origin master
+
+it branch --set-upstream-to=origin/master
+git branch --set-upstream-to=origin/master
+
+git add
+git rebase --continue
+gc
+gp
+

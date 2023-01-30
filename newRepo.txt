@@ -6,13 +6,13 @@ git branch -M master
 git remote add origin https://github.com/mort1skoda/archXfce4.git
 git push -u origin master
 
-git config pull.rebase true
-<<<<<<< HEAD
 it branch --set-upstream-to=origin/master
-=======
 git branch --set-upstream-to=origin/master
->>>>>>> dd01f6c ([2023-01-30 13:12:43])
 
+git add
+git rebase --continue
+gc
+gp
 
 
 
