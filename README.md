@@ -26,6 +26,8 @@ lynx
 
 GUI:
 ====
+install.gui.md
+xorg
 xfce4
 with no DM=Display Manager
 just type startx or the alias x
@@ -36,6 +38,13 @@ THEME:
 ======
 Dracula theme
 Molokai theme
+
+
+SOUND:
+======
+install.sound.md
+pulseaudio
+pavucontrol
 
 
 C-demo:
