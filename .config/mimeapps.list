@@ -1,0 +1,11 @@
+[Default Applications]
+inode/directory=xfce4-file-manager.desktop
+x-scheme-handler/trash=xfce4-file-manager.desktop
+text/plain=userapp-xfce4-terminal-KLKWZ1.desktop
+
+[Added Associations]
+inode/directory=xfce4-file-manager.desktop;
+x-scheme-handler/trash=xfce4-file-manager.desktop;
+text/plain=userapp-xfce4-terminal-KLKWZ1.desktop;
+
+[Removed Associations]
