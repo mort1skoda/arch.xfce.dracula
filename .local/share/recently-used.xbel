@@ -365,4 +365,34 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/.config/xfce4/terminal" added="2023-01-30T13:36:00.946575Z" modified="2023-01-30T13:36:00.946593Z" visited="2023-01-30T13:36:00.946578Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:36:00.946584Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.config/xfce4/terminal/terminalrc" added="2023-01-30T13:36:08.500253Z" modified="2023-01-30T13:36:08.500263Z" visited="2023-01-30T13:36:08.500255Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:36:08.500258Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.gnupg" added="2023-01-30T13:36:50.975256Z" modified="2023-01-30T13:36:50.975267Z" visited="2023-01-30T13:36:50.975258Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:36:50.975261Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
