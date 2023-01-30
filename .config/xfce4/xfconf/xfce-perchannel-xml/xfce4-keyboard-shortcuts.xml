@@ -55,6 +55,7 @@
       <property name="&lt;Super&gt;k" type="string" value="xfce4-keyboard-settings"/>
       <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
+      <property name="&lt;Super&gt;g" type="string" value="gvim"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

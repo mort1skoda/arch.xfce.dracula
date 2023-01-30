@@ -762,4 +762,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/arcXfc/Wallpapers" added="2023-01-30T15:18:27.570985Z" modified="2023-01-30T15:18:27.571004Z" visited="2023-01-30T15:18:27.570989Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2023-01-30T15:18:27.570995Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
