@@ -121,8 +121,8 @@ alias ta='tmux a -t '
 # ,et = edit .tmux.conf
 alias ,t='vim ~/.tmux.conf'
 
-alias ts='./tm.session.sh save'
-alias tr="./tm.session.sh restore"
+alias ts='./tmux.session.sh save'
+alias tr="./tmux.session.sh restore"
 #-----------------------------------------------------------}}}
 
 
