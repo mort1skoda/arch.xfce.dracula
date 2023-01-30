@@ -9,24 +9,20 @@
 .mozilla
 .themes
 .viminfo
-<<<<<<< HEAD
 .wallpaper/
-=======
->>>>>>> dd01f6c ([2023-01-30 13:12:43])
 
-Desktop
+Desktop/
 Documents
 Downloads
-<<<<<<< HEAD
-repos
+Pictures/
 
 .bash_history
-=======
 repo
 
 .bash_history
 .ICEauthority
 .lesshst
-Pictures/
->>>>>>> dd01f6c ([2023-01-30 13:12:43])
+
+.config/*
+
 
