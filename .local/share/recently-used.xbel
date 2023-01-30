@@ -475,4 +475,58 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/.themes" added="2023-01-30T14:01:11.346449Z" modified="2023-01-30T14:01:11.346465Z" visited="2023-01-30T14:01:11.346452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:01:11.346456Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.themes/gtk-master" added="2023-01-30T14:01:17.193044Z" modified="2023-01-30T14:01:17.193055Z" visited="2023-01-30T14:01:17.193046Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:01:17.193050Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.themes/gtk-master/.github" added="2023-01-30T14:01:19.002557Z" modified="2023-01-30T14:01:19.002575Z" visited="2023-01-30T14:01:19.002560Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:01:19.002566Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.themes/gtk-master/screenshot.png" added="2023-01-30T14:01:29.815628Z" modified="2023-01-30T14:01:44.957184Z" visited="2023-01-30T14:01:29.815631Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:01:29.815637Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-30T14:01:44.957177Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/.themes/gtk-master/kde" added="2023-01-30T14:02:05.935413Z" modified="2023-01-30T14:02:05.935427Z" visited="2023-01-30T14:02:05.935416Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:02:05.935420Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
