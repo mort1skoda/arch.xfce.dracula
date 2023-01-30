@@ -1,113 +1,3 @@
-gc
-l
-l
-l
-l
-l
-l
-gs
-cd
-gs
-l
-l
-l
-l
-l
-gs
-gs
-l
-neofetch
-neofetch
-l
-l
-l
-l
-l
-l
-gs
-';lkl;'';lkkl;'';lk
-
-
-, .xinitrc
-xsetkbmap no
-xsetkbmap no
-sp firefox
-,a
-pu
-pu
-pi firefox
-l
-pi firefox
-l
-l
-cd clone
-l
-cd arc*
-l
-, inst*gui*
-l
-, inst*gui*
-l
-neofetch
-neofect
-neofetch
-gs
-neofetch
-neofetch
-l
-gs
-gs
-ga
-bashtop
-bashtop
-l
-cd er
-cd /usr
-l
-cd share
-l
-cd vim
-l
-cd vimfiles
-l
-s vim ar*
-l ~
-vim
-l ~
-..
-kl
-l
-cd vim90
-l
-s vim defa*
-,
-cd
-,v
-, .xinitrc
-l
-l
-gs
-gs
-gaa
-gc
-gp
-gs
-l
-gs
-cd arch*
-l
-cd clone
-cd arch*
-l
-gs
-gc
-gp
-ga
-gs
-l
-cd
-l
-cd repos
 l
 cd win*
 l
@@ -498,3 +388,113 @@ gc
 gp
 x
 rb
+l
+gs
+cd .config
+l
+cd xfce4
+l
+cd xfwm4
+l
+..
+l
+l app*
+l desk*
+l pan*
+l termi*
+l xf*
+cd xf*
+l
+cd xfc*
+l
+cd x*
+l
+l
+, xfce4-desk*
+ga ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+ga -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+,gi
+gs
+cd
+gs
+gaa
+gs
+gs
+gc
+gp
+ga -f ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+gs
+c ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+git add ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+gs
+git rebase
+git rebase pull
+git --help
+git restore
+git restore ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+gs
+git add ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+gs
+gs
+l
+,gi
+gs
+,gi
+gs
+,gi
+gs
+,gi
+gs
+,gi
+gs
+gaa
+gr
+git rm --cached .config/bashtop/user_themes/bashtop
+git rm -f --cached .config/bashtop/user_themes/bashtop
+,gi
+gs
+gaa
+l
+,gi
+gs
+,gi
+git rm .viminfo
+git rm -f .viminfo
+gs
+l
+vim
+l
+gs
+gaa
+l
+gc
+gp
+gs
+l
+cd .config
+l
+cd bashtop
+l
+l
+..
+l
+cd dfconf
+l
+cd dconf
+l
+..
+l
+cd gh
+l
+..
+cd gtk-2*
+l
+..
+cd gtk-3*
+l
+..
+l htop
+l libfm
+l neofetch
+l pcmanfm
+l pcmanfm/default
