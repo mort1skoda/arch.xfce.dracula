@@ -48,3 +48,5 @@ repo
 #test.gvim.txt
 #vim-colors.txt
 
+*Xorg.0.log*
+

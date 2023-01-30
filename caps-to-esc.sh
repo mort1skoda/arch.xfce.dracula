@@ -3,7 +3,7 @@
 echo "Hello from test.sh"
 sleep 3
 echo "That was 5 sec. pause!"
-#setxkbmap -option "caps:swapescape"
+setxkbmap -option "caps:swapescape"
 sleep 3
 
 #xcape -e "Caps_Lock=Control_L|B"
