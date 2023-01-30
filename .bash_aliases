@@ -1,26 +1,27 @@
-############################################
-####    /home/m/.aliases.sh    ####
-###################################
+#----------------------------------------------------------
+#---      ~/.bash_aliases      ----
+#----------------------------------
 
-#--- header --------------------------------------------------------{{{
-# Author:    Morten Håkestad
-#####
+
+#--- header ------------------------------------------------{{{
+# Author: Morten Håkestad
+#
 # This script file is source by .bashrc
 #
 # Use ff or za to toggle folds.
 # Use ag to grep for aliases.
-# Use cag to grep in this file.
+# Use cag to grep for everything in this file. 
 # Example:
 # ag vim    will list all aliases that contains 'vim'
-# cag vim   will list all accourences of 'vim' in the whole file.
+# cag vim   will list all accourences of 'vim' in this file.
 
-echo -e '        3... begin ' $ALIASES ' ............'
+echo -e "---|---|....start" $ALIASES "....|---|---"
 #-----------------------------------------------------------------}}}
 
 
-#- aliases for bash --------------------------------------------------------{{{
+#--- bash --------------------------------------------------{{{
 # start programs:
-alias f='vifm /home/m  /01data'
+alias f='vifm /home/m /home/m/repos'
 alias x='startx'
 
 # change directory:
@@ -78,7 +79,7 @@ alias ,v='vim ~/.vimrc'
 # source profile, bashrc, aliases 
 alias sp='source ~/.profile'
 alias sb='source ~/.bashrc'
-alias sa='source ~/.aliases.sh'
+alias sa='source ~/.bash_aliases'
 
 
 # windows:
@@ -97,7 +98,7 @@ alias q='exit'
 #------------------------------------------------------------------}}}
 
 
-#- git aliases ----------------------------------------------------{{{
+#--- git ---------------------------------------------------{{{
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 #echo $DATE  
 alias gs='git status'
@@ -109,10 +110,10 @@ alias gp='git push'
 # mapleader = , 
 alias ,gi='vim ~/.gitignore'
 alias ,gc='vim ~/.gitconfig'
-#-------------------------------------------------------------}}}
+#-----------------------------------------------------------}}}
 
 
-#- tmux aliases ---------------------------------------------------{{{
+#--- tmux --------------------------------------------------{{{
 # tm = tmux, start a new tmux session
 alias tm='tmux'
 # tl = tmux list
@@ -121,24 +122,29 @@ alias tl='tmux ls'
 alias ta='tmux a -t '
 # ,et = edit .tmux.conf
 alias ,t='vim ~/.tmux.conf'
-#--------------------------------------------------------------}}}
+#-----------------------------------------------------------}}}
 
 
-#--- Clang C Cpp make aliases ------------------------------------{{{
+#--- network -----------------------------------------------{{{
+alias ip="ip -color=auto"
+#-----------------------------------------------------------}}}
+
+
+#--- make --------------------------------------------------{{{
 alias ,mh='make help'
 alias ,mv='make vars'
 alias ,mc='make clean'
 alias ,mm='make all'
 alias ,mr='make run'
 alias ,md='make dbg'
-#--------------------------------------------------------------}}}
+#-----------------------------------------------------------}}}
 
 
-#- footer --------------------------------------------------------{{{
+#--- footer ------------------------------------------------{{{
 shopt -s expand_aliases
 #source .bash_aliases
-echo    '                   Sourced: ' $ALIASES 
-echo -e '        3... end   ' $ALIASES ' ............'
-#--------------------------------------------------------------}}}
+echo    "                Sourced:" $ALIASES 
+echo -e "---|---|....end.." $ALIASES "....|---|---"
+#-----------------------------------------------------------}}}
 
 
