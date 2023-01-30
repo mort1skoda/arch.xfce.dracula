@@ -82,12 +82,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///" added="2023-01-30T13:13:43.962516Z" modified="2023-01-30T13:13:43.962526Z" visited="2023-01-30T13:13:43.962517Z">
+  <bookmark href="file:///" added="2023-01-30T13:13:43.962516Z" modified="2023-01-30T15:02:36.453317Z" visited="2023-01-30T13:13:43.962517Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T13:13:43.962520Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T15:02:36.453306Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -536,36 +536,6 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/.themes/gtk-master/Art/Dracula.png" added="2023-01-30T14:05:27.424186Z" modified="2023-01-30T14:05:58.496650Z" visited="2023-01-30T14:05:27.424188Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:05:27.424191Z" count="1"/>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-30T14:05:34.096192Z" count="1"/>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T14:05:58.496643Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/m/.themes/gtk-master/Art/logo.png" added="2023-01-30T14:05:40.439657Z" modified="2023-01-30T14:06:11.416004Z" visited="2023-01-30T14:05:40.439660Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:05:40.439665Z" count="1"/>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-30T14:05:46.937371Z" count="1"/>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T14:06:11.415996Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/m/.themes/gtk-master/assets" added="2023-01-30T14:06:21.695614Z" modified="2023-01-30T14:08:04.598269Z" visited="2023-01-30T14:06:21.695617Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -716,12 +686,58 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/a/Wallpapers" added="2023-01-30T14:49:24.887795Z" modified="2023-01-30T14:49:24.887814Z" visited="2023-01-30T14:49:24.887798Z">
+  <bookmark href="file:///home/a/Wallpapers" added="2023-01-30T14:49:24.887795Z" modified="2023-01-30T14:59:18.281937Z" visited="2023-01-30T14:49:24.887798Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="xfdesktop-settings" exec="&apos;xfdesktop-settings %u&apos;" modified="2023-01-30T14:49:24.887804Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:59:18.281928Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/a/Desktop" added="2023-01-30T14:54:46.809121Z" modified="2023-01-30T15:02:21.322871Z" visited="2023-01-30T14:54:46.809124Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T15:02:21.322862Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/a" added="2023-01-30T14:54:48.519849Z" modified="2023-01-30T15:02:35.740080Z" visited="2023-01-30T14:54:48.519852Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T15:02:35.740070Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/a/Wallpapers/Motorhead1920x1200.jpg" added="2023-01-30T14:59:20.398547Z" modified="2023-01-30T14:59:44.476736Z" visited="2023-01-30T14:59:20.398550Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T14:59:20.398553Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-30T14:59:31.236973Z" count="1"/>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T14:59:44.476729Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///.vifm-Trash-0" added="2023-01-30T15:02:27.983110Z" modified="2023-01-30T15:02:27.983127Z" visited="2023-01-30T15:02:27.983114Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T15:02:27.983119Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
