@@ -752,4 +752,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/.vimrc" added="2023-01-30T15:10:17.870342Z" modified="2023-01-30T15:10:17.870359Z" visited="2023-01-30T15:10:17.870345Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Vim" exec="&apos;gvim %u&apos;" modified="2023-01-30T15:10:17.870351Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

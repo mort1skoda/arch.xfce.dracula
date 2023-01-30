@@ -5,6 +5,7 @@
 " Author: Morten Håkestad <mort1skoda@gmail.com>
 "echom"in /home/m/.vimrc"
 
+
 "--- folds -------------------{{{
 setlocal foldmethod=marker
 " ff = toogle one folder
@@ -14,6 +15,7 @@ nnoremap fc zm
 " fo = folder open all
 nnoremap fo zr
 "-----------------------------}}}
+
 
 " - SETTINGS -----------------------------------------------------{{{
 
@@ -107,6 +109,7 @@ colorscheme dracula
 
 
 " }}}
+
 
 " --- MAPPINGS ---------------------------------------------------------{{{
 
@@ -260,6 +263,7 @@ inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr
 
 "------------------------------------ end mappings ---------------------------}}}
 
+
 " ----- , mapleader MACROS -----------------{{{
 
 
@@ -298,6 +302,7 @@ nnoremap <Leader>cc I//<ESC>j
 
 " }}}
 
+
 " ------- @ MACROS -----------------{{{
 
 " @c comment C line
@@ -314,7 +319,8 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
 
 "-------------------------------------------}}}
 
-" --------- SCRIPTS ------------------------------------------------------{{{
+
+"--- scripts ---------------------------------------------------------{{{
 
 " This will enable code folding.
 " Use the marker method of folding.
@@ -331,7 +337,8 @@ augroup cursor_off
 augroup END
 
 
-" }}}
+"---------------------------------------------------------------------}}}
+
 
 "--- plugins ---{{{
 
@@ -342,11 +349,13 @@ augroup END
 
 "---------------}}}
 
-"--- statusline ---{{{
+
+"--- statusline -----------------------------------{{{
 set laststatus=3
 set statusline=
 set statusline+=%F
 set statusline+=%=
 set statusline+=row:%l\ col:%c\ percent:%p%%
-"------------------}}}
+"--------------------------------------------------}}}
+
 
