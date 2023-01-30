@@ -1,27 +1,47 @@
-## linux.basic.dotfiles
+## archXfce4
+### linux.basic.dotfiles
 
 <pre>
-My basic Linux dotfiles, that should work with most systems:
-Including an install of xfce4 over archlinux
-Files:
+The main parts:
+
+OS:
+===
+archlinux 
+
+
+CLI:
+====
 .bash_aliases
-.bash_logout
+.bash_profile
 .bashrc
+git
+github-cli  (for: gh auth login)
+vim
+vifm
+tmux
+lynx
+
+
+GUI:
+====
+xfce4
+with no DM=Display Manager
+just type startx or the alias x
+firefox
+
+
+THEME:
+======
+Dracula theme
+Molokai theme
+
+
+C-demo:
+=======
 .gdbinit
-.gitconfig
-.gitignore
-.profile
-.tmux.conf
-.vimrc
-README.md
-
-Folders:
-.config /htop
-        /neofetch
-        /vifm
-
-.vimfm
-.vim/colors/molokai.vim
 demo-c/
+using makefiles to build
+and gdb to debug
+
 </pre>
 
