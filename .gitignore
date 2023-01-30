@@ -24,5 +24,6 @@ repo
 .lesshst
 
 .config/*
+.local/*
 
 
