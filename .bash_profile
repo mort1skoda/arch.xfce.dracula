@@ -49,14 +49,16 @@ fi
 
 echo "SHELL LEVEL = $SHLVL"
 
-if [ "$SHLVL" -lt 4 ]; then
-    echo "asdfasdf"
+if [ "$SHLVL" -lt 5 ]; then
+    echo "Shell level less than 5 check git"
+    echo "git pull: "
+    git pull
 fi
 
-#if [ -n "$SHLVL" < 4 ]; then
-
-#
+if [ "$SHLVL" -gt 5 ]; then
+    echo "Shell level greater than 4: auto git pull only on level 4 or lower"
     #echo "git pull: "
     #git pull
-#fi
+fi
+
 
