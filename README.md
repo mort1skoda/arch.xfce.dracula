@@ -28,6 +28,7 @@ vifm
 tmux
 lynx
 
+![my desk 2023-01-31_22-22-59_scale down](https://user-images.githubusercontent.com/6655776/215888061-d0979a75-f4a9-4e26-82ef-aedf6ce62eb0.jpg)
 
 GUI:
 ====
