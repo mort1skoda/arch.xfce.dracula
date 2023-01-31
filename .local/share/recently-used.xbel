@@ -1293,4 +1293,82 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/Pictures/screencaptures/Motorhead.png" added="2023-01-31T19:42:24.833169Z" modified="2023-01-31T19:42:24.833188Z" visited="2023-01-31T19:42:24.833172Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-01-31T19:42:24.833179Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures" added="2023-01-31T19:55:35.149778Z" modified="2023-01-31T19:55:35.149789Z" visited="2023-01-31T19:55:35.149780Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T19:55:35.149783Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots" added="2023-01-31T19:55:44.372497Z" modified="2023-01-31T19:55:44.372513Z" visited="2023-01-31T19:55:44.372500Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T19:55:44.372505Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots/Screenshot_2023-01-31_21-00-01.png" added="2023-01-31T20:00:06.944681Z" modified="2023-01-31T20:00:06.944703Z" visited="2023-01-31T20:00:06.944685Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-01-31T20:00:06.944692Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots/Screenshot_2023-01-31_21-01-12.png" added="2023-01-31T20:01:19.753970Z" modified="2023-01-31T20:01:19.753993Z" visited="2023-01-31T20:01:19.753974Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-01-31T20:01:19.753982Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots/Screenshot_2023-01-31_21-01-36.png" added="2023-01-31T20:01:39.459137Z" modified="2023-01-31T20:01:47.030205Z" visited="2023-01-31T20:01:39.459141Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-01-31T20:01:39.459151Z" count="1"/>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-31T20:01:47.030200Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots/Screenshot_2023-01-31_21-02-12.png" added="2023-01-31T20:02:15.252500Z" modified="2023-01-31T20:02:19.347328Z" visited="2023-01-31T20:02:15.252504Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-01-31T20:02:15.252510Z" count="1"/>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-31T20:02:19.347320Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

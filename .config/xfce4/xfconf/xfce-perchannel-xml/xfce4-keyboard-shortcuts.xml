@@ -53,6 +53,7 @@
       <property name="&lt;Alt&gt;&lt;Super&gt;t" type="string" value="xfce4-terminal --fullscreen"/>
       <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;u" type="string" value="xfce4-terminal -e &apos;sudo pacman -Syyu&apos;"/>
+      <property name="&lt;Super&gt;Print" type="string" value="xfce4-screenshooter -ws Pictures/Screenshots"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
