@@ -6,6 +6,14 @@
 "echom"in /home/m/.vimrc"
 
 
+"execute "set <M-a>=^H"
+
+"
+"
+"
+"
+"
+"
 "--- folds -------------------{{{
 setlocal foldmethod=marker
 " ff = toogle one folder
@@ -139,7 +147,7 @@ nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>
 let mapleader = ","
 "
 " ,vv for vertical split ,hh for horizonal split
-nnoremap <Leader>vv :vs<CR>: source ~/.vimrc<CR>
+nnoremap <Leader>vv :vs<CR>:edit ~/.vimrc<CR>
 nnoremap <Leader>hh :sp<CR>: source ~/.vimrc<cr>
 " ctrl-hjkl navigate panes
 nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
