@@ -1,54 +1,60 @@
-""""""""""""""""""""""""""""""""""""""""
-""""    ~/.vifm/vifmrc.vim    """"
-""""""""""""""""""""""""""""""""""
 
-" ff = toggle folds
 
-"""""""""""  SETTINGS  """""""""""{{{
+"--- info --------------------------------------{{{
+"--- ~/.vifm/vifmrc.vim
+"--- Author: Morty Hawk
+"--- email.: <mort1prog@outlook.com>
+"
+"--- ff = toggle folds
+"--- fo = open all folds
+"--- fc = close all folds
+"------------------------------------------------}}}
 
+
+"--- settings -----------------------------------------------{{{
 colorscheme molokai
 "colorscheme Dracula
 
-
 " make it posible for aliases to function within vifm :!m r
-let $BASH_ENV = "~/.aliases.sh"
+let $BASH_ENV = "~/.bash_aliases.sh"
 set syscalls
 
 " show hidden files by default
 windo normal! zo
-" not suported:  let mapleader ","
 
+" ask user before deleting files or folders
 set confirm-=delete
+"------------------------------------------------------------}}}
 
-"}}}
 
+"--- mappings ----------------------------------------------{{{
 
-"- mappings -------------------------------------------------------{{{
-
-" Try to make them as close to vim as possible:
+" Try to mimic vim close as possible:
 
 " <space> = :! = run external shell command
-nnoremap <space> :!
+" nnoremap <space> :!
 
 " <TAB> = command mode
-nnoremap <TAB> :
+" nnoremap <TAB> :
 
-" ctrl-q = quit
+" both q and ctrl-q to quit
 nnoremap <C-q> :q
 nnoremap q :q
-
 
 " ctrl-s = source ~/.vifm/vifmrc 
 nnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
 cnoremap <C-s> <ESC>:source ~/.vifm/vifmrc<CR>
 
-" ctrl-h,l and TAB toggle panes
+" ctrl-h,l (and TAB) change panes
 nnoremap <C-l> <C-w><C-w>
 nnoremap <C-h> <C-w><C-w>
 
+" info:
 "ctrl-w v = split vertical 
 "ctrl-w s = split horizontal
 "ctrl-w o = one pane only
+nnoremap <C-o> <C-w>o
+
 "------------------------------------------------------------------}}}
 
 

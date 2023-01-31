@@ -144,7 +144,8 @@ alias ,md='make dbg'
 
 #--- debug ------------------------------------------------{{{
 alias keycodes="sed -n l"
-#
+alias dbgvim="vim -V20 2>&1 | tee vim.logfile.txt.vim && vim vim.logfile.txt.vim"
+
 #
 #----------------------------------------------------------}}}
 

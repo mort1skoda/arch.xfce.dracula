@@ -1,9 +1,13 @@
 """"""""""""""""""""""""""""""""""""""""
 """"    ~/.vimrc    """"
 """"""""""""""""""""""""
-
 " Author: Morten Håkestad <mort1skoda@gmail.com>
-"echom"in /home/m/.vimrc"
+
+
+"--- tips and tricks and debug --------------------{{{
+" echom"in /home/m/.vimrc"
+" see dbgvim alias in .bash_aliases
+"--------------------------------------------------}}}
 
 
 "--- folds -------------------{{{
@@ -107,7 +111,6 @@ colorscheme dracula
 "------------------------------------------------------------------------------}}}
 
 
-"--- mapping ------------------------------------------------------------------{{{
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
 " ctrl-q write and quit
@@ -240,28 +243,16 @@ nnoremap <C-x> :%s/
 nnoremap <C-f> /
 
 
-"-------------------------- ESC mapping ------------------------------------
-set noesckeys
-set ttimeout
-set ttimeoutlen=800
-set timeoutlen=900
 
-nnoremap <esc><esc>k:echom"-- NORMAL -- esc"<cr>
-inoremap <esc>:echo"asdf"
-"l:echom"-- NORMAL -- esc"<cr>
-"vnoremap <esc>:echom';lklllllhhhhhhh'Visual -> Normal esc = back to normal mode'<cr>'
-"cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
 
-"Save & Source:
-nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
-inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
 
-"------------------------------------ end mappings ---------------------------}}}
+
+
 
 
 "--- mapleader , -------------------------------------------------------------------------{{{
 " ,va ,vb ... edit dotfiles
-let $ALIASES = '~/.aliases.sh'
+let $ALIASES = '~/.bash_aliases'
 let $BASHRC  = '~/.bashrc'
 let $VIFMRC  = '~/.vifm/vifmrc.vim' 
 let $TMUX    = '~/.tmux.conf'
@@ -294,6 +285,21 @@ nnoremap <Leader>cc I//<ESC>j
 "-----------------------------------------------------------------------------------------}}}
 
 
+"--- Escape Save Source Quit ------------------------------------------------------{{{
+"Ctrl-s saves the file and sources if it is $VIMRC
+nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+
+set noesckeys
+set ttimeout
+set ttimeoutlen=1000
+set timeoutlen=1000
+
+nnoremap <esc> <esc>:echo"-- NORMAL -- esc"<cr>
+inoremap <esc> <esc>l:echo"-- NORMAL -- esc"<cr>
+"----------------------------------------------------------------------------------}}}
+
+
 "--- @ macros --------------------------------------------------------{{{
 " @c comment C line  //
 let @c="I// \<Esc>j"
@@ -309,34 +315,28 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
 "---------------------------------------------------------------------}}}
 
 
-"--- scripts ---------------------------------------------------------{{{
-
+"--- scripts autogroup autocmd ------------------------------{{{
 " This will enable code folding.
 " Use the marker method of folding.
-augroup filetype_vim
-    autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
-augroup END
+"augroup filetype_vim
+    "autocmd!
+    "autocmd FileType vim setlocal foldmethod=marker
+"augroup END
 
 " Display cursorline and cursorcolumn ONLY in active window.
-augroup cursor_off
-	autocmd!
-	autocmd WinLeave * set nocursorline nocursorcolumn
-	autocmd WinEnter * set cursorline cursorcolumn
-augroup END
+"augroup cursor_off
+    "autocmd!
+    "autocmd WinLeave * set nocursorline nocursorcolumn
+    "autocmd WinEnter * set cursorline cursorcolumn
+"augroup END
+"------------------------------------------------------------}}}
 
 
-"---------------------------------------------------------------------}}}
-
-
-"--- plugins ---{{{
-
+"--- plugins -----------------------{{{
 "call plug#begin('~/.vim/plugged')
 
-
 "call plug#end()
-
-"---------------}}}
+"-----------------------------------}}}
 
 
 "--- statusline -----------------------------------{{{
