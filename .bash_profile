@@ -1,6 +1,10 @@
 #
 # ~/.bash_profile
 #
+set DEBUG=1
+echo "DEBUG=== "$DEBUG
+exit
+
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
@@ -14,10 +18,6 @@
 # the default umask is set in /etc/profile; for setting the umask
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
-
-set DEBUG=1
-echo "DEBUG=== "$DEBUG
-exit
 
 clear
 neofetch
