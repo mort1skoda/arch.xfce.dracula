@@ -23,14 +23,21 @@
         <value type="int" value="13"/>
       </property>
       <property name="nrows" type="uint" value="1"/>
-      <property name="enter-opacity" type="uint" value="90"/>
-      <property name="leave-opacity" type="uint" value="70"/>
+      <property name="enter-opacity" type="uint" value="85"/>
+      <property name="leave-opacity" type="uint" value="55"/>
       <property name="background-style" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="show-menu-icons" type="bool" value="false"/>
+      <property name="button-title" type="string" value="Start"/>
+      <property name="custom-menu" type="bool" value="false"/>
+      <property name="small" type="bool" value="false"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="true"/>
