@@ -47,5 +47,6 @@ if [ -n "$DEBUG" ]; then
     neofetch
 fi
 
+echo "git pull: "
 git pull
 
