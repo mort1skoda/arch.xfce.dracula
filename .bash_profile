@@ -55,7 +55,7 @@ if [ "$SHLVL" -lt 5 ]; then
     git pull
 fi
 
-if [ "$SHLVL" -gt 5 ]; then
+if [ "$SHLVL" -ge 5 ]; then
     echo "Shell level above 4 pauses auto git"
 fi
 
