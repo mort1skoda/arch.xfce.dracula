@@ -33,9 +33,6 @@
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
-      <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder -c">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
@@ -52,11 +49,10 @@
       <property name="&lt;Super&gt;l" type="string" value="xfce4-session-logout -l"/>
       <property name="&lt;Super&gt;m" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;e" type="string" value="pcmanfm"/>
-      <property name="&lt;Alt&gt;&lt;Super&gt;r" type="string" value="xfce4-appfinder">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="&lt;Super&gt;b" type="string" value="xfce4-terminal -e &apos;/usr/bin/bashtop&apos;"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;t" type="string" value="xfce4-terminal --fullscreen"/>
+      <property name="&lt;Super&gt;r" type="string" value="xfce4-appfinder"/>
+      <property name="&lt;Super&gt;u" type="string" value="xfce4-terminal"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
