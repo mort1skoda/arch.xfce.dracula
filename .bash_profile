@@ -15,6 +15,10 @@
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
+set DEBUG=1
+echo "DEBUG=== "$DEBUG
+exit
+
 clear
 neofetch
 echo '~/.bash_profile'
@@ -34,6 +38,9 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+
+
 
 git pull
 
