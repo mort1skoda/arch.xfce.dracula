@@ -52,12 +52,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m" added="2023-01-30T13:06:45.774761Z" modified="2023-01-31T20:47:30.174055Z" visited="2023-01-30T13:06:45.774764Z">
+  <bookmark href="file:///home/m" added="2023-01-30T13:06:45.774761Z" modified="2023-01-31T20:48:57.702118Z" visited="2023-01-30T13:06:45.774764Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:47:30.174047Z" count="4"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:48:57.702112Z" count="7"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -82,12 +82,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///" added="2023-01-30T13:13:43.962516Z" modified="2023-01-31T20:46:19.175639Z" visited="2023-01-30T13:13:43.962517Z">
+  <bookmark href="file:///" added="2023-01-30T13:13:43.962516Z" modified="2023-01-31T20:48:51.802206Z" visited="2023-01-30T13:13:43.962517Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:46:19.175633Z" count="7"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:48:51.802201Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -907,12 +907,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Downloads" added="2023-01-30T19:25:31.264778Z" modified="2023-01-30T19:25:31.264793Z" visited="2023-01-30T19:25:31.264781Z">
+  <bookmark href="file:///home/m/Downloads" added="2023-01-30T19:25:31.264778Z" modified="2023-01-31T20:49:57.063267Z" visited="2023-01-30T19:25:31.264781Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-30T19:25:31.264785Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:49:57.063260Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1303,22 +1303,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Pictures" added="2023-01-31T19:55:35.149778Z" modified="2023-01-31T20:44:06.766112Z" visited="2023-01-31T19:55:35.149780Z">
+  <bookmark href="file:///home/m/Pictures" added="2023-01-31T19:55:35.149778Z" modified="2023-01-31T20:49:55.068586Z" visited="2023-01-31T19:55:35.149780Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:44:06.766106Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:49:55.068579Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Pictures/Screenshots" added="2023-01-31T19:55:44.372497Z" modified="2023-01-31T20:44:08.099577Z" visited="2023-01-31T19:55:44.372500Z">
+  <bookmark href="file:///home/m/Pictures/Screenshots" added="2023-01-31T19:55:44.372497Z" modified="2023-01-31T20:49:52.335514Z" visited="2023-01-31T19:55:44.372500Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:44:08.099569Z" count="2"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:49:52.335506Z" count="7"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1371,12 +1371,42 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Desktop" added="2023-01-31T20:46:16.185275Z" modified="2023-01-31T20:46:16.185292Z" visited="2023-01-31T20:46:16.185278Z">
+  <bookmark href="file:///home/m/Desktop" added="2023-01-31T20:46:16.185275Z" modified="2023-01-31T20:49:50.517749Z" visited="2023-01-31T20:46:16.185278Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:46:16.185283Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:49:50.517742Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Documents" added="2023-01-31T20:48:32.415675Z" modified="2023-01-31T20:48:32.415691Z" visited="2023-01-31T20:48:32.415677Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:48:32.415682Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/install" added="2023-01-31T20:49:12.390689Z" modified="2023-01-31T20:49:12.390702Z" visited="2023-01-31T20:49:12.390692Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:49:12.390695Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Downloads/dwm-6.4" added="2023-01-31T20:50:09.618177Z" modified="2023-01-31T20:50:09.618196Z" visited="2023-01-31T20:50:09.618180Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:50:09.618187Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
