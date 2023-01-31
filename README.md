@@ -1,7 +1,7 @@
 ## arch.xfce4.dracula
 ### linux.basic.dotfiles
 
-xorg![archlinux](https://user-images.githubusercontent.com/6655776/215883069-0cc535b3-6f9b-4aa8-ae6d-83664e8ea291.png)
+[archlinux](https://user-images.githubusercontent.com/6655776/215883069-0cc535b3-6f9b-4aa8-ae6d-83664e8ea291.png)
 
 <pre>
 The main parts:
@@ -31,9 +31,10 @@ lynx
 
 GUI:
 ====
-install.gui.md
-
-
+read: install.gui.md
+xorg
+xorg-init
+.xinitrc
 xfce4
 with no DM=Display Manager
 just type startx or the alias x
