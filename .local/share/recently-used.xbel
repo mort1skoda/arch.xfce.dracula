@@ -1303,12 +1303,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Pictures" added="2023-01-31T19:55:35.149778Z" modified="2023-01-31T21:07:27.059725Z" visited="2023-01-31T19:55:35.149780Z">
+  <bookmark href="file:///home/m/Pictures" added="2023-01-31T19:55:35.149778Z" modified="2023-01-31T21:26:29.761129Z" visited="2023-01-31T19:55:35.149780Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:07:27.059718Z" count="7"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:26:29.761124Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1426,12 +1426,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Pictures/Linux" added="2023-01-31T21:07:28.336941Z" modified="2023-01-31T21:07:28.336950Z" visited="2023-01-31T21:07:28.336943Z">
+  <bookmark href="file:///home/m/Pictures/Linux" added="2023-01-31T21:07:28.336941Z" modified="2023-01-31T21:26:31.629670Z" visited="2023-01-31T21:07:28.336943Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:07:28.336946Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:26:31.629664Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1497,6 +1497,91 @@
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
           <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-31T21:18:23.226872Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/Screenshot_2023-01-31_22-22-59.png" added="2023-01-31T21:23:12.465591Z" modified="2023-01-31T21:23:12.465613Z" visited="2023-01-31T21:23:12.465594Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-01-31T21:23:12.465602Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4" added="2023-01-31T21:26:39.199569Z" modified="2023-01-31T21:26:45.799291Z" visited="2023-01-31T21:26:39.199570Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:26:45.799283Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/my.desk.2023-01-31_22-17.png" added="2023-01-31T21:28:16.008385Z" modified="2023-01-31T21:28:23.037128Z" visited="2023-01-31T21:28:16.008387Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:28:16.008390Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-31T21:28:23.037123Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/my.desk.2023-01-31_22-22-59.png" added="2023-01-31T21:28:28.564771Z" modified="2023-01-31T21:28:35.555940Z" visited="2023-01-31T21:28:28.564773Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T21:28:28.564779Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-31T21:28:35.555934Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/my.desk.2023-01-31_22-22-59_scale.down.xcf" added="2023-01-31T21:29:26.657370Z" modified="2023-01-31T21:30:28.682429Z" visited="2023-01-31T21:29:26.657374Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/x-xcf"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-31T21:30:28.682421Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/my.desk.2023-01-31_22-22-59_scale.down.png" added="2023-01-31T21:29:38.388215Z" modified="2023-01-31T21:29:38.388241Z" visited="2023-01-31T21:29:38.388219Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-31T21:29:38.388228Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/my.desk.2023-01-31_22-22-59_scale.down.jpg" added="2023-01-31T21:29:55.034490Z" modified="2023-01-31T21:32:23.091203Z" visited="2023-01-31T21:29:55.034493Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-31T21:30:19.360316Z" count="2"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-31T21:32:23.091192Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -79,11 +79,11 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 386 268)
-    (size 888 663))
+    (size 888 726))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 0 364)
-    (size 888 726))
+    (position 0 304)
+    (size 702 786))
 
 (hide-docks no)
 (single-window-mode yes)
