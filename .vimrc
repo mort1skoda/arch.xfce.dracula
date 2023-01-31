@@ -244,10 +244,10 @@ nnoremap <C-f> /
 "-------------------------- ESC mapping ------------------------------------
 set noesckeys
 set ttimeout
-set ttimeoutlen=1000
-set timeoutlen=3000
+set ttimeoutlen=800
+set timeoutlen=900
 
-nnoremap <esc>:echom"-- NORMAL -- esc"<cr>
+nnoremap <esc><esc>k:echom"-- NORMAL -- esc"<cr>
 inoremap <esc>:echo"asdf"
 "l:echom"-- NORMAL -- esc"<cr>
 "vnoremap <esc>:echom';lklllllhhhhhhh'Visual -> Normal esc = back to normal mode'<cr>'
@@ -341,7 +341,7 @@ augroup END
 
 
 "--- statusline -----------------------------------{{{
-set laststatus=3
+set laststatus=2
 set statusline=
 set statusline+=%F
 set statusline+=%=
