@@ -22,6 +22,7 @@ echo -e "---|---|....start" $ALIASES "....|---|---"
 #--- bash --------------------------------------------------{{{
 # start programs:
 alias bl='bash --login'
+alias bt="bashtop"
 alias f='vifm /home/m /home/m/repos'
 alias x='startx'
 alias a='alias' #list all aliases
@@ -106,7 +107,7 @@ alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
 # mapleader = , here , is vim 
-alias ,gi='vim ~/.gitignore'
+alias ,gi='vim .gitignore'
 alias ,gc='vim ~/.gitconfig'
 #-----------------------------------------------------------}}}
 

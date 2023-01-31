@@ -1,10 +1,10 @@
 [Configuration]
 CommandLoginShell=TRUE
 MiscAlwaysShowTabs=FALSE
-MiscBell=FALSE
-MiscBellUrgent=FALSE
-MiscBordersDefault=TRUE
-MiscCursorBlinks=FALSE
+MiscBell=TRUE
+MiscBellUrgent=TRUE
+MiscBordersDefault=FALSE
+MiscCursorBlinks=TRUE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
 MiscDefaultGeometry=97x64
 MiscInheritGeometry=FALSE
@@ -19,7 +19,7 @@ MiscTabCloseMiddleClick=FALSE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 MiscMiddleClickOpensUri=FALSE
-MiscCopyOnSelect=FALSE
+MiscCopyOnSelect=TRUE
 MiscShowRelaunchDialog=TRUE
 MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
@@ -38,4 +38,8 @@ ShortcutsNoHelpkey=TRUE
 ShortcutsNoMenukey=TRUE
 ShortcutsNoMnemonics=TRUE
 TitleMode=TERMINAL_TITLE_REPLACE
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0.900000
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+BindingBackspace=TERMINAL_ERASE_BINDING_ASCII_BACKSPACE
 
