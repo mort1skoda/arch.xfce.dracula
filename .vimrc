@@ -318,10 +318,10 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
 "--- scripts autogroup autocmd ------------------------------{{{
 " This will enable code folding.
 " Use the marker method of folding.
-"augroup filetype_vim
-    "autocmd!
-    "autocmd FileType vim setlocal foldmethod=marker
-"augroup END
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
 
 " Display cursorline and cursorcolumn ONLY in active window.
 "augroup cursor_off
