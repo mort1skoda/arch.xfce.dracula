@@ -14,3 +14,8 @@ git rebase --continue
 gc
 gp
 
+I added automatic pull in my .bash_profile when $SHLVL is 5 or below,
+and automatic add, commit and push in my .bash_logout also when $SHLVL
+is 5 or below.
+
+
