@@ -6,14 +6,6 @@
 "echom"in /home/m/.vimrc"
 
 
-"execute "set <M-a>=^H"
-
-"
-"
-"
-"
-"
-"
 "--- folds -------------------{{{
 setlocal foldmethod=marker
 " ff = toogle one folder
@@ -252,11 +244,12 @@ nnoremap <C-f> /
 "-------------------------- ESC mapping ------------------------------------
 set noesckeys
 set ttimeout
-set ttimeoutlen=100
-set timeoutlen=500
+set ttimeoutlen=1000
+set timeoutlen=3000
 
 nnoremap <esc>:echom"-- NORMAL -- esc"<cr>
-inoremap <esc>l:echom"-- NORMAL -- esc"<cr>
+inoremap <esc>:echo"asdf"
+"l:echom"-- NORMAL -- esc"<cr>
 "vnoremap <esc>:echom';lklllllhhhhhhh'Visual -> Normal esc = back to normal mode'<cr>'
 "cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'
 
