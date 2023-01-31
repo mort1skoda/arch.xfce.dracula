@@ -2,7 +2,7 @@
 # ~/.bash_profile
 #
 DEBUG=0
-echo "DEBUG=== "$DEBUG
+echo "DEBUG=== $DEBUG"
 
 
 #[[ -f ~/.bashrc ]] && . ~/.bashrc
@@ -47,7 +47,16 @@ if [ -n "$DEBUG" ]; then
     neofetch
 fi
 
-echo "SHELL LEVEL $SHLVL = " $SHLVL
-echo "git pull: "
-git pull
+echo "SHELL LEVEL = $SHLVL"
+
+if [ "$SHLVL" -lt 4 ]; then
+    echo "asdfasdf"
+fi
+
+#if [ -n "$SHLVL" < 4 ]; then
+
+#
+    #echo "git pull: "
+    #git pull
+#fi
 
