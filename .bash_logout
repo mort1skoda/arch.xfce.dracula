@@ -3,7 +3,7 @@
 echo '>>>> begin ~/.bash_logout >>>>'
 
 # when leaving the console clear the screen to increase privacy
-echo "SHLVL SHELL LEVEL= "$SHLVL
+echo "....>>>>SHLVL SHELL LEVEL==== "$SHLVL
 if [ "$SHLVL" = 1 ]; then
     echo '$SHLVL = '$SHLVL
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
