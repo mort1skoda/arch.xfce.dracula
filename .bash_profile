@@ -50,7 +50,7 @@ fi
 echo "SHELL LEVEL = $SHLVL"
 
 if [ "$SHLVL" -lt 5 ]; then
-    echo "Shell level below 5 pauses auto git"
+    echo "Shell level below 5 automic git pull"
     echo "git pull: "
     git pull
 fi
