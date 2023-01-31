@@ -232,8 +232,7 @@ nnoremap x x:echom"-- NORMAL -- x=delete one char"<cr>
 
 " Space to type :!  to enter shell comands.
 nnoremap <space> i<space><esc>:echom"-- NORMAL -- space=insert space"<cr> 
-"inoremap <TAB> <SPACE><SPACE><SPACE><SPACE>
-"nnoremap <TAB> 
+nnoremap <tab> i<tab><esc>:echo"-- NORMAL -- tab=insert tab=4spaces"<cr>
     
 " ctrl-x to search and replace.
 nnoremap <C-x> :%s/

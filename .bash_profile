@@ -1,12 +1,11 @@
 #
 # ~/.bash_profile
 #
-DEBUG=1
+DEBUG=0
 echo "DEBUG=== "$DEBUG
-exit
 
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+#[[ -f ~/.bashrc ]] && . ~/.bashrc
 
 
 # ~/.profile: executed by the command interpreter for login shells: bash --login
@@ -19,8 +18,6 @@ exit
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
-clear
-neofetch
 echo '~/.bash_profile'
 stty -ixon
 set -o vi
@@ -42,8 +39,13 @@ fi
 
 
 
-git pull
 
 echo 'end ~/.bash_profile'
 
+if [ -n "$DEBUG" ]; then
+    clear
+    neofetch
+fi
+
+git pull
 
