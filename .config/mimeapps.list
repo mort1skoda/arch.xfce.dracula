@@ -5,5 +5,5 @@ text/plain=gvim.desktop
 
 [Added Associations]
 text/plain=gvim.desktop;
-image/png=org.xfce.ristretto.desktop;
+image/png=gimp.desktop;org.xfce.ristretto.desktop;
 image/jpeg=org.xfce.ristretto.desktop;
