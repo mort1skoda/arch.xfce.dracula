@@ -9,5 +9,12 @@
   <property name="last-separator-position" type="int" value="170"/>
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,125,50,50,50,50,50,490,50,50,69,50,136"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,140,50,50,50,50,50,476,50,50,69,50,135"/>
+  <property name="misc-single-click" type="bool" value="false"/>
+  <property name="misc-volume-management" type="bool" value="false"/>
+  <property name="misc-recursive-permissions" type="string" value="THUNAR_RECURSIVE_PERMISSIONS_ALWAYS"/>
+  <property name="misc-thumbnail-draw-frames" type="bool" value="true"/>
+  <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_YYYYMMDD"/>
+  <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1"/>
 </channel>
