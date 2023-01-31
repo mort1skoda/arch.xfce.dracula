@@ -1,7 +1,7 @@
 ## arch.xfce4.dracula
 ### linux.basic.dotfiles
 
-[archlinux](https://user-images.githubusercontent.com/6655776/215883069-0cc535b3-6f9b-4aa8-ae6d-83664e8ea291.png)
+![archlinux_scale_down](https://user-images.githubusercontent.com/6655776/215884852-a5e8a1e1-5d53-4ac0-a995-b6f9a2ac4d43.jpg)
 
 <pre>
 The main parts:
