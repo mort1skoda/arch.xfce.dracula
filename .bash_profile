@@ -47,6 +47,7 @@ if [ -n "$DEBUG" ]; then
     neofetch
 fi
 
+echo "SHELL LEVEL $SHLVL = " $SHLVL
 echo "git pull: "
 git pull
 
