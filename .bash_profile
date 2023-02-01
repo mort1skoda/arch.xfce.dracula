@@ -55,11 +55,12 @@ if [ "$SHLVL" -lt "$MAX_SHELL_LEVEL" ]; then
     echo "Shell level below $MAX_SHELL_LEVEL automic git pull"
     echo "git pull: "
     git pull
+    echo "Packages with NO dependencies:"
     pacman -Qdtq
 fi
 
 if [ "$SHLVL" -ge "$MAX_SHELL_LEVEL" ]; then
-    echo "Shell level above $MAX_SHELL_LEVEL pauses auto git"
+    echo "Shell level $MAX_SHELL_LEVEL and above pauses auto git"
 fi
 
 
