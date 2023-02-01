@@ -1778,4 +1778,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/m/Documents/test.txt" added="2023-02-01T15:18:54.718682Z" modified="2023-02-01T15:18:54.718698Z" visited="2023-02-01T15:18:54.718685Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-02-01T15:18:54.718690Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
