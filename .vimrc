@@ -1,3 +1,4 @@
+let mapleader = ","
 
 
 "--- info --------------------------------------------{{{
@@ -22,7 +23,7 @@ echom"in /home/m/.vimrc"
 "
 let lfvim = "/usr/share/vim/vimfiles/ftdetect/lf.vim"
 if filereadable(lfvim)
-    exec "source " . lfvim
+    "exec "source " . lfvim
 endif
 
 " You may also like to assign a key to this command:
