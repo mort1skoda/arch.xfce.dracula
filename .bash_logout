@@ -32,8 +32,13 @@ fi
 echo '.... end   ~/:bash_logout ....'
 
 
+<<<<<<< HEAD
 echo "SHELL LEVEL = $SHLVL"
 
+=======
+#echo "SHELL LEVEL = $SHLVL"
+#
+>>>>>>> 9323b64 ([2023-02-01 07:46:35])
 #if [ "$SHLVL" -lt 5 ]; then
     #echo "Shell level below 5 pauses auto git"
     #git status
