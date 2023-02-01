@@ -103,7 +103,8 @@ alias q='exit'
 
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 #echo $DATE  
-alias gs='git status'
+alias gs="git status --short"
+alias gsv="git status --verbose"
 alias gpl="git pull"
 alias gr='git remote -v'
 alias gc='git commit -m "$DATE"'
