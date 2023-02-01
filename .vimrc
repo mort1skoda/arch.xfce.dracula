@@ -287,8 +287,11 @@ nnoremap <Leader>cc I//<ESC>j
 
 "--- Escape Save Source Quit ------------------------------------------------------{{{
 "Ctrl-s saves the file and sources if it is $VIMRC
-nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
-inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+"nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+"inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+
+nnoremap <C-s> <esc>:w<cr>
+inoremap <C-s> <esc>:w<cr>l
 
 set noesckeys
 set ttimeout
