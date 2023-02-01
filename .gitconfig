@@ -6,3 +6,5 @@
 	helper = !/usr/bin/gh auth git-credential
 [init]
 	defaultBranch = master
+[safe]
+	directory = /repo/my.hardware.mini
