@@ -107,7 +107,6 @@ alias gc='git commit -m "$DATE"'
 alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
-alias gpm="git push origin HEAD:minimalism"
 # mapleader = , here , is vim 
 alias ,gi='vim .gitignore'
 alias ,gc='vim ~/.gitconfig'

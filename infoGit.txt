@@ -1,19 +1,21 @@
-********** NB NB NB ******* This is the minimalism branch ***********
-
 echo "# test" >> README.md
 git init
 git add README.md
-git commit -m "minimalism BRANCH"
-git branch -M minimalism
+git commit -m "first commit"
+git branch -M master
 git remote add origin https://github.com/mort1skoda/archXfce4.git
-git push -u origin minimalism
+git push -u origin master
 
+it branch --set-upstream-to=origin/master
+git branch --set-upstream-to=origin/master
 
----
+git add
+git rebase --continue
+gc
+gp
 
-This is the minimalism branch:
-
-git branch -M minimalism
-git push origin HEAD:minimalism
+I added automatic pull in my .bash_profile when $SHLVL is 5 or below,
+and automatic add, commit and push in my .bash_logout also when $SHLVL
+is 5 or below.
 
 

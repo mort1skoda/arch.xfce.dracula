@@ -1,13 +1,3 @@
-#
-# ~/.bash_profile
-#
-DEBUG=0
-echo "DEBUG=== $DEBUG"
-
-
-#[[ -f ~/.bashrc ]] && . ~/.bashrc
-
-
 # ~/.profile: executed by the command interpreter for login shells: bash --login
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login exists
 #
@@ -18,7 +8,9 @@ echo "DEBUG=== $DEBUG"
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
-echo '~/.bash_profile'
+clear
+echo ' ~/.profile '
+neofetch
 stty -ixon
 set -o vi
 
@@ -36,31 +28,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-
-
-
-
-echo 'end ~/.bash_profile'
-
-if [ -n "$DEBUG" ]; then
-    clear
-    neofetch
-fi
-
-echo "SHELL LEVEL = $SHLVL"
-MAX_SHELL_LEVEL=7
-echo $MAX_SHELL_LEVEL
-
-if [ "$SHLVL" -lt "$MAX_SHELL_LEVEL" ]; then
-    echo "Shell level below $MAX_SHELL_LEVEL automic git pull"
-    echo "git pull: "
-    git pull
-    echo "Packages with NO dependencies:"
-    pacman -Qdtq
-fi
-
-if [ "$SHLVL" -ge "$MAX_SHELL_LEVEL" ]; then
-    echo "Shell level $MAX_SHELL_LEVEL and above pauses auto git"
-fi
 
 
