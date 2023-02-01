@@ -1112,19 +1112,6 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///repo/wallpaper/first-collection/android-1.png" added="2023-01-30T23:10:25.598911Z" modified="2023-01-30T23:10:25.598924Z" visited="2023-01-30T23:10:25.598913Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:10:25.598919Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///usr/share/xfce4/Wallpapers/arch.png" added="2023-01-30T23:13:37.942535Z" modified="2023-01-30T23:13:37.942549Z" visited="2023-01-30T23:13:37.942537Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -1138,97 +1125,6 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/illustrations/cat-and-bats/dracula-cat-282a36.png" added="2023-01-30T23:14:55.760936Z" modified="2023-01-30T23:14:55.760953Z" visited="2023-01-30T23:14:55.760940Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:14:55.760947Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/illustrations/galaxy/dracula-galaxy-282a36.png" added="2023-01-30T23:17:09.104585Z" modified="2023-01-30T23:18:21.645503Z" visited="2023-01-30T23:17:09.104588Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:18:21.645497Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/illustrations/trees-and-mountains/dracula-mnt-282a36.png" added="2023-01-30T23:18:46.514754Z" modified="2023-01-30T23:18:46.514769Z" visited="2023-01-30T23:18:46.514756Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:18:46.514763Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/leaves/dracula-leaves-6272a4.png" added="2023-01-30T23:19:16.877272Z" modified="2023-01-30T23:19:16.877287Z" visited="2023-01-30T23:19:16.877275Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:19:16.877281Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/maps/portolans/dracula-portolans-ff79c6.png" added="2023-01-30T23:19:34.764924Z" modified="2023-01-30T23:19:34.764937Z" visited="2023-01-30T23:19:34.764926Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:19:34.764932Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/soft-waves/dracula-soft-waves-6272a4.png" added="2023-01-30T23:19:45.940306Z" modified="2023-01-30T23:19:45.940322Z" visited="2023-01-30T23:19:45.940310Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:19:45.940316Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/spooky-minimal/dracula-spooky-6272a4.png" added="2023-01-30T23:20:23.780889Z" modified="2023-01-30T23:20:23.780906Z" visited="2023-01-30T23:20:23.780891Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:20:23.780899Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///usr/share/xfce4/Wallpapers/dracula-spooky-44475a.png" added="2023-01-30T23:20:46.861732Z" modified="2023-01-30T23:20:46.861747Z" visited="2023-01-30T23:20:46.861735Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -1238,19 +1134,6 @@
         </bookmark:groups>
         <bookmark:applications>
           <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:20:46.861741Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///repo/wallpaper/second-collection/waves/dracula-waves-6272a4.png" added="2023-01-30T23:21:06.104262Z" modified="2023-01-30T23:21:06.104279Z" visited="2023-01-30T23:21:06.104265Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-30T23:21:06.104271Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1315,12 +1198,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/Pictures/Screenshots" added="2023-01-31T19:55:44.372497Z" modified="2023-01-31T20:49:52.335514Z" visited="2023-01-31T19:55:44.372500Z">
+  <bookmark href="file:///home/m/Pictures/Screenshots" added="2023-01-31T19:55:44.372497Z" modified="2023-02-01T17:01:48.115151Z" visited="2023-01-31T19:55:44.372500Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-01-31T20:49:52.335506Z" count="7"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-02-01T17:01:48.115145Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1476,29 +1359,6 @@
           <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-01-31T21:14:06.289622Z" count="2"/>
           <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-31T21:14:29.771763Z" count="1"/>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-31T21:14:59.540951Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///tmp/Screenshot_2023-01-31_22-17-08.png" added="2023-01-31T21:17:11.065337Z" modified="2023-01-31T21:17:11.065353Z" visited="2023-01-31T21:17:11.065340Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-31T21:17:11.065346Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/m/Pictures/Linux/archXfce4/my.ArchXfce4.desktop.png" added="2023-01-31T21:18:23.226862Z" modified="2023-01-31T21:18:23.226884Z" visited="2023-01-31T21:18:23.226865Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-01-31T21:18:23.226872Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1784,6 +1644,32 @@
         <mime:mime-type type="text/plain"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-02-01T15:18:54.718690Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots/Screenshot_2023-02-01_18-01-23.png" added="2023-02-01T17:01:29.872951Z" modified="2023-02-01T17:02:40.184316Z" visited="2023-02-01T17:01:29.872955Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-02-01T17:01:29.872962Z" count="1"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-02-01T17:02:15.061068Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2023-02-01T17:02:31.057097Z" count="1"/>
+          <bookmark:application name="ristretto" exec="&apos;ristretto %u&apos;" modified="2023-02-01T17:02:40.184308Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/m/Pictures/Screenshots/Screenshot_2023-02-01_18-01-35.png" added="2023-02-01T17:01:38.012071Z" modified="2023-02-01T17:01:38.012087Z" visited="2023-02-01T17:01:38.012073Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xfce4-screenshooter" exec="&apos;xfce4-screenshooter %u&apos;" modified="2023-02-01T17:01:38.012079Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

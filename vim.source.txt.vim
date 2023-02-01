@@ -1,0 +1,15 @@
+in /etc/vimrc
+in /etc/vimrc
+in /etc/vimrc
+in /etc/vimrc
+in /usr/share/vim/vimfiles/archlinux.vim
+in /etc/vimrc
+in /usr/share/vim/vimfiles/archlinux.vim
+in /etc/vimrc
+in /etc/vimrc
+in /usr/share/vim/vimfiles/archlinux.vim
+in /usr/share/vim/vimfiles/archlinux.vim
+in /usr/share/vim/vimfiles/archlinux.vim
+in /usr/share/vim/vimfiles/archlinux.vim
+in /usr/share/vim/vimfiles/archlinux.vim
+in /usr/share/vim/vimfiles/archlinux.vim

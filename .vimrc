@@ -3,6 +3,8 @@
 """"""""""""""""""""""""
 " Author: Morten Håkestad <mort1skoda@gmail.com>
 
+" all line endings marked with $
+set list
 
 "--- tips and tricks and debug --------------------{{{
 " echom"in /home/m/.vimrc"

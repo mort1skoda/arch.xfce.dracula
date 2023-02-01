@@ -45,6 +45,7 @@ echo 'end ~/.bash_profile'
 if [ -n "$DEBUG" ]; then
     clear
     neofetch
+    
 fi
 
 #echo "SHELL LEVEL = $SHLVL"

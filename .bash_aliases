@@ -118,7 +118,7 @@ alias ,gc='vim ~/.gitconfig'
 
 #--- tmux --------------------------------------------------{{{
 # tm = tmux, start a new tmux session
-alias tm='tmux'
+alias tm="~/tmux.sh"
 # tl = tmux list
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
