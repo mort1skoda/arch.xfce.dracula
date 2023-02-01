@@ -19,7 +19,7 @@ Downloads/
 Pictures/
 #Wallpapers
 #demo-c
-repo
+#repo
 #.ICEauthority
 .Xauthority
 #.bash_aliases
@@ -50,4 +50,5 @@ repo
 #vim-colors.txt
 
 *Xorg.0.log*
+.local/share/Trash/*
 
