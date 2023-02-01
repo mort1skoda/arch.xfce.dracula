@@ -462,22 +462,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/.themes" added="2023-01-30T14:01:11.346449Z" modified="2023-02-01T00:26:56.385169Z" visited="2023-01-30T14:01:11.346452Z">
+  <bookmark href="file:///home/m/.themes" added="2023-01-30T14:01:11.346449Z" modified="2023-02-01T03:48:46.070825Z" visited="2023-01-30T14:01:11.346452Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-02-01T00:26:56.385162Z" count="4"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-02-01T03:48:46.070819Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/m/.themes/gtk-master" added="2023-01-30T14:01:17.193044Z" modified="2023-02-01T00:26:57.749034Z" visited="2023-01-30T14:01:17.193046Z">
+  <bookmark href="file:///home/m/.themes/gtk-master" added="2023-01-30T14:01:17.193044Z" modified="2023-02-01T03:48:47.763460Z" visited="2023-01-30T14:01:17.193046Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
-          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-02-01T00:26:57.749018Z" count="5"/>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2023-02-01T03:48:47.763454Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
