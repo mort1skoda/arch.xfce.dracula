@@ -156,99 +156,113 @@ line 2: """"    ~/.vimrc    """"[J
 
 line 3: """"""""""""""""""""""""[J
 
-line 4: [J
+line 4: " Author: Morten Håkestad <mort1skoda@gmail.com>[J
 
-line 5: " Author: Morten Håkestad <mort1skoda@gmail.com>[J
+line 5: [J
 
-line 6: "echom"in /home/m/.vimrc"[J
+line 6: [J
 
-line 7: [J
+line 7: "--- tips and tricks and debug --------------------{{{[J
 
-line 8: [J
+line 8: " echom"in /home/m/.vimrc"[J
 
-line 9: "--- folds -------------------{{{[J
+line 9: " see dbgvim alias in .bash_aliases[J
 
-line 10: setlocal foldmethod=marker[J
+line 10: "--------------------------------------------------}}}[J
 
-line 11: " ff = toogle one folder[J
+line 11: [J
 
-line 12: nnoremap ff za[J
+line 12: [J
 
-line 13: " fc = folder close all[J
+line 13: "--- folds -------------------{{{[J
 
-line 14: nnoremap fc zm[J
+line 14: setlocal foldmethod=marker[J
 
-line 15: " fo = folder open all[J
+line 15: " ff = toogle one folder[J
 
-line 16: nnoremap fo zr[J
+line 16: nnoremap ff za[J
 
-line 17: "-----------------------------}}}[J
+line 17: " fc = folder close all[J
 
-line 18: [J
+line 18: nnoremap fc zm[J
 
-line 19: [J
+line 19: " fo = folder open all[J
 
-line 20: " - SETTINGS -----------------------------------------------------{{{[J
+line 20: nnoremap fo zr[J
 
-line 21: [J
+line 21: "-----------------------------}}}[J
 
-line 22: " Do not wrap lines. Allow long lines to extend as far as the line goes.[J
+line 22: [J
 
-line 23: set nowrap[J
+line 23: [J
 
-line 24: "set wrap[J
+line 24: " - SETTINGS -----------------------------------------------------{{{[J
 
-line 25: set textwidth=200[J
+line 25: [J
 
-line 26: "set spell spelllang=en_us[J
+line 26: " Show all line endings as $[J
 
-line 27: "Turn off spell[J
+line 27: set list[J
 
-line 28: set nospell[J
+line 28: [J
 
-line 29: [J
+line 29: " Do not wrap lines. Allow long lines to extend as far as the line goes.[J
 
-line 30: setlocal foldmethod=marker[J
+line 30: set nowrap[J
 
-line 31: [J
+line 31: "set wrap[J
 
-line 32: " when using ,v  the new pane will be on the right side.[J
+line 32: set textwidth=200[J
 
-line 33: " with respect to the pane you give the command from.[J
+line 33: "set spell spelllang=en_us[J
 
-line 34: set splitright[J
+line 34: "Turn off spell[J
 
-line 35: [J
+line 35: set nospell[J
 
-line 36: " Expand aliases.[J
+line 36: [J
 
-line 37: let $BASH_ENV = "~/.aliases.sh"[J
+line 37: setlocal foldmethod=marker[J
 
 line 38: [J
 
-line 39: " Block cursor in Normal mode, vertical cursor in Insert mode,[J
+line 39: " when using ,v  the new pane will be on the right side.[J
 
-line 40: " horizontal cursor in Replace mode[J
+line 40: " with respect to the pane you give the command from.[J
 
-line 41: let &t_EI = "\<Esc>[1 q"[J
+line 41: set splitright[J
 
-line 42: let &t_SR = "\<Esc>[3 q"[J
+line 42: [J
 
-line 43: let &t_SI = "\<Esc>[5 q"[J
+line 43: " Expand aliases.[J
 
-line 44: [J
+line 44: let $BASH_ENV = "~/.aliases.sh"[J
 
-line 45: " Disable compatibility with vi which can cause unexpected issues.[J
+line 45: [J
 
-line 46: set nocompatible[J
+line 46: " Block cursor in Normal mode, vertical cursor in Insert mode,[J
 
-line 47: " Do not create .swp files[J
+line 47: " horizontal cursor in Replace mode[J
 
-line 48: set noswapfile[J
+line 48: let &t_EI = "\<Esc>[1 q"[J
 
-line 49: " Enable type file detection. Vim will be able to try to detect the type of file in use.[J
+line 49: let &t_SR = "\<Esc>[3 q"[J
 
-line 50: filetype on[J
+line 50: let &t_SI = "\<Esc>[5 q"[J
+
+line 51: [J
+
+line 52: " Disable compatibility with vi which can cause unexpected issues.[J
+
+line 53: set nocompatible[J
+
+line 54: " Do not create .swp files[J
+
+line 55: set noswapfile[J
+
+line 56: " Enable type file detection. Vim will be able to try to detect the type of file in use.[J
+
+line 57: filetype on[J
 
 Searching for "filetype.vim" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/filetype.vim"[J
@@ -256,7 +270,7 @@ Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
 Searching for "/usr/share/vim/vim90/filetype.vim"[J
 chdir(/usr/share/vim/vim90)[J
 fchdir() to previous dir[J
-line 50: sourcing "/usr/share/vim/vim90/filetype.vim"[J
+line 57: sourcing "/usr/share/vim/vim90/filetype.vim"[J
 line 1: " Vim support file to detect file types[J
 
 line 2: "[J
@@ -5240,10 +5254,48 @@ line 2681: runtime! ftdetect/*.vim[J
 Searching for "ftdetect/*.vim" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/ftdetect/*.vim"[J
 Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"[J
+chdir(/usr/share/vim/vimfiles/ftdetect)[J
+fchdir() to previous dir[J
+line 2681: sourcing "/usr/share/vim/vimfiles/ftdetect/lf.vim"[J
+line 1: " Use lf to select and open file(s) in vim (adapted from ranger).[J
+
+line 2: "[J
+
+line 3: " You need to either copy the content of this file to your ~/.vimrc or source[J
+
+line 4: " this file directly:[J
+
+line 5: "[J
+
+line 6: "     let lfvim = "/path/to/lf.vim"[J
+
+line 7: "     if filereadable(lfvim)[J
+
+line 8: "         exec "source " . lfvim[J
+
+line 9: "     endif[J
+
+line 10: "[J
+
+line 11: " You may also like to assign a key to this command:[J
+
+line 12: "[J
+
+line 13: "     nnoremap <leader>l :LF<cr>[J
+
+line 14: "[J
+
+line 15: [J
+
+line 16: function! LF()[J
+
+line 34: command! -bar LF call LF()[J
+
+finished sourcing /usr/share/vim/vimfiles/ftdetect/lf.vim[J
+continuing in /usr/share/vim/vim90/filetype.vim[J
 Searching for "/usr/share/vim/vim90/ftdetect/*.vim"[J
 Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"[J
 Searching for "/home/m/.vim/after/ftdetect/*.vim"[J
-not found in 'runtimepath': "ftdetect/*.vim"[J
 line 2682: [J
 
 line 2683: " NOTE: The above command could have ended the filetypedetect autocmd group[J
@@ -5296,9 +5348,9 @@ finished sourcing /usr/share/vim/vim90/filetype.vim[J
 continuing in /home/m/.vimrc[J
 Searching for "/usr/share/vim/vimfiles/after/filetype.vim"[J
 Searching for "/home/m/.vim/after/filetype.vim"[J
-line 51: " Enable plugins and load plugin for the detected file type.[J
+line 58: " Enable plugins and load plugin for the detected file type.[J
 
-line 52: filetype plugin on[J
+line 59: filetype plugin on[J
 
 Searching for "filetype.vim" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/filetype.vim"[J
@@ -5306,7 +5358,7 @@ Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
 Searching for "/usr/share/vim/vim90/filetype.vim"[J
 chdir(/usr/share/vim/vim90)[J
 fchdir() to previous dir[J
-line 52: sourcing "/usr/share/vim/vim90/filetype.vim"[J
+line 59: sourcing "/usr/share/vim/vim90/filetype.vim"[J
 line 1: " Vim support file to detect file types[J
 
 line 2: "[J
@@ -5333,7 +5385,7 @@ Searching for "/usr/share/vim/vimfiles/ftplugin.vim"[J
 Searching for "/usr/share/vim/vim90/ftplugin.vim"[J
 chdir(/usr/share/vim/vim90)[J
 fchdir() to previous dir[J
-line 52: sourcing "/usr/share/vim/vim90/ftplugin.vim"[J
+line 59: sourcing "/usr/share/vim/vim90/ftplugin.vim"[J
 line 1: vim9script noclear[J
 
 line 2: [J
@@ -5378,9 +5430,9 @@ finished sourcing /usr/share/vim/vim90/ftplugin.vim[J
 continuing in /home/m/.vimrc[J
 Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"[J
 Searching for "/home/m/.vim/after/ftplugin.vim"[J
-line 53: " Load and indent file for the detected file type.[J
+line 60: " Load and indent file for the detected file type.[J
 
-line 54: filetype indent on[J
+line 61: filetype indent on[J
 
 Searching for "filetype.vim" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/filetype.vim"[J
@@ -5388,7 +5440,7 @@ Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
 Searching for "/usr/share/vim/vim90/filetype.vim"[J
 chdir(/usr/share/vim/vim90)[J
 fchdir() to previous dir[J
-line 54: sourcing "/usr/share/vim/vim90/filetype.vim"[J
+line 61: sourcing "/usr/share/vim/vim90/filetype.vim"[J
 line 1: " Vim support file to detect file types[J
 
 line 2: "[J
@@ -5415,7 +5467,7 @@ Searching for "/usr/share/vim/vimfiles/indent.vim"[J
 Searching for "/usr/share/vim/vim90/indent.vim"[J
 chdir(/usr/share/vim/vim90)[J
 fchdir() to previous dir[J
-line 54: sourcing "/usr/share/vim/vim90/indent.vim"[J
+line 61: sourcing "/usr/share/vim/vim90/indent.vim"[J
 line 1: " Vim support file to switch on loading indent files for file types[J
 
 line 2: "[J
@@ -5450,15 +5502,15 @@ finished sourcing /usr/share/vim/vim90/indent.vim[J
 continuing in /home/m/.vimrc[J
 Searching for "/usr/share/vim/vimfiles/after/indent.vim"[J
 Searching for "/home/m/.vim/after/indent.vim"[J
-line 55: " Turn syntax highlighting on.[J
+line 62: " Turn syntax highlighting on.[J
 
-line 56: syntax on[J
+line 63: syntax on[J
 
-line 56: so $VIMRUNTIME/syntax/syntax.vim[J
+line 63: so $VIMRUNTIME/syntax/syntax.vim[J
 
 chdir(/usr/share/vim/vim90/syntax)[J
 fchdir() to previous dir[J
-line 56: sourcing "/usr/share/vim/vim90/syntax/syntax.vim"[J
+line 63: sourcing "/usr/share/vim/vim90/syntax/syntax.vim"[J
 line 1: " Vim syntax support file[J
 
 line 2: " Maintainer:^IBram Moolenaar <Bram@vim.org>[J
@@ -5965,25 +6017,25 @@ line 44: endif[J
 
 finished sourcing /usr/share/vim/vim90/syntax/syntax.vim[J
 continuing in /home/m/.vimrc[J
-line 57: " Add numbers to each line on the left-hand side.[J
+line 64: " Add numbers to each line on the left-hand side.[J
 
-line 58: set number[J
+line 65: set number[J
 
-line 59: " turn relative line numbers on[J
+line 66: " turn relative line numbers on[J
 
-line 60: set relativenumber[J
+line 67: set relativenumber[J
 
-line 61: " Highlight cursor line underneath the cursor horizontally.[J
+line 68: " Highlight cursor line underneath the cursor horizontally.[J
 
-line 62: set cursorline[J
+line 69: set cursorline[J
 
-line 63: " Highlight cursor line underneath the cursor vertically.[J
+line 70: " Highlight cursor line underneath the cursor vertically.[J
 
-line 64: set cursorcolumn[J
+line 71: set cursorcolumn[J
 
-line 65: " Set the color scheme.[J
+line 72: " Set the color scheme.[J
 
-line 66: colorscheme molokai[J
+line 73: colorscheme molokai[J
 
 Searching for "colors/lists/default.vim" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/colors/lists/default.vim"[J
@@ -5991,7 +6043,7 @@ Searching for "/usr/share/vim/vimfiles/colors/lists/default.vim"[J
 Searching for "/usr/share/vim/vim90/colors/lists/default.vim"[J
 chdir(/usr/share/vim/vim90/colors/lists)[J
 fchdir() to previous dir[J
-line 66: sourcing "/usr/share/vim/vim90/colors/lists/default.vim"[J
+line 73: sourcing "/usr/share/vim/vim90/colors/lists/default.vim"[J
 line 1: " Maintainer:  Drew Vogel <dvogel@sidejump.org>[J
 
 line 2: " Last Change: 2022 Mar 20[J
@@ -6036,7 +6088,7 @@ Searching for "colors/molokai.vim" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr
 Searching for "/home/m/.vim/colors/molokai.vim"[J
 chdir(/home/m/.vim/colors)[J
 fchdir() to previous dir[J
-line 66: sourcing "/home/m/.vim/colors/molokai.vim"[J
+line 73: sourcing "/home/m/.vim/colors/molokai.vim"[J
 line 1: " Vim color file[J
 
 line 2: "[J
@@ -7364,79 +7416,79 @@ line 279: set background=dark[J
 
 finished sourcing /home/m/.vim/colors/molokai.vim[J
 continuing in /home/m/.vimrc[J
-line 67: " Set shift width to 4 spaces.[J
+line 74: " Set shift width to 4 spaces.[J
 
-line 68: set shiftwidth=4[J
+line 75: set shiftwidth=4[J
 
-line 69: " Set tab width to 4 columns.[J
+line 76: " Set tab width to 4 columns.[J
 
-line 70: set tabstop=4[J
+line 77: set tabstop=4[J
 
-line 71: " Use space characters instead of tabs.[J
+line 78: " Use space characters instead of tabs.[J
 
-line 72: set expandtab[J
+line 79: set expandtab[J
 
-line 73: " Do not save backup files.[J
+line 80: " Do not save backup files.[J
 
-line 74: set nobackup[J
+line 81: set nobackup[J
 
-line 75: " Do not let cursor scroll below or above N number of lines when scrolling.[J
+line 82: " Do not let cursor scroll below or above N number of lines when scrolling.[J
 
-line 76: set scrolloff=16[J
+line 83: set scrolloff=16[J
 
-line 77: " Incrementally highlight matching characters as you type.[J
+line 84: " Incrementally highlight matching characters as you type.[J
 
-line 78: set incsearch[J
+line 85: set incsearch[J
 
-line 79: " Ignore capital letters during search.[J
+line 86: " Ignore capital letters during search.[J
 
-line 80: set ignorecase[J
+line 87: set ignorecase[J
 
-line 81: " Override the ignorecase option if searching for capital letters.[J
+line 88: " Override the ignorecase option if searching for capital letters.[J
 
-line 82: " This will allow you to search specifically for capital letters.[J
+line 89: " This will allow you to search specifically for capital letters.[J
 
-line 83: set smartcase[J
+line 90: set smartcase[J
 
-line 84: " Show partial command you type in the last line of the screen.[J
+line 91: " Show partial command you type in the last line of the screen.[J
 
-line 85: set showcmd[J
+line 92: set showcmd[J
 
-line 86: " Show the mode you are on the last line.[J
+line 93: " Show the mode you are on the last line.[J
 
-line 87: set showmode[J
+line 94: set showmode[J
 
-line 88: " Show matching words during a search.[J
+line 95: " Show matching words during a search.[J
 
-line 89: set showmatch[J
+line 96: set showmatch[J
 
-line 90: " Use highlighting when doing a search.[J
+line 97: " Use highlighting when doing a search.[J
 
-line 91: set hlsearch[J
+line 98: set hlsearch[J
 
-line 92: " Set the commands to save in history default number is 20.[J
+line 99: " Set the commands to save in history default number is 20.[J
 
-line 93: set history=1000[J
+line 100: set history=1000[J
 
-line 94: " Enable auto completion menu after pressing TAB.[J
+line 101: " Enable auto completion menu after pressing TAB.[J
 
-line 95: set wildmenu[J
+line 102: set wildmenu[J
 
-line 96: " Make wildmenu behave like similar to Bash completion.[J
+line 103: " Make wildmenu behave like similar to Bash completion.[J
 
-line 97: set wildmode=list:longest[J
+line 104: set wildmode=list:longest[J
 
-line 98: " There are certain files that we would never want to edit with Vim.[J
+line 105: " There are certain files that we would never want to edit with Vim.[J
 
-line 99: " Wildmenu will ignore files with these extensions.[J
+line 106: " Wildmenu will ignore files with these extensions.[J
 
-line 100: set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx[J
+line 107: set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx[J
 
-line 101: [J
+line 108: [J
 
-line 102: "################ DRACULA dracula ###########[J
+line 109: "################ DRACULA dracula ###########[J
 
-line 103: packadd! dracula[J
+line 110: packadd! dracula[J
 
 Searching for "pack/*/start/dracula" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/pack/*/start/dracula"[J
@@ -7455,13 +7507,13 @@ Searching for "/usr/share/vim/vim90/pack/*/opt/dracula"[J
 Searching for "/usr/share/vim/vimfiles/after/pack/*/opt/dracula"[J
 Searching for "/home/m/.vim/after/pack/*/opt/dracula"[J
 not found in 'packpath': "pack/*/opt/dracula"[J
-line 104: syntax enable[J
+line 111: syntax enable[J
 
-line 104: so $VIMRUNTIME/syntax/syntax.vim[J
+line 111: so $VIMRUNTIME/syntax/syntax.vim[J
 
 chdir(/usr/share/vim/vim90/syntax)[J
 fchdir() to previous dir[J
-line 104: sourcing "/usr/share/vim/vim90/syntax/syntax.vim"[J
+line 111: sourcing "/usr/share/vim/vim90/syntax/syntax.vim"[J
 line 1: " Vim syntax support file[J
 
 line 2: " Maintainer:^IBram Moolenaar <Bram@vim.org>[J
@@ -9134,7 +9186,7 @@ line 44: endif[J
 
 finished sourcing /usr/share/vim/vim90/syntax/syntax.vim[J
 continuing in /home/m/.vimrc[J
-line 105: colorscheme dracula[J
+line 112: colorscheme dracula[J
 
 Searching for "colors/lists/default.vim" in "/home/m/.vim,/home/m/.vim/pack/themes/start/dracula,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/home/m/.vim/pack/themes/start/dracula/after,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
 Searching for "/home/m/.vim/colors/lists/default.vim"[J
@@ -9143,7 +9195,7 @@ Searching for "/usr/share/vim/vimfiles/colors/lists/default.vim"[J
 Searching for "/usr/share/vim/vim90/colors/lists/default.vim"[J
 chdir(/usr/share/vim/vim90/colors/lists)[J
 fchdir() to previous dir[J
-line 105: sourcing "/usr/share/vim/vim90/colors/lists/default.vim"[J
+line 112: sourcing "/usr/share/vim/vim90/colors/lists/default.vim"[J
 line 1: " Maintainer:  Drew Vogel <dvogel@sidejump.org>[J
 
 line 2: " Last Change: 2022 Mar 20[J
@@ -9190,7 +9242,7 @@ Searching for "/home/m/.vim/colors/dracula.vim"[J
 Searching for "/home/m/.vim/pack/themes/start/dracula/colors/dracula.vim"[J
 chdir(/home/m/.vim/pack/themes/start/dracula/colors)[J
 fchdir() to previous dir[J
-line 105: sourcing "/home/m/.vim/pack/themes/start/dracula/colors/dracula.vim"[J
+line 112: sourcing "/home/m/.vim/pack/themes/start/dracula/colors/dracula.vim"[J
 line 1: " Dracula Theme: {{{[J
 
 line 2: "[J
@@ -10139,7 +10191,7 @@ line 148: [J
 
 line 149: call s:h('DraculaBgLight', s:none, s:bglight)[J
 
-calling <SNR>13_h[J('DraculaBgLight', ['NONE', 'NONE'], ['#343746', 237])
+calling <SNR>14_h[J('DraculaBgLight', ['NONE', 'NONE'], ['#343746', 237])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10187,13 +10239,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaBgLight guifg=NONE ctermfg=NONE guibg=#343746 ctermbg=237 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 150: call s:h('DraculaBgLighter', s:none, s:bglighter)[J
 
-calling <SNR>13_h[J('DraculaBgLighter', ['NONE', 'NONE'], ['#424450', 238])
+calling <SNR>14_h[J('DraculaBgLighter', ['NONE', 'NONE'], ['#424450', 238])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10241,13 +10293,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaBgLighter guifg=NONE ctermfg=NONE guibg=#424450 ctermbg=238 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 151: call s:h('DraculaBgDark', s:none, s:bgdark)[J
 
-calling <SNR>13_h[J('DraculaBgDark', ['NONE', 'NONE'], ['#21222C', 235])
+calling <SNR>14_h[J('DraculaBgDark', ['NONE', 'NONE'], ['#21222C', 235])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10295,13 +10347,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaBgDark guifg=NONE ctermfg=NONE guibg=#21222C ctermbg=235 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 152: call s:h('DraculaBgDarker', s:none, s:bgdarker)[J
 
-calling <SNR>13_h[J('DraculaBgDarker', ['NONE', 'NONE'], ['#191A21', 234])
+calling <SNR>14_h[J('DraculaBgDarker', ['NONE', 'NONE'], ['#191A21', 234])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10349,7 +10401,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaBgDarker guifg=NONE ctermfg=NONE guibg=#191A21 ctermbg=234 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -10357,7 +10409,7 @@ line 153: [J
 
 line 154: call s:h('DraculaFg', s:fg)[J
 
-calling <SNR>13_h[J('DraculaFg', ['#F8F8F2', 253])
+calling <SNR>14_h[J('DraculaFg', ['#F8F8F2', 253])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10405,13 +10457,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaFg guifg=#F8F8F2 ctermfg=253 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 155: call s:h('DraculaFgUnderline', s:fg, s:none, [s:attrs.underline])[J
 
-calling <SNR>13_h[J('DraculaFgUnderline', ['#F8F8F2', 253], ['NONE', 'NONE'], ['underline'])
+calling <SNR>14_h[J('DraculaFgUnderline', ['#F8F8F2', 253], ['NONE', 'NONE'], ['underline'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10459,13 +10511,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaFgUnderline guifg=#F8F8F2 ctermfg=253 guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 156: call s:h('DraculaFgBold', s:fg, s:none, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('DraculaFgBold', ['#F8F8F2', 253], ['NONE', 'NONE'], ['bold'])
+calling <SNR>14_h[J('DraculaFgBold', ['#F8F8F2', 253], ['NONE', 'NONE'], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10513,7 +10565,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaFgBold guifg=#F8F8F2 ctermfg=253 guibg=NONE ctermbg=NONE gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -10521,7 +10573,7 @@ line 157: [J
 
 line 158: call s:h('DraculaComment', s:comment)[J
 
-calling <SNR>13_h[J('DraculaComment', ['#6272A4', 61])
+calling <SNR>14_h[J('DraculaComment', ['#6272A4', 61])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10569,13 +10621,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaComment guifg=#6272A4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 159: call s:h('DraculaCommentBold', s:comment, s:none, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('DraculaCommentBold', ['#6272A4', 61], ['NONE', 'NONE'], ['bold'])
+calling <SNR>14_h[J('DraculaCommentBold', ['#6272A4', 61], ['NONE', 'NONE'], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10623,7 +10675,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaCommentBold guifg=#6272A4 ctermfg=61 guibg=NONE ctermbg=NONE gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -10631,7 +10683,7 @@ line 160: [J
 
 line 161: call s:h('DraculaSelection', s:none, s:selection)[J
 
-calling <SNR>13_h[J('DraculaSelection', ['NONE', 'NONE'], ['#44475A', 239])
+calling <SNR>14_h[J('DraculaSelection', ['NONE', 'NONE'], ['#44475A', 239])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10679,7 +10731,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaSelection guifg=NONE ctermfg=NONE guibg=#44475A ctermbg=239 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -10687,7 +10739,7 @@ line 162: [J
 
 line 163: call s:h('DraculaSubtle', s:subtle)[J
 
-calling <SNR>13_h[J('DraculaSubtle', ['#424450', 238])
+calling <SNR>14_h[J('DraculaSubtle', ['#424450', 238])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10735,7 +10787,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaSubtle guifg=#424450 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -10743,7 +10795,7 @@ line 164: [J
 
 line 165: call s:h('DraculaCyan', s:cyan)[J
 
-calling <SNR>13_h[J('DraculaCyan', ['#8BE9FD', 117])
+calling <SNR>14_h[J('DraculaCyan', ['#8BE9FD', 117])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10791,13 +10843,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaCyan guifg=#8BE9FD ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 166: call s:h('DraculaCyanItalic', s:cyan, s:none, [s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaCyanItalic', ['#8BE9FD', 117], ['NONE', 'NONE'], ['italic'])
+calling <SNR>14_h[J('DraculaCyanItalic', ['#8BE9FD', 117], ['NONE', 'NONE'], ['italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10845,7 +10897,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaCyanItalic guifg=#8BE9FD ctermfg=117 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -10853,7 +10905,7 @@ line 167: [J
 
 line 168: call s:h('DraculaGreen', s:green)[J
 
-calling <SNR>13_h[J('DraculaGreen', ['#50FA7B', 84])
+calling <SNR>14_h[J('DraculaGreen', ['#50FA7B', 84])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10901,13 +10953,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaGreen guifg=#50FA7B ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 169: call s:h('DraculaGreenBold', s:green, s:none, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('DraculaGreenBold', ['#50FA7B', 84], ['NONE', 'NONE'], ['bold'])
+calling <SNR>14_h[J('DraculaGreenBold', ['#50FA7B', 84], ['NONE', 'NONE'], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -10955,13 +11007,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaGreenBold guifg=#50FA7B ctermfg=84 guibg=NONE ctermbg=NONE gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 170: call s:h('DraculaGreenItalic', s:green, s:none, [s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaGreenItalic', ['#50FA7B', 84], ['NONE', 'NONE'], ['italic'])
+calling <SNR>14_h[J('DraculaGreenItalic', ['#50FA7B', 84], ['NONE', 'NONE'], ['italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11009,13 +11061,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaGreenItalic guifg=#50FA7B ctermfg=84 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 171: call s:h('DraculaGreenItalicUnderline', s:green, s:none, [s:attrs.italic, s:attrs.underline])[J
 
-calling <SNR>13_h[J('DraculaGreenItalicUnderline', ['#50FA7B', 84], ['NONE', 'NONE'], ['italic', 'underline'])
+calling <SNR>14_h[J('DraculaGreenItalicUnderline', ['#50FA7B', 84], ['NONE', 'NONE'], ['italic', 'underline'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11063,7 +11115,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaGreenItalicUnderline guifg=#50FA7B ctermfg=84 guibg=NONE ctermbg=NONE gui=italic,underline cterm=italic,underline guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11071,7 +11123,7 @@ line 172: [J
 
 line 173: call s:h('DraculaOrange', s:orange)[J
 
-calling <SNR>13_h[J('DraculaOrange', ['#FFB86C', 215])
+calling <SNR>14_h[J('DraculaOrange', ['#FFB86C', 215])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11119,13 +11171,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaOrange guifg=#FFB86C ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 174: call s:h('DraculaOrangeBold', s:orange, s:none, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('DraculaOrangeBold', ['#FFB86C', 215], ['NONE', 'NONE'], ['bold'])
+calling <SNR>14_h[J('DraculaOrangeBold', ['#FFB86C', 215], ['NONE', 'NONE'], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11173,13 +11225,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaOrangeBold guifg=#FFB86C ctermfg=215 guibg=NONE ctermbg=NONE gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 175: call s:h('DraculaOrangeItalic', s:orange, s:none, [s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaOrangeItalic', ['#FFB86C', 215], ['NONE', 'NONE'], ['italic'])
+calling <SNR>14_h[J('DraculaOrangeItalic', ['#FFB86C', 215], ['NONE', 'NONE'], ['italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11227,13 +11279,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaOrangeItalic guifg=#FFB86C ctermfg=215 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 176: call s:h('DraculaOrangeBoldItalic', s:orange, s:none, [s:attrs.bold, s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaOrangeBoldItalic', ['#FFB86C', 215], ['NONE', 'NONE'], ['bold', 'italic'])
+calling <SNR>14_h[J('DraculaOrangeBoldItalic', ['#FFB86C', 215], ['NONE', 'NONE'], ['bold', 'italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11281,13 +11333,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaOrangeBoldItalic guifg=#FFB86C ctermfg=215 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 177: call s:h('DraculaOrangeInverse', s:bg, s:orange)[J
 
-calling <SNR>13_h[J('DraculaOrangeInverse', ['#282A36', 236], ['#FFB86C', 215])
+calling <SNR>14_h[J('DraculaOrangeInverse', ['#282A36', 236], ['#FFB86C', 215])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11335,7 +11387,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaOrangeInverse guifg=#282A36 ctermfg=236 guibg=#FFB86C ctermbg=215 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11343,7 +11395,7 @@ line 178: [J
 
 line 179: call s:h('DraculaPink', s:pink)[J
 
-calling <SNR>13_h[J('DraculaPink', ['#FF79C6', 212])
+calling <SNR>14_h[J('DraculaPink', ['#FF79C6', 212])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11391,13 +11443,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaPink guifg=#FF79C6 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 180: call s:h('DraculaPinkItalic', s:pink, s:none, [s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaPinkItalic', ['#FF79C6', 212], ['NONE', 'NONE'], ['italic'])
+calling <SNR>14_h[J('DraculaPinkItalic', ['#FF79C6', 212], ['NONE', 'NONE'], ['italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11445,7 +11497,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaPinkItalic guifg=#FF79C6 ctermfg=212 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11453,7 +11505,7 @@ line 181: [J
 
 line 182: call s:h('DraculaPurple', s:purple)[J
 
-calling <SNR>13_h[J('DraculaPurple', ['#BD93F9', 141])
+calling <SNR>14_h[J('DraculaPurple', ['#BD93F9', 141])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11501,13 +11553,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaPurple guifg=#BD93F9 ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 183: call s:h('DraculaPurpleBold', s:purple, s:none, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('DraculaPurpleBold', ['#BD93F9', 141], ['NONE', 'NONE'], ['bold'])
+calling <SNR>14_h[J('DraculaPurpleBold', ['#BD93F9', 141], ['NONE', 'NONE'], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11555,13 +11607,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaPurpleBold guifg=#BD93F9 ctermfg=141 guibg=NONE ctermbg=NONE gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 184: call s:h('DraculaPurpleItalic', s:purple, s:none, [s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaPurpleItalic', ['#BD93F9', 141], ['NONE', 'NONE'], ['italic'])
+calling <SNR>14_h[J('DraculaPurpleItalic', ['#BD93F9', 141], ['NONE', 'NONE'], ['italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11609,7 +11661,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaPurpleItalic guifg=#BD93F9 ctermfg=141 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11617,7 +11669,7 @@ line 185: [J
 
 line 186: call s:h('DraculaRed', s:red)[J
 
-calling <SNR>13_h[J('DraculaRed', ['#FF5555', 203])
+calling <SNR>14_h[J('DraculaRed', ['#FF5555', 203])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11665,13 +11717,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaRed guifg=#FF5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 187: call s:h('DraculaRedInverse', s:fg, s:red)[J
 
-calling <SNR>13_h[J('DraculaRedInverse', ['#F8F8F2', 253], ['#FF5555', 203])
+calling <SNR>14_h[J('DraculaRedInverse', ['#F8F8F2', 253], ['#FF5555', 203])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11719,7 +11771,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaRedInverse guifg=#F8F8F2 ctermfg=253 guibg=#FF5555 ctermbg=203 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11727,7 +11779,7 @@ line 188: [J
 
 line 189: call s:h('DraculaYellow', s:yellow)[J
 
-calling <SNR>13_h[J('DraculaYellow', ['#F1FA8C', 228])
+calling <SNR>14_h[J('DraculaYellow', ['#F1FA8C', 228])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11775,13 +11827,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaYellow guifg=#F1FA8C ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 190: call s:h('DraculaYellowItalic', s:yellow, s:none, [s:attrs.italic])[J
 
-calling <SNR>13_h[J('DraculaYellowItalic', ['#F1FA8C', 228], ['NONE', 'NONE'], ['italic'])
+calling <SNR>14_h[J('DraculaYellowItalic', ['#F1FA8C', 228], ['NONE', 'NONE'], ['italic'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11829,7 +11881,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaYellowItalic guifg=#F1FA8C ctermfg=228 guibg=NONE ctermbg=NONE gui=italic cterm=italic guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11837,7 +11889,7 @@ line 191: [J
 
 line 192: call s:h('DraculaError', s:red, s:none, [], s:red)[J
 
-calling <SNR>13_h[J('DraculaError', ['#FF5555', 203], ['NONE', 'NONE'], [], ['#FF5555', 203])
+calling <SNR>14_h[J('DraculaError', ['#FF5555', 203], ['NONE', 'NONE'], [], ['#FF5555', 203])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11885,7 +11937,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaError guifg=#FF5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=#FF5555[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -11893,7 +11945,7 @@ line 193: [J
 
 line 194: call s:h('DraculaErrorLine', s:none, s:none, [s:attrs.undercurl], s:red)[J
 
-calling <SNR>13_h[J('DraculaErrorLine', ['NONE', 'NONE'], ['NONE', 'NONE'], ['undercurl'], ['#FF5555', 203])
+calling <SNR>14_h[J('DraculaErrorLine', ['NONE', 'NONE'], ['NONE', 'NONE'], ['undercurl'], ['#FF5555', 203])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11941,13 +11993,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaErrorLine guifg=#FF5555 ctermfg=203 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#FF5555[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 195: call s:h('DraculaWarnLine', s:none, s:none, [s:attrs.undercurl], s:orange)[J
 
-calling <SNR>13_h[J('DraculaWarnLine', ['NONE', 'NONE'], ['NONE', 'NONE'], ['undercurl'], ['#FFB86C', 215])
+calling <SNR>14_h[J('DraculaWarnLine', ['NONE', 'NONE'], ['NONE', 'NONE'], ['undercurl'], ['#FFB86C', 215])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -11995,13 +12047,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaWarnLine guifg=#FFB86C ctermfg=215 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#FFB86C[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 196: call s:h('DraculaInfoLine', s:none, s:none, [s:attrs.undercurl], s:cyan)[J
 
-calling <SNR>13_h[J('DraculaInfoLine', ['NONE', 'NONE'], ['NONE', 'NONE'], ['undercurl'], ['#8BE9FD', 117])
+calling <SNR>14_h[J('DraculaInfoLine', ['NONE', 'NONE'], ['NONE', 'NONE'], ['undercurl'], ['#8BE9FD', 117])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12049,7 +12101,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaInfoLine guifg=#8BE9FD ctermfg=117 guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#8BE9FD[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -12057,7 +12109,7 @@ line 197: [J
 
 line 198: call s:h('DraculaTodo', s:cyan, s:none, [s:attrs.bold, s:attrs.inverse])[J
 
-calling <SNR>13_h[J('DraculaTodo', ['#8BE9FD', 117], ['NONE', 'NONE'], ['bold', 'inverse'])
+calling <SNR>14_h[J('DraculaTodo', ['#8BE9FD', 117], ['NONE', 'NONE'], ['bold', 'inverse'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12105,13 +12157,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaTodo guifg=#8BE9FD ctermfg=117 guibg=NONE ctermbg=NONE gui=bold,inverse cterm=bold,inverse guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 199: call s:h('DraculaSearch', s:green, s:none, [s:attrs.inverse])[J
 
-calling <SNR>13_h[J('DraculaSearch', ['#50FA7B', 84], ['NONE', 'NONE'], ['inverse'])
+calling <SNR>14_h[J('DraculaSearch', ['#50FA7B', 84], ['NONE', 'NONE'], ['inverse'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12159,13 +12211,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaSearch guifg=#50FA7B ctermfg=84 guibg=NONE ctermbg=NONE gui=inverse cterm=inverse guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 200: call s:h('DraculaBoundary', s:comment, s:bgdark)[J
 
-calling <SNR>13_h[J('DraculaBoundary', ['#6272A4', 61], ['#21222C', 235])
+calling <SNR>14_h[J('DraculaBoundary', ['#6272A4', 61], ['#21222C', 235])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12213,13 +12265,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaBoundary guifg=#6272A4 ctermfg=61 guibg=#21222C ctermbg=235 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 201: call s:h('DraculaWinSeparator', s:comment, s:bgdark)[J
 
-calling <SNR>13_h[J('DraculaWinSeparator', ['#6272A4', 61], ['#21222C', 235])
+calling <SNR>14_h[J('DraculaWinSeparator', ['#6272A4', 61], ['#21222C', 235])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12267,13 +12319,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaWinSeparator guifg=#6272A4 ctermfg=61 guibg=#21222C ctermbg=235 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 202: call s:h('DraculaLink', s:cyan, s:none, [s:attrs.underline])[J
 
-calling <SNR>13_h[J('DraculaLink', ['#8BE9FD', 117], ['NONE', 'NONE'], ['underline'])
+calling <SNR>14_h[J('DraculaLink', ['#8BE9FD', 117], ['NONE', 'NONE'], ['underline'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12321,7 +12373,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaLink guifg=#8BE9FD ctermfg=117 guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -12337,7 +12389,7 @@ line 207: else[J
 
 line 208:   call s:h('DraculaDiffChange', s:orange, s:none)[J
 
-calling <SNR>13_h[J('DraculaDiffChange', ['#FFB86C', 215], ['NONE', 'NONE'])
+calling <SNR>14_h[J('DraculaDiffChange', ['#FFB86C', 215], ['NONE', 'NONE'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12385,13 +12437,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaDiffChange guifg=#FFB86C ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 209:   call s:h('DraculaDiffDelete', s:red, s:bgdark)[J
 
-calling <SNR>13_h[J('DraculaDiffDelete', ['#FF5555', 203], ['#21222C', 235])
+calling <SNR>14_h[J('DraculaDiffDelete', ['#FF5555', 203], ['#21222C', 235])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12439,7 +12491,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaDiffDelete guifg=#FF5555 ctermfg=203 guibg=#21222C ctermbg=235 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -12449,7 +12501,7 @@ line 211: [J
 
 line 212: call s:h('DraculaDiffText', s:bg, s:orange)[J
 
-calling <SNR>13_h[J('DraculaDiffText', ['#282A36', 236], ['#FFB86C', 215])
+calling <SNR>14_h[J('DraculaDiffText', ['#282A36', 236], ['#FFB86C', 215])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12497,7 +12549,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight DraculaDiffText guifg=#282A36 ctermfg=236 guibg=#FFB86C ctermbg=215 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -12521,7 +12573,7 @@ line 221: " Required as some plugins will overwrite[J
 
 line 222: call s:h('Normal', s:fg, g:dracula_colorterm || has('gui_running') ? s:bg : s:none )[J
 
-calling <SNR>13_h[J('Normal', ['#F8F8F2', 253], ['#282A36', 236])
+calling <SNR>14_h[J('Normal', ['#F8F8F2', 253], ['#282A36', 236])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12569,13 +12621,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight Normal guifg=#F8F8F2 ctermfg=253 guibg=#282A36 ctermbg=236 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 223: call s:h('StatusLine', s:none, s:bglighter, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('StatusLine', ['NONE', 'NONE'], ['#424450', 238], ['bold'])
+calling <SNR>14_h[J('StatusLine', ['NONE', 'NONE'], ['#424450', 238], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12623,13 +12675,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight StatusLine guifg=NONE ctermfg=NONE guibg=#424450 ctermbg=238 gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 224: call s:h('StatusLineNC', s:none, s:bglight)[J
 
-calling <SNR>13_h[J('StatusLineNC', ['NONE', 'NONE'], ['#343746', 237])
+calling <SNR>14_h[J('StatusLineNC', ['NONE', 'NONE'], ['#343746', 237])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12677,13 +12729,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight StatusLineNC guifg=NONE ctermfg=NONE guibg=#343746 ctermbg=237 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 225: call s:h('StatusLineTerm', s:none, s:bglighter, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('StatusLineTerm', ['NONE', 'NONE'], ['#424450', 238], ['bold'])
+calling <SNR>14_h[J('StatusLineTerm', ['NONE', 'NONE'], ['#424450', 238], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12731,13 +12783,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight StatusLineTerm guifg=NONE ctermfg=NONE guibg=#424450 ctermbg=238 gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 226: call s:h('StatusLineTermNC', s:none, s:bglight)[J
 
-calling <SNR>13_h[J('StatusLineTermNC', ['NONE', 'NONE'], ['#343746', 237])
+calling <SNR>14_h[J('StatusLineTermNC', ['NONE', 'NONE'], ['#343746', 237])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12785,13 +12837,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight StatusLineTermNC guifg=NONE ctermfg=NONE guibg=#343746 ctermbg=237 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 227: call s:h('WildMenu', s:bg, s:purple, [s:attrs.bold])[J
 
-calling <SNR>13_h[J('WildMenu', ['#282A36', 236], ['#BD93F9', 141], ['bold'])
+calling <SNR>14_h[J('WildMenu', ['#282A36', 236], ['#BD93F9', 141], ['bold'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12839,13 +12891,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight WildMenu guifg=#282A36 ctermfg=236 guibg=#BD93F9 ctermbg=141 gui=bold cterm=bold guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 228: call s:h('CursorLine', s:none, s:subtle)[J
 
-calling <SNR>13_h[J('CursorLine', ['NONE', 'NONE'], ['#424450', 238])
+calling <SNR>14_h[J('CursorLine', ['NONE', 'NONE'], ['#424450', 238])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12893,7 +12945,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight CursorLine guifg=NONE ctermfg=NONE guibg=#424450 ctermbg=238 gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -12929,7 +12981,7 @@ line 243: hi! link IncSearch    DraculaOrangeInverse[J
 
 line 244: call s:h('LineNr', s:comment)[J
 
-calling <SNR>13_h[J('LineNr', ['#6272A4', 61])
+calling <SNR>14_h[J('LineNr', ['#6272A4', 61])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -12977,7 +13029,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight LineNr guifg=#6272A4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -12999,7 +13051,7 @@ line 252: hi! link Search       DraculaSearch[J
 
 line 253: call s:h('SignColumn', s:comment)[J
 
-calling <SNR>13_h[J('SignColumn', ['#6272A4', 61])
+calling <SNR>14_h[J('SignColumn', ['#6272A4', 61])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -13047,7 +13099,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight SignColumn guifg=#6272A4 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -13079,7 +13131,7 @@ line 266: " Required as some plugins will overwrite[J
 
 line 267: call s:h('MatchParen', s:green, s:none, [s:attrs.underline])[J
 
-calling <SNR>13_h[J('MatchParen', ['#50FA7B', 84], ['NONE', 'NONE'], ['underline'])
+calling <SNR>14_h[J('MatchParen', ['#50FA7B', 84], ['NONE', 'NONE'], ['underline'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -13127,13 +13179,13 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight MatchParen guifg=#50FA7B ctermfg=84 guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
 line 268: call s:h('Conceal', s:cyan, s:none)[J
 
-calling <SNR>13_h[J('Conceal', ['#8BE9FD', 117], ['NONE', 'NONE'])
+calling <SNR>14_h[J('Conceal', ['#8BE9FD', 117], ['NONE', 'NONE'])
 
 line 1:   let l:fg = copy(a:fg)[J
 
@@ -13181,7 +13233,7 @@ line 28:   execute join(l:hl_string, ' ')[J
 
 line 28: highlight Conceal guifg=#8BE9FD ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE guisp=NONE[J
 
-<SNR>13_h returning #0[J
+<SNR>14_h returning #0[J
 
 continuing in /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 
@@ -13355,496 +13407,487 @@ line 352: " vim: fdm=marker ts=2 sts=2 sw=2 fdl=0 et:[J
 
 finished sourcing /home/m/.vim/pack/themes/start/dracula/colors/dracula.vim[J
 continuing in /home/m/.vimrc[J
-line 106: "################ dracula DRACULA ###########[J
+line 113: "################ dracula DRACULA ###########[J
 
-line 107: "------------------------------------------------------------------------------}}}[J
+line 114: "------------------------------------------------------------------------------}}}[J
 
-line 108: [J
+line 115: [J
 
-line 109: [J
+line 116: [J
 
-line 110: "--- mapping ------------------------------------------------------------------{{{[J
+line 117: " from Normal mode you can type q followed by enter to quit without saving[J
 
-line 111: " from Normal mode you can type q followed by enter to quit without saving[J
+line 118: nnoremap q :q[J
 
-line 112: nnoremap q :q[J
+line 119: " ctrl-q write and quit[J
 
-line 113: " ctrl-q write and quit[J
+line 120: " in normal, insert, visual and command mode.[J
 
-line 114: " in normal, insert, visual and command mode.[J
+line 121: nnoremap <c-q> :wq[J
 
-line 115: nnoremap <c-q> :wq[J
+line 122: inoremap <c-q> <ESC>:wq[J
 
-line 116: inoremap <c-q> <ESC>:wq[J
+line 123: vnoremap <c-q> <ESC>:wq[J
 
-line 117: vnoremap <c-q> <ESC>:wq[J
+line 124: cnoremap <c-q> <ESC>:wq[J
 
-line 118: cnoremap <c-q> <ESC>:wq[J
+line 125: [J
 
-line 119: [J
+line 126: " toggle fold[J
 
-line 120: " toggle fold[J
+line 127: nnoremap ff za[J
 
-line 121: nnoremap ff za[J
+line 128: [J
 
-line 122: [J
+line 129: " å = go to end of line, 0=go to beginning of line.[J
 
-line 123: " å = go to end of line, 0=go to beginning of line.[J
+line 130: nnoremap å $:echo'å=go to end of line'<CR>[J
 
-line 124: nnoremap å $:echo'å=go to end of line'<CR>[J
+line 131: nnoremap 0 0:echo'0=go to start of line'<CR>[J
 
-line 125: nnoremap 0 0:echo'0=go to start of line'<CR>[J
+line 132: [J
 
-line 126: [J
+line 133: nnoremap h h:echo'-- NORMAL --   h-left'<CR>[J
 
-line 127: nnoremap h h:echo'-- NORMAL --   h-left'<CR>[J
+line 134: nnoremap j j:echo'-- NORMAL --   j-down'<CR>[J
 
-line 128: nnoremap j j:echo'-- NORMAL --   j-down'<CR>[J
+line 135: nnoremap k k:echo'-- NORMAL --   k-up'<CR>[J
 
-line 129: nnoremap k k:echo'-- NORMAL --   k-up'<CR>[J
+line 136: nnoremap l l:echo'-- NORMAL --   l-right'<CR>[J
 
-line 130: nnoremap l l:echo'-- NORMAL --   l-right'<CR>[J
+line 137: [J
 
-line 131: [J
+line 138: " speed up scrolling[J
 
-line 132: " speed up scrolling[J
+line 139: nnoremap <C-e> 4<C-e>:echo 'scroll dwn'<CR>[J
 
-line 133: nnoremap <C-e> 4<C-e>:echo 'scroll dwn'<CR>[J
+line 140: nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>[J
 
-line 134: nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>[J
+line 141: [J
 
-line 135: [J
+line 142: [J
 
-line 136: [J
+line 143: "- panes -------------------------------------{{{[J
 
-line 137: "- panes -------------------------------------{{{[J
+line 144: "[J
 
-line 138: "[J
+line 145: let mapleader = ","[J
 
-line 139: let mapleader = ","[J
+line 146: "[J
 
-line 140: "[J
+line 147: " ,vv for vertical split ,hh for horizonal split[J
 
-line 141: " ,vv for vertical split ,hh for horizonal split[J
+line 148: nnoremap <Leader>vv :vs<CR>:edit ~/.vimrc<CR>[J
 
-line 142: nnoremap <Leader>vv :vs<CR>:edit ~/.vimrc<CR>[J
+line 149: nnoremap <Leader>hh :sp<CR>: source ~/.vimrc<cr>[J
 
-line 143: nnoremap <Leader>hh :sp<CR>: source ~/.vimrc<cr>[J
+line 150: " ctrl-hjkl navigate panes[J
 
-line 144: " ctrl-hjkl navigate panes[J
+line 151: nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>[J
 
-line 145: nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>[J
+line 152: nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>[J
 
-line 146: nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>[J
+line 153: nnoremap <C-j> <C-w>j:echo 'nav pane dwn:' expand('%:p')<CR>[J
 
-line 147: nnoremap <C-j> <C-w>j:echo 'nav pane dwn:' expand('%:p')<CR>[J
+line 154: nnoremap <C-k> <C-w>k:echo 'nav pane up:' expand('%:p')<CR>[J
 
-line 148: nnoremap <C-k> <C-w>k:echo 'nav pane up:' expand('%:p')<CR>[J
+line 155: " Resize panes: SHIFT-L and SHIFT-H[J
 
-line 149: " Resize panes: SHIFT-L and SHIFT-H[J
+line 156: nnoremap <S-L> 2<c-w><:echo 'Resize pane SHIFT-L=>'<CR>[J
 
-line 150: nnoremap <S-L> 2<c-w><:echo 'Resize pane SHIFT-L=>'<CR>[J
+line 157: nnoremap <S-H> 2<c-w>>:echo 'Resize pane SHIFT-H=<'<CR>[J
 
-line 151: nnoremap <S-H> 2<c-w>>:echo 'Resize pane SHIFT-H=<'<CR>[J
+line 158: nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>[J
 
-line 152: nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>[J
-
-line 153: nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>[J
-
-line 154: "[J
-
-line 155: " move cursor in insert mode with shift hjkl[J
-
-line 156: "inoremap <S-L> <ESC>lli[J
-
-line 157: "inoremap <S-H> <ESC>i[J
-
-line 158: "inoremap <S-J> <ESC>jli[J
-
-line 159: "inoremap <S-K> <ESC>kli[J
+line 159: nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>[J
 
 line 160: "[J
 
-line 161: "---------------------------------------------}}}[J
+line 161: " move cursor in insert mode with shift hjkl[J
 
-line 162: [J
+line 162: "inoremap <S-L> <ESC>lli[J
 
-line 163: [J
+line 163: "inoremap <S-H> <ESC>i[J
 
-line 164: "-------- C COMPILATION using Makefile ---------[J
+line 164: "inoremap <S-J> <ESC>jli[J
 
-line 165: " F2 F3 ...[J
+line 165: "inoremap <S-K> <ESC>kli[J
 
-line 166: nnoremap <F2> :!make help<CR>[J
+line 166: "[J
 
-line 167: nnoremap <F3> :!make vars<CR>[J
+line 167: "---------------------------------------------}}}[J
 
-line 168: nnoremap <F4> :!make clean<CR>[J
+line 168: [J
 
-line 169: nnoremap <F5> :!make<CR>[J
+line 169: [J
 
-line 170: nnoremap <F6> :!make run<CR>[J
+line 170: "-------- C COMPILATION using Makefile ---------[J
 
-line 171: nnoremap <F7> :!make dbg<CR>[J
+line 171: " F2 F3 ...[J
 
-line 172: " ,mh ,mv ...[J
+line 172: nnoremap <F2> :!make help<CR>[J
 
-line 173: """" Please see MAPLEADER fold.[J
+line 173: nnoremap <F3> :!make vars<CR>[J
 
-line 174: "nnoremap <Leader>mh :!make help<CR>[J
+line 174: nnoremap <F4> :!make clean<CR>[J
 
-line 175: "nnoremap <Leader>mv :!make vars<CR>[J
+line 175: nnoremap <F5> :!make<CR>[J
 
-line 176: "nnoremap <Leader>mc :!make clean<CR>[J
+line 176: nnoremap <F6> :!make run<CR>[J
 
-line 177: "nnoremap <Leader>mm :!make<CR>[J
+line 177: nnoremap <F7> :!make dbg<CR>[J
 
-line 178: "nnoremap <Leader>mr :!make run<CR>[J
+line 178: " ,mh ,mv ...[J
 
-line 179: "nnoremap <Leader>md :!make dbg<CR>[J
+line 179: """" Please see MAPLEADER fold.[J
 
-line 180: "-----------------------------------------------[J
+line 180: "nnoremap <Leader>mh :!make help<CR>[J
 
-line 181: [J
+line 181: "nnoremap <Leader>mv :!make vars<CR>[J
 
-line 182: """" Please see MAPLEADER fold.[J
+line 182: "nnoremap <Leader>mc :!make clean<CR>[J
 
-line 183: "nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>[J
+line 183: "nnoremap <Leader>mm :!make<CR>[J
 
-line 184: "nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>[J
+line 184: "nnoremap <Leader>mr :!make run<CR>[J
 
-line 185: "nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>[J
+line 185: "nnoremap <Leader>md :!make dbg<CR>[J
 
-line 186: "nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>[J
+line 186: "-----------------------------------------------[J
 
-line 187: "nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>[J
+line 187: [J
 
-line 188: [J
+line 188: """" Please see MAPLEADER fold.[J
 
-line 189: [J
+line 189: "nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>[J
 
-line 190: [J
+line 190: "nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>[J
 
-line 191: [J
+line 191: "nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>[J
 
-line 192: nnoremap u u:echom"-- NORMAL -- u=undo last change"<cr>[J
+line 192: "nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>[J
 
-line 193: [J
+line 193: "nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>[J
 
-line 194: " U: Undo latest changes to one line. This command is unique because it will[J
+line 194: [J
 
-line 195: " create a new entry instead of reverting back to an old entry. This means you[J
+line 195: [J
 
-line 196: " can actually press u to undo the changes done with U.[J
+line 196: [J
 
 line 197: [J
 
-line 198: [J
+line 198: nnoremap u u:echom"-- NORMAL -- u=undo last change"<cr>[J
 
-line 199: nnoremap o o<esc>:echo'Normal o = Open line below'<cr>[J
+line 199: [J
 
-line 200: nnoremap O O<esc>:echo'Normal O = Open line abowe'<cr>[J
+line 200: " U: Undo latest changes to one line. This command is unique because it will[J
 
-line 201: [J
+line 201: " create a new entry instead of reverting back to an old entry. This means you[J
 
-line 202: " Y,D,C = Yank, Delete, Change from cursor to the end of line.[J
+line 202: " can actually press u to undo the changes done with U.[J
 
-line 203: nnoremap Y  y$:echo'Normal  Y=Yank from cursor to end of line'<CR>[J
+line 203: [J
 
-line 204: nnoremap yw yw:echo'Normal yw=yank word'<cr>[J
+line 204: [J
 
-line 205: nnoremap yy yy:echo'Normal yy=yank the whole line'<cr>[J
+line 205: nnoremap o o<esc>:echo'Normal o = Open line below'<cr>[J
 
-line 206: nnoremap yt yt[J
+line 206: nnoremap O O<esc>:echo'Normal O = Open line abowe'<cr>[J
 
-line 207: nnoremap yf yf[J
+line 207: [J
 
-line 208: "NB! yt and yf can not have an echo statment after them.[J
+line 208: " Y,D,C = Yank, Delete, Change from cursor to the end of line.[J
 
-line 209: [J
+line 209: nnoremap Y  y$:echo'Normal  Y=Yank from cursor to end of line'<CR>[J
 
-line 210: nnoremap D  d$:echo'Normal  D=Delete from cursor to end of line'<cr>[J
+line 210: nnoremap yw yw:echo'Normal yw=yank word'<cr>[J
 
-line 211: nnoremap dw dw:echo'Normal dw=delete word'<cr>[J
+line 211: nnoremap yy yy:echo'Normal yy=yank the whole line'<cr>[J
 
-line 212: nnoremap dd dd:echo'Normal dd=delete line'<cr>[J
+line 212: nnoremap yt yt[J
 
-line 213: nnoremap df df[J
+line 213: nnoremap yf yf[J
 
-line 214: nnoremap dt dt[J
+line 214: "NB! yt and yf can not have an echo statment after them.[J
 
-line 215: "NB! dt and df can not have an echo statment after them.[J
+line 215: [J
 
-line 216: [J
+line 216: nnoremap D  d$:echo'Normal  D=Delete from cursor to end of line'<cr>[J
 
-line 217: " make cw behave like dw and yw[J
+line 217: nnoremap dw dw:echo'Normal dw=delete word'<cr>[J
 
-line 218: "nnoremap cw dwi[J
+line 218: nnoremap dd dd:echo'Normal dd=delete line'<cr>[J
 
-line 219: [J
+line 219: nnoremap df df[J
 
-line 220: nnoremap C c$[J
+line 220: nnoremap dt dt[J
 
-line 221: ":echo'C = change from cursor to end of line'<cr>[J
+line 221: "NB! dt and df can not have an echo statment after them.[J
 
 line 222: [J
 
-line 223: " P = Paste, used after yank or delete [J
+line 223: " make cw behave like dw and yw[J
 
-line 224: nnoremap P P:echo'P = Paste line abowe / Paste token at cursor'<cr>[J
+line 224: "nnoremap cw dwi[J
 
-line 225: nnoremap p p:echo'p = paste line below / paste token after cursor'<cr>[J
+line 225: [J
 
-line 226: [J
+line 226: nnoremap C c$[J
 
-line 227: " Shift-x insert space, only x delete one character.[J
+line 227: ":echo'C = change from cursor to end of line'<cr>[J
 
-line 228: nnoremap X i<space><esc>:echom"-- NORMAL -- X=shift-x=insert space"<cr>[J
+line 228: [J
 
-line 229: nnoremap x x:echom"-- NORMAL -- x=delete one char"<cr>[J
+line 229: " P = Paste, used after yank or delete [J
 
-line 230: [J
+line 230: nnoremap P P:echo'P = Paste line abowe / Paste token at cursor'<cr>[J
 
-line 231: "h jh    h          kj  k[J
+line 231: nnoremap p p:echo'p = paste line below / paste token after cursor'<cr>[J
 
 line 232: [J
 
-line 233: " Space to type :!  to enter shell comands.[J
+line 233: " Shift-x insert space, only x delete one character.[J
 
-line 234: nnoremap <space> i<space><esc>:echom"-- NORMAL -- space=insert space"<cr> [J
+line 234: nnoremap X i<space><esc>:echom"-- NORMAL -- X=shift-x=insert space"<cr>[J
 
-line 235: nnoremap <tab> i<tab><esc>:echo"-- NORMAL -- tab=insert tab=4spaces"<cr>[J
+line 235: nnoremap x x:echom"-- NORMAL -- x=delete one char"<cr>[J
 
-line 236:     [J
+line 236: [J
 
-line 237: " ctrl-x to search and replace.[J
+line 237: "h jh    h          kj  k[J
 
-line 238: nnoremap <C-x> :%s/[J
+line 238: [J
 
-line 239: " ctrl-f find[J
+line 239: " Space to type :!  to enter shell comands.[J
 
-line 240: nnoremap <C-f> /[J
+line 240: nnoremap <space> i<space><esc>:echom"-- NORMAL -- space=insert space"<cr> [J
 
-line 241: [J
+line 241: nnoremap <tab> i<tab><esc>:echo"-- NORMAL -- tab=insert tab=4spaces"<cr>[J
 
-line 242: [J
+line 242:     [J
 
-line 243: "-------------------------- ESC mapping ------------------------------------[J
+line 243: " ctrl-x to search and replace.[J
 
-line 244: set noesckeys[J
+line 244: nnoremap <C-x> :%s/[J
 
-line 245: set ttimeout[J
+line 245: " ctrl-f find[J
 
-line 246: set ttimeoutlen=800[J
+line 246: nnoremap <C-f> /[J
 
-line 247: set timeoutlen=900[J
+line 247: [J
 
 line 248: [J
 
-line 249: nnoremap <esc><esc>k:echom"-- NORMAL -- esc"<cr>[J
+line 249: [J
 
-line 250: inoremap <esc>:echo"***line250<esc>***"<cr>[J
+line 250: [J
 
-No mapping found[J
 line 251: [J
 
-line 252: "vnoremap <esc>:echom';lklllllhhhhhhh'Visual -> Normal esc = back to normal mode'<cr>'[J
+line 252: [J
 
-line 253: "cnoremap <esc> <esc>:echo'Command -> Normal esc = back to normal mode'<cr>'[J
+line 253: [J
 
 line 254: [J
 
-line 255: "Save & Source:[J
+line 255: [J
 
-line 256: nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>[J
+line 256: "--- mapleader , -------------------------------------------------------------------------{{{[J
 
-line 257: inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>[J
+line 257: " ,va ,vb ... edit dotfiles[J
 
-line 258: [J
+line 258: let $ALIASES = '~/.bash_aliases'[J
 
-line 259: "------------------------------------ end mappings ---------------------------}}}[J
+line 259: let $BASHRC  = '~/.bashrc'[J
 
-line 260: [J
+line 260: let $VIFMRC  = '~/.vifm/vifmrc.vim' [J
 
-line 261: [J
+line 261: let $TMUX    = '~/.tmux.conf'[J
 
-line 262: "--- mapleader , -------------------------------------------------------------------------{{{[J
+line 262: let $VIMRC   = '~/.vimrc'[J
 
-line 263: " ,va ,vb ... edit dotfiles[J
+line 263: [J
 
-line 264: let $ALIASES = '~/.aliases.sh'[J
+line 264: setlocal foldmethod=marker[J
 
-line 265: let $BASHRC  = '~/.bashrc'[J
+line 265: nnoremap <Leader>ea :vs $ALIASES<CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
 
-line 266: let $VIFMRC  = '~/.vifm/vifmrc.vim' [J
+line 266: nnoremap <Leader>eb :vs $BASHRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
 
-line 267: let $TMUX    = '~/.tmux.conf'[J
+line 267: nnoremap <Leader>ef :vs $VIFMRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
 
-line 268: let $VIMRC   = '~/.vimrc'[J
+line 268: nnoremap <Leader>et :vs $TMUX   <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
 
-line 269: [J
+line 269: nnoremap <Leader>ev :vs $VIMRC  <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
 
-line 270: setlocal foldmethod=marker[J
+line 270: [J
 
-line 271: nnoremap <Leader>ea :vs $ALIASES<CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
+line 271: " ,mh ,mv ...[J
 
-line 272: nnoremap <Leader>eb :vs $BASHRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
+line 272: nnoremap <Leader>mh :!make help<CR>[J
 
-line 273: nnoremap <Leader>ef :vs $VIFMRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
+line 273: nnoremap <Leader>mv :!make vars<CR>[J
 
-line 274: nnoremap <Leader>et :vs $TMUX   <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
+line 274: nnoremap <Leader>mc :!make clean<CR>[J
 
-line 275: nnoremap <Leader>ev :vs $VIMRC  <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>[J
+line 275: nnoremap <Leader>mm :!make all<CR>[J
 
-line 276: [J
+line 276: nnoremap <Leader>mr :!make run<CR>[J
 
-line 277: " ,mh ,mv ...[J
+line 277: nnoremap <Leader>md :!make dbg<CR>[J
 
-line 278: nnoremap <Leader>mh :!make help<CR>[J
+line 278: [J
 
-line 279: nnoremap <Leader>mv :!make vars<CR>[J
+line 279: " open vim integrated file explorer[J
 
-line 280: nnoremap <Leader>mc :!make clean<CR>[J
+line 280: nnoremap <Leader>ex :Lexplore<CR>7<C-w><[J
 
-line 281: nnoremap <Leader>mm :!make all<CR>[J
+line 281: [J
 
-line 282: nnoremap <Leader>mr :!make run<CR>[J
+line 282: " ,ch = leader comment hash[J
 
-line 283: nnoremap <Leader>md :!make dbg<CR>[J
+line 283: nnoremap <Leader>ch I#<ESC>j[J
 
-line 284: [J
+line 284: " ,ca = leader comment apostrophe[J
 
-line 285: " open vim integrated file explorer[J
+line 285: nnoremap <Leader>ca I"<ESC>j[J
 
-line 286: nnoremap <Leader>ex :Lexplore<CR>7<C-w><[J
+line 286: " ,cc = leader comment c source code[J
 
-line 287: [J
+line 287: nnoremap <Leader>cc I//<ESC>j[J
 
-line 288: " ,ch = leader comment hash[J
+line 288: "-----------------------------------------------------------------------------------------}}}[J
 
-line 289: nnoremap <Leader>ch I#<ESC>j[J
+line 289: [J
 
-line 290: " ,ca = leader comment apostrophe[J
+line 290: [J
 
-line 291: nnoremap <Leader>ca I"<ESC>j[J
+line 291: "--- Escape Save Source Quit ------------------------------------------------------{{{[J
 
-line 292: " ,cc = leader comment c source code[J
+line 292: "Ctrl-s saves the file and sources if it is $VIMRC[J
 
-line 293: nnoremap <Leader>cc I//<ESC>j[J
+line 293: nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>[J
 
-line 294: "-----------------------------------------------------------------------------------------}}}[J
+line 294: inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>[J
 
 line 295: [J
 
-line 296: [J
+line 296: set noesckeys[J
 
-line 297: "--- @ macros --------------------------------------------------------{{{[J
+line 297: set ttimeout[J
 
-line 298: " @c comment C line  //[J
+line 298: set ttimeoutlen=1000[J
 
-line 299: let @c="I// \<Esc>j"[J
+line 299: set timeoutlen=1000[J
 
 line 300: [J
 
-line 301: " @u uncomment C line[J
+line 301: nnoremap <esc> <esc>:echo"-- NORMAL -- esc"<cr>[J
 
-line 302: let @u = "I\<Del>\<Del>\<Del>\<Esc>j"[J
+line 302: inoremap <esc> <esc>l:echo"-- NORMAL -- esc"<cr>[J
 
-line 303: [J
+line 303: "----------------------------------------------------------------------------------}}}[J
 
-line 304: " @p printf("[J
+line 304: [J
 
-line 305: let @p = "Iprintf(\""[J
+line 305: [J
 
-line 306: [J
+line 306: "--- @ macros --------------------------------------------------------{{{[J
 
-line 307: " @f for(int i = 0; i < 10; i++){[J
+line 307: " @c comment C line  //[J
 
-line 308: let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"[J
+line 308: let @c="I// \<Esc>j"[J
 
-line 309: "---------------------------------------------------------------------}}}[J
+line 309: [J
 
-line 310: [J
+line 310: " @u uncomment C line[J
 
-line 311: [J
+line 311: let @u = "I\<Del>\<Del>\<Del>\<Esc>j"[J
 
-line 312: "--- scripts ---------------------------------------------------------{{{[J
+line 312: [J
 
-line 313: [J
+line 313: " @p printf("[J
 
-line 314: " This will enable code folding.[J
+line 314: let @p = "Iprintf(\""[J
 
-line 315: " Use the marker method of folding.[J
+line 315: [J
 
-line 316: augroup filetype_vim[J
+line 316: " @f for(int i = 0; i < 10; i++){[J
 
-line 317:     autocmd![J
+line 317: let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"[J
 
-line 318:     autocmd FileType vim setlocal foldmethod=marker[J
+line 318: "---------------------------------------------------------------------}}}[J
 
-line 319: augroup END[J
+line 319: [J
 
 line 320: [J
 
-line 321: " Display cursorline and cursorcolumn ONLY in active window.[J
+line 321: "--- scripts autogroup autocmd ------------------------------{{{[J
 
-line 322: augroup cursor_off[J
+line 322: " This will enable code folding.[J
 
-line 323: ^Iautocmd![J
+line 323: " Use the marker method of folding.[J
 
-line 324: ^Iautocmd WinLeave * set nocursorline nocursorcolumn[J
+line 324: augroup filetype_vim[J
 
-line 325: ^Iautocmd WinEnter * set cursorline cursorcolumn[J
+line 325:     autocmd![J
 
-line 326: augroup END[J
+line 326:     autocmd FileType vim setlocal foldmethod=marker[J
 
-line 327: [J
+line 327: augroup END[J
 
 line 328: [J
 
-line 329: "---------------------------------------------------------------------}}}[J
+line 329: " Display cursorline and cursorcolumn ONLY in active window.[J
 
-line 330: [J
+line 330: "augroup cursor_off[J
 
-line 331: [J
+line 331:     "autocmd![J
 
-line 332: "--- plugins ---{{{[J
+line 332:     "autocmd WinLeave * set nocursorline nocursorcolumn[J
 
-line 333: [J
+line 333:     "autocmd WinEnter * set cursorline cursorcolumn[J
 
-line 334: "call plug#begin('~/.vim/plugged')[J
+line 334: "augroup END[J
 
-line 335: [J
+line 335: "------------------------------------------------------------}}}[J
 
 line 336: [J
 
-line 337: "call plug#end()[J
+line 337: [J
 
-line 338: [J
+line 338: "--- plugins -----------------------{{{[J
 
-line 339: "---------------}}}[J
+line 339: "call plug#begin('~/.vim/plugged')[J
 
 line 340: [J
 
-line 341: [J
+line 341: "call plug#end()[J
 
-line 342: "--- statusline -----------------------------------{{{[J
+line 342: "-----------------------------------}}}[J
 
-line 343: set laststatus=2[J
+line 343: [J
 
-line 344: set statusline=[J
+line 344: [J
 
-line 345: set statusline+=%F[J
+line 345: "--- statusline -----------------------------------{{{[J
 
-line 346: set statusline+=%=[J
+line 346: set laststatus=2[J
 
-line 347: set statusline+=row:%l\ col:%c\ percent:%p%%[J
+line 347: set statusline=[J
 
-line 348: "--------------------------------------------------}}}[J
+line 348: set statusline+=%F[J
 
-line 349: [J
+line 349: set statusline+=%=[J
 
-line 350: [J
+line 350: set statusline+=row:%l\ col:%c\ percent:%p%%[J
+
+line 351: "--------------------------------------------------}}}[J
+
+line 352: [J
+
+line 353: [J
 
 finished sourcing $HOME/.vimrc[J
 Searching for "pack/*/start/*" in "/home/m/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/home/m/.vim/after"[J
@@ -15919,20 +15962,20 @@ finished sourcing /home/m/.vim/pack/themes/start/dracula/after/plugin/dracula.vi
 Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"[J
 Searching for "/home/m/.vim/after/plugin/**/*.vim"[J
 Opening the X display took 0 msec[J
-Reading viminfo file "/home/m/.viminfo" info oldfiles[JOpening the X display took 2 msec[J
-Press ENTER or type command to continueXSMP handling save-yourself request[J[?25h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;78r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[38;5;253m[48;5;236m[H[2J[?25l[78;1HExecuting BufWinEnter Autocommands for "*"
+Reading viminfo file "/home/m/.viminfo" info oldfiles[JOpening the X display took 3 msec[J
+Press ENTER or type command to continueXSMP handling save-yourself request[J[?25h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;77r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[38;5;253m[48;5;236m[H[2J[?25l[77;1HExecuting BufWinEnter Autocommands for "*"
 autocommand call s:Highlight_Matching_Pair()
 Executing: call s:Highlight_Matching_Pair()
-calling <SNR>19_Highlight_Matching_Pair()
+calling <SNR>20_Highlight_Matching_Pair()
 line 1:   " Remove any previous match.
 line 2:   call s:Remove_Matches()
-calling <SNR>19_Remove_Matches()
+calling <SNR>20_Remove_Matches()
 line 1:   if exists('w:paren_hl_on') && w:paren_hl_on
 line 2:     silent! call matchdelete(3)
 line 3:     let w:paren_hl_on = 0
 line 4:   endif
-<SNR>19_Remove_Matches returning #0
-continuing in <SNR>19_Highlight_Matching_Pair
+<SNR>20_Remove_Matches returning #0
+continuing in <SNR>20_Highlight_Matching_Pair
 line 3:
 line 4:   " Avoid that we remove the popup menu.
 line 5:   " Return when there are no colors (looks like the cursor jumps).
@@ -15964,7 +16007,7 @@ line 30:     endif
 line 31:     if i < 0
 line 32:[7C" not found, nothing to do
 line 33:[7Creturn
-<SNR>19_Highlight_Matching_Pair returning #0
+<SNR>20_Highlight_Matching_Pair returning #0
 continuing in BufWinEnter Autocommands for "*"
 Executing BufEnter Autocommands for "*"
 autocommand sil call s:LocalBrowse(expand("<amatch>"))
@@ -15979,16 +16022,16 @@ Executing VimEnter Autocommands for "*"
 [?25lautocommand call s:Highlight_Matching_Pair()
 [38;5;121mPress ENTER or type command to continue[?25h[m[38;5;253m[48;5;236m
 [?25lExecuting: call s:Highlight_Matching_Pair()
-calling <SNR>19_Highlight_Matching_Pair()
+calling <SNR>20_Highlight_Matching_Pair()
 line 1:   " Remove any previous match.
 line 2:   call s:Remove_Matches()
-calling <SNR>19_Remove_Matches()
+calling <SNR>20_Remove_Matches()
 line 1:   if exists('w:paren_hl_on') && w:paren_hl_on
 line 2:     silent! call matchdelete(3)
 line 3:     let w:paren_hl_on = 0
 line 4:   endif
-<SNR>19_Remove_Matches returning #0
-continuing in <SNR>19_Highlight_Matching_Pair
+<SNR>20_Remove_Matches returning #0
+continuing in <SNR>20_Highlight_Matching_Pair
 line 3:
 line 4:   " Avoid that we remove the popup menu.
 line 5:   " Return when there are no colors (looks like the cursor jumps).
@@ -16020,8 +16063,8 @@ line 30:     endif
 line 31:     if i < 0
 line 32:[7C" not found, nothing to do
 line 33:[7Creturn
-<SNR>19_Highlight_Matching_Pair returning #0
+<SNR>20_Highlight_Matching_Pair returning #0
 continuing in CursorMoved Autocommands for "*"
-[27m[23m[29m[m[38;5;253m[48;5;236m[1;1H[38;5;228m1   [m[38;5;253m[48;5;236m[48;5;238m                                                                                                                                                                                                                                                                              [m[38;5;253m[48;5;236m[2;1H[38;5;238m~                                                                                                                                                                                                                                                                                 [3;1H~                                                                                                                                                                                                                                                                                 [4;1H~                                                                                                                                                                                                                                                                                 [5;1H~                                                                                                                                                                                                                                                                                 [6;1H~                                                                                                                                                                                                                                                                                 [7;1H~                                                                                                                                                                                                                                                                                 [8;1H~                                                                                                                                                                                                                                                                                 [9;1H~                                                                                                                                                                                                                                                                                 [10;1H~                                                                                                                                                                                                                                                                                 [11;1H~                                                                                                                                                                                                                                                                                 [12;1H~                                                                                                                                                                                                                                                                                 [13;1H~                                                                                                                                                                                                                                                                                 [14;1H~                                                                                                                                                                                                                                                                                 [15;1H~                                                                                                                                                                                                                                                                                 [16;1H~                                                                                                                                                                                                                                                                                 [17;1H~                                                                                                                                                                                                                                                                                 [18;1H~                                                                                                                                                                                                                                                                                 [19;1H~                                                                                                                                                                                                                                                                                 [20;1H~                                                                                                                                                                                                                                                                                 [21;1H~                                                                                                                                                                                                                                                                                 [22;1H~                                                                                                                                                                                                                                                                                 [23;1H~                                                                                                                                                                                                                                                                                 [24;1H~                                                                                                                                                                                                                                                                                 [25;1H~                                                                                                                                                                                                                                                                                 [26;1H~                                                                                                                                                                                                                                                                                 [27;1H~                                                                                                                                                                                                                                                                                 [28;1H~                                                                                                                                                                                                                                                                                 [29;1H~                                                                                                                                                                                                                                                                                 [30;1H~                                                                                                                                                                                                                                                                                 [31;1H~                                                                                                                                                                                                                                                                                 [32;1H~                                                                                                                                                                                                                                                                                 [33;1H~                                                                                                                                                                                                                                                                                 [34;1H~                                                                                                                                                                                                                                                                                 [35;1H~                                                                                                                                                                                                                                                                                 [36;1H~                                                                                                                                                                                                                                                                                 [37;1H~                                                                                                                                                                                                                                                                                 [38;1H~                                                                                                                                                                                                                                                                                 [39;1H~                                                                                                                                                                                                                                                                                 [40;1H~                                                                                                                                                                                                                                                                                 [41;1H~                                                                                                                                                                                                                                                                                 [42;1H~                                                                                                                                                                                                                                                                                 [43;1H~                                                                                                                                                                                                                                                                                 [44;1H~                                                                                                                                                                                                                                                                                 [45;1H~                                                                                                                                                                                                                                                                                 [46;1H~                                                                                                                                                                                                                                                                                 [47;1H~                                                                                                                                                                                                                                                                                 [48;1H~                                                                                                                                                                                                                                                                                 [49;1H~                                                                                                                                                                                                                                                                                 [50;1H~                                                                                                                                                                                                                                                                                 [51;1H~                                                                                                                                                                                                                                                                                 [52;1H~                                                                                                                                                                                                                                                                                 [53;1H~                                                                                                                                                                                                                                                                                 [54;1H~                                                                                                                                                                                                                                                                                 [55;1H~                                                                                                                                                                                                                                                                                 [56;1H~                                                                                                                                                                                                                                                                                 [57;1H~                                                                                                                                                                                                                                                                                 [58;1H~                                                                                                                                                                                                                                                                                 [59;1H~                                                                                                                                                                                                                                                                                 [60;1H~                                                                                                                                                                                                                                                                                 [61;1H~                                                                                                                                                                                                                                                                                 [62;1H~                                                                                                                                                                                                                                                                                 [63;1H~                                                                                                                                                                                                                                                                                 [64;1H~                                                                                                                                                                                                                                                                                 [65;1H~                                                                                                                                                                                                                                                                                 [66;1H~                                                                                                                                                                                                                                                                                 [67;1H~                                                                                                                                                                                                                                                                                 [68;1H~                                                                                                                                                                                                                                                                                 [69;1H~                                                                                                                                                                                                                                                                                 [70;1H~                                                                                                                                                                                                                                                                                 [71;1H~                                                                                                                                                                                                                                                                                 [72;1H~                                                                                                                                                                                                                                                                                 [73;1H~                                                                                                                                                                                                                                                                                 [74;1H~                                                                                                                                                                                                                                                                                 [75;1H~                                                                                                                                                                                                                                                                                 [76;1H~                                                                                                                                                                                                                                                                                 [m[38;5;253m[48;5;236m[77;1H[1m[48;5;238m[No Name]                                                                                                                                                                                                                                                 row:0 col:0 percent:100%[m[38;5;253m[48;5;236m[78;1H[K[33;129HVIM - Vi IMproved[35;130Hversion 9.0.1182[36;126Hby Bram Moolenaar et al.[37;116HVim is open source and freely distributable[39;123HBecome a registered Vim user![40;115Htype  :help register[38;5;212m<Enter>[m[38;5;253m[48;5;236m   for information [42;115Htype  :q[38;5;212m<Enter>[m[38;5;253m[48;5;236m               to exit         [43;115Htype  :help[38;5;212m<Enter>[m[38;5;253m[48;5;236m  or  [38;5;212m<F1>[m[38;5;253m[48;5;236m  for on-line help[44;115Htype  :help version9[38;5;212m<Enter>[m[38;5;253m[48;5;236m   for version info]2;[No Name] - VIM]1;[No Name][1;5H[?25h[?4m[?25l[78;264H:[1;5H[78;264H[K[78;1H:[1 q[?25hq
+[27m[23m[29m[m[38;5;253m[48;5;236m[1;1H[38;5;228m1   [m[38;5;253m[48;5;236m[38;5;238m[48;5;238m$[m[38;5;253m[48;5;236m[48;5;238m                                                                                                                                [m[38;5;253m[48;5;236m[2;1H[38;5;238m~                                                                                                                                    [3;1H~                                                                                                                                    [4;1H~                                                                                                                                    [5;1H~                                                                                                                                    [6;1H~                                                                                                                                    [7;1H~                                                                                                                                    [8;1H~                                                                                                                                    [9;1H~                                                                                                                                    [10;1H~                                                                                                                                    [11;1H~                                                                                                                                    [12;1H~                                                                                                                                    [13;1H~                                                                                                                                    [14;1H~                                                                                                                                    [15;1H~                                                                                                                                    [16;1H~                                                                                                                                    [17;1H~                                                                                                                                    [18;1H~                                                                                                                                    [19;1H~                                                                                                                                    [20;1H~                                                                                                                                    [21;1H~                                                                                                                                    [22;1H~                                                                                                                                    [23;1H~                                                                                                                                    [24;1H~                                                                                                                                    [25;1H~                                                                                                                                    [26;1H~                                                                                                                                    [27;1H~                                                                                                                                    [28;1H~                                                                                                                                    [29;1H~                                                                                                                                    [30;1H~                                                                                                                                    [31;1H~                                                                                                                                    [32;1H~                                                                                                                                    [33;1H~                                                                                                                                    [34;1H~                                                                                                                                    [35;1H~                                                                                                                                    [36;1H~                                                                                                                                    [37;1H~                                                                                                                                    [38;1H~                                                                                                                                    [39;1H~                                                                                                                                    [40;1H~                                                                                                                                    [41;1H~                                                                                                                                    [42;1H~                                                                                                                                    [43;1H~                                                                                                                                    [44;1H~                                                                                                                                    [45;1H~                                                                                                                                    [46;1H~                                                                                                                                    [47;1H~                                                                                                                                    [48;1H~                                                                                                                                    [49;1H~                                                                                                                                    [50;1H~                                                                                                                                    [51;1H~                                                                                                                                    [52;1H~                                                                                                                                    [53;1H~                                                                                                                                    [54;1H~                                                                                                                                    [55;1H~                                                                                                                                    [56;1H~                                                                                                                                    [57;1H~                                                                                                                                    [58;1H~                                                                                                                                    [59;1H~                                                                                                                                    [60;1H~                                                                                                                                    [61;1H~                                                                                                                                    [62;1H~                                                                                                                                    [63;1H~                                                                                                                                    [64;1H~                                                                                                                                    [65;1H~                                                                                                                                    [66;1H~                                                                                                                                    [67;1H~                                                                                                                                    [68;1H~                                                                                                                                    [69;1H~                                                                                                                                    [70;1H~                                                                                                                                    [71;1H~                                                                                                                                    [72;1H~                                                                                                                                    [73;1H~                                                                                                                                    [74;1H~                                                                                                                                    [75;1H~                                                                                                                                    [m[38;5;253m[48;5;236m[76;1H[1m[48;5;238m[No Name]                                                                                                    row:0 col:0 percent:100%[m[38;5;253m[48;5;236m[77;1H[K[33;59HVIM - Vi IMproved[35;59Hversion 9.0.1182[36;55Hby Bram Moolenaar et al.[37;46HVim is open source and freely distributable[39;53HHelp poor children in Uganda![40;44Htype  :help iccf[38;5;212m<Enter>[m[38;5;253m[48;5;236m       for information [42;44Htype  :q[38;5;212m<Enter>[m[38;5;253m[48;5;236m               to exit         [43;44Htype  :help[38;5;212m<Enter>[m[38;5;253m[48;5;236m  or  [38;5;212m<F1>[m[38;5;253m[48;5;236m  for on-line help[44;44Htype  :help version9[38;5;212m<Enter>[m[38;5;253m[48;5;236m   for version info]2;[No Name] - VIM]1;[No Name][1;5H[?25h[?4m[?25l[77;1H:[1 qq[?25h
 [?25lExecuting: q
 Writing viminfo file "/home/m/.viminfo"[?2004l[>4;m]2;m@arch:~]1;m@arch:~[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[39;49m[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m

@@ -12,8 +12,9 @@
 
 
 "--- settings -----------------------------------------------{{{
-colorscheme molokai
+"colorscheme molokai
 "colorscheme Dracula
+colorscheme Default-256
 
 " make it posible for aliases to function within vifm :!m r
 let $BASH_ENV = "~/.bash_aliases.sh"

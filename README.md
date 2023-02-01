@@ -1,4 +1,4 @@
-## arch.xfce4.dracula
+## archXfce4
 ### linux.basic.dotfiles
 
 #### TODO: add dracula to vifm, bashTOP
@@ -46,7 +46,7 @@ just type startx or the alias x
 firefox
 
 
-THEME:
+THEMES:
 ======
 Dracula theme
 Molokai theme
@@ -65,9 +65,7 @@ C-demo:
 demo-c/
 using makefiles to build
 and gdb to debug
----
-###
-///
 
 </pre>
+
 

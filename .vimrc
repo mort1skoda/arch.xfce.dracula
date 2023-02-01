@@ -1,13 +1,38 @@
-""""""""""""""""""""""""""""""""""""""""
-""""    ~/.vimrc    """"
-""""""""""""""""""""""""
+
+
+"--- info --------------------------------------------{{{
+"---    ~/.vimrc    ----
+"-----------------------
 " Author: Morten Håkestad <mort1skoda@gmail.com>
 
 
-"--- tips and tricks and debug --------------------{{{
-" echom"in /home/m/.vimrc"
+"--- tips and tricks and debug --------------------
+echom"in /home/m/.vimrc"
 " see dbgvim alias in .bash_aliases
-"--------------------------------------------------}}}
+
+" visual select text and use u to lower
+" and S-u = U to upper case.
+"--------------------------------------------------------}}}
+
+
+"--- file managers ------------------------------------{{{
+" Use lf to select and open file(s) in vim (adapted from ranger).
+" You need to either copy the content of this file to your ~/.vimrc or source
+" this file directly:
+"
+let lfvim = "/usr/share/vim/vimfiles/ftdetect/lf.vim"
+if filereadable(lfvim)
+    exec "source " . lfvim
+endif
+
+" You may also like to assign a key to this command:
+nnoremap <leader>lf :LF<cr>
+
+" open vim integrated file explorer
+nnoremap <Leader>vf :Lexplore<CR>7<C-w><
+
+" can you open vifm also?
+"--------------------------------------}}}
 
 
 "--- folds -------------------{{{
@@ -21,15 +46,29 @@ nnoremap fo zr
 "-----------------------------}}}
 
 
-" - SETTINGS -----------------------------------------------------{{{
+"--- set colorscheme ---------------------------{{{
+colorscheme molokai
+
+"################ DRACULA dracula ###########
+"packadd! dracula
+"syntax enable
+"colorscheme dracula
+"################ dracula DRACULA ###########
+"----------------------------------------------}}}
+
+
+"--- settings -------------------------------------{{{
+" Show all line endings as $
+set list
 
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
 set nowrap
 "set wrap
 set textwidth=200
-"set spell spelllang=en_us
+
+set spell spelllang=en_us
 "Turn off spell
-set nospell
+"set nospell
 
 setlocal foldmethod=marker
 
@@ -38,7 +77,7 @@ setlocal foldmethod=marker
 set splitright
 
 " Expand aliases.
-let $BASH_ENV = "~/.aliases.sh"
+let $BASH_ENV = "~/.bash_aliases.sh"
 
 " Block cursor in Normal mode, vertical cursor in Insert mode,
 " horizontal cursor in Replace mode
@@ -66,8 +105,6 @@ set relativenumber
 set cursorline
 " Highlight cursor line underneath the cursor vertically.
 set cursorcolumn
-" Set the color scheme.
-colorscheme molokai
 " Set shift width to 4 spaces.
 set shiftwidth=4
 " Set tab width to 4 columns.
@@ -102,15 +139,10 @@ set wildmode=list:longest
 " There are certain files that we would never want to edit with Vim.
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-
-"################ DRACULA dracula ###########
-packadd! dracula
-syntax enable
-colorscheme dracula
-"################ dracula DRACULA ###########
 "------------------------------------------------------------------------------}}}
 
 
+"--- movement ----------------{{{
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
 " ctrl-q write and quit
@@ -135,62 +167,10 @@ nnoremap l l:echo'-- NORMAL --   l-right'<CR>
 " speed up scrolling
 nnoremap <C-e> 4<C-e>:echo 'scroll dwn'<CR>
 nnoremap <C-y> 4<C-y>:echo 'scroll up'<CR>
+"------------------------------------------}}}
 
 
-"- panes -------------------------------------{{{
-"
-let mapleader = ","
-"
-" ,vv for vertical split ,hh for horizonal split
-nnoremap <Leader>vv :vs<CR>:edit ~/.vimrc<CR>
-nnoremap <Leader>hh :sp<CR>: source ~/.vimrc<cr>
-" ctrl-hjkl navigate panes
-nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
-nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
-nnoremap <C-j> <C-w>j:echo 'nav pane dwn:' expand('%:p')<CR>
-nnoremap <C-k> <C-w>k:echo 'nav pane up:' expand('%:p')<CR>
-" Resize panes: SHIFT-L and SHIFT-H
-nnoremap <S-L> 2<c-w><:echo 'Resize pane SHIFT-L=>'<CR>
-nnoremap <S-H> 2<c-w>>:echo 'Resize pane SHIFT-H=<'<CR>
-nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>
-nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>
-"
-" move cursor in insert mode with shift hjkl
-"inoremap <S-L> <ESC>lli
-"inoremap <S-H> <ESC>i
-"inoremap <S-J> <ESC>jli
-"inoremap <S-K> <ESC>kli
-"
-"---------------------------------------------}}}
-
-
-"-------- C COMPILATION using Makefile ---------
-" F2 F3 ...
-nnoremap <F2> :!make help<CR>
-nnoremap <F3> :!make vars<CR>
-nnoremap <F4> :!make clean<CR>
-nnoremap <F5> :!make<CR>
-nnoremap <F6> :!make run<CR>
-nnoremap <F7> :!make dbg<CR>
-" ,mh ,mv ...
-"""" Please see MAPLEADER fold.
-"nnoremap <Leader>mh :!make help<CR>
-"nnoremap <Leader>mv :!make vars<CR>
-"nnoremap <Leader>mc :!make clean<CR>
-"nnoremap <Leader>mm :!make<CR>
-"nnoremap <Leader>mr :!make run<CR>
-"nnoremap <Leader>md :!make dbg<CR>
-"-----------------------------------------------
-
-"""" Please see MAPLEADER fold.
-"nnoremap <Leader>va :vs $ALIASES<CR>:echo expand('%:p')<CR>
-"nnoremap <Leader>vb :vs $BASHRC <CR>:echo expand('%:p')<CR>
-"nnoremap <Leader>vf :vs $VIFMRC <CR>:echo expand('%:p')<CR>
-"nnoremap <Leader>vt :vs $TMUX   <CR>:echo expand('%:p')<CR>
-"nnoremap <Leader>vv :vs $VIMRC  <CR>:echo expand('%:p')<CR>
-
-
-
+"--- modify, undo, open, yank, delete, change, paste ----------------{{{
 
 nnoremap u u:echom"-- NORMAL -- u=undo last change"<cr>
 
@@ -236,34 +216,44 @@ nnoremap x x:echom"-- NORMAL -- x=delete one char"<cr>
 " Space to type :!  to enter shell comands.
 nnoremap <space> i<space><esc>:echom"-- NORMAL -- space=insert space"<cr> 
 nnoremap <tab> i<tab><esc>:echo"-- NORMAL -- tab=insert tab=4spaces"<cr>
-    
-" ctrl-x to search and replace.
-nnoremap <C-x> :%s/
-" ctrl-f find
-nnoremap <C-f> /
+"---------------------------------------------------------}}}    
 
 
+"--- panes -------------------------------------{{{
+"
+let mapleader = ","
+"
+" ,vv for vertical split ,hh for horizonal split
+nnoremap <Leader>vv :vs<CR>:edit ~/.vimrc<CR>
+nnoremap <Leader>hh :sp<CR>: source ~/.vimrc<cr>
+" ctrl-hjkl navigate panes
+nnoremap <C-l> <C-w>l:echo 'nav pane right:' expand('%:p')<CR>
+nnoremap <C-h> <C-w>h:echo 'nav pane left:' expand('%:p')<CR>
+nnoremap <C-j> <C-w>j:echo 'nav pane dwn:' expand('%:p')<CR>
+nnoremap <C-k> <C-w>k:echo 'nav pane up:' expand('%:p')<CR>
+" Resize panes: SHIFT-L and SHIFT-H
+nnoremap <S-L> 2<c-w><:echo 'Resize pane SHIFT-L=>'<CR>
+nnoremap <S-H> 2<c-w>>:echo 'Resize pane SHIFT-H=<'<CR>
+nnoremap <S-J> <c-w>+:echo 'Resize pane SHIFT-J=dwn'<CR>
+nnoremap <S-K> <c-w>-:echo 'Resize pane SHIFT-K=up'<CR>
+"
+" move cursor in insert mode with shift hjkl
+"inoremap <S-L> <ESC>lli
+"inoremap <S-H> <ESC>i
+"inoremap <S-J> <ESC>jli
+"inoremap <S-K> <ESC>kli
+"
+"---------------------------------------------}}}
 
 
-
-
-
-
-
-"--- mapleader , -------------------------------------------------------------------------{{{
-" ,va ,vb ... edit dotfiles
-let $ALIASES = '~/.bash_aliases'
-let $BASHRC  = '~/.bashrc'
-let $VIFMRC  = '~/.vifm/vifmrc.vim' 
-let $TMUX    = '~/.tmux.conf'
-let $VIMRC   = '~/.vimrc'
-
-setlocal foldmethod=marker
-nnoremap <Leader>ea :vs $ALIASES<CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
-nnoremap <Leader>eb :vs $BASHRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
-nnoremap <Leader>ef :vs $VIFMRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
-nnoremap <Leader>et :vs $TMUX   <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
-nnoremap <Leader>ev :vs $VIMRC  <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+"--- C compilation using Makefile -------------{{{
+" F2 F3 ...
+nnoremap <F2> :!make help<CR>
+nnoremap <F3> :!make vars<CR>
+nnoremap <F4> :!make clean<CR>
+nnoremap <F5> :!make<CR>
+nnoremap <F6> :!make run<CR>
+nnoremap <F7> :!make dbg<CR>
 
 " ,mh ,mv ...
 nnoremap <Leader>mh :!make help<CR>
@@ -272,32 +262,7 @@ nnoremap <Leader>mc :!make clean<CR>
 nnoremap <Leader>mm :!make all<CR>
 nnoremap <Leader>mr :!make run<CR>
 nnoremap <Leader>md :!make dbg<CR>
-
-" open vim integrated file explorer
-nnoremap <Leader>ex :Lexplore<CR>7<C-w><
-
-" ,ch = leader comment hash
-nnoremap <Leader>ch I#<ESC>j
-" ,ca = leader comment apostrophe
-nnoremap <Leader>ca I"<ESC>j
-" ,cc = leader comment c source code
-nnoremap <Leader>cc I//<ESC>j
-"-----------------------------------------------------------------------------------------}}}
-
-
-"--- Escape Save Source Quit ------------------------------------------------------{{{
-"Ctrl-s saves the file and sources if it is $VIMRC
-nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
-inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
-
-set noesckeys
-set ttimeout
-set ttimeoutlen=1000
-set timeoutlen=1000
-
-nnoremap <esc> <esc>:echo"-- NORMAL -- esc"<cr>
-inoremap <esc> <esc>l:echo"-- NORMAL -- esc"<cr>
-"----------------------------------------------------------------------------------}}}
+"-------------------------------------------}}}
 
 
 "--- @ macros --------------------------------------------------------{{{
@@ -315,13 +280,63 @@ let @f = "I\<TAB>for(int i = 0; i < 10; i++){\<esc>I\<tab>\<tab>"
 "---------------------------------------------------------------------}}}
 
 
+"--- search and replace ------------{{{
+" ctrl-x search
+nnoremap <C-x> :%s/
+" ctrl-f find
+nnoremap <C-f> /
+"--------------------------------}}}
+
+
+"--- edit dotfiles ---------------------{{{
+" ,va ,vb ... edit dotfiles
+let $ALIASES = '~/.bash_aliases'
+let $BASHRC  = '~/.bashrc'
+let $VIFMRC  = '~/.vifm/vifmrc.vim' 
+let $TMUX    = '~/.tmux.conf'
+let $VIMRC   = '~/.vimrc'
+
+setlocal foldmethod=marker
+nnoremap <Leader>ea :vs $ALIASES<CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>eb :vs $BASHRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>ef :vs $VIFMRC <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>et :vs $TMUX   <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+nnoremap <Leader>ev :vs $VIMRC  <CR>:setlocal foldmethod=marker<CR>:echo expand('%:p')<CR>
+"-------------------------------------}}}
+
+
+"--- comments ---------------------{{{
+" ,ch = leader comment hash
+nnoremap <Leader>ch I#<ESC>j
+" ,ca = leader comment apostrophe
+nnoremap <Leader>ca I"<ESC>j
+" ,cc = leader comment c source code
+nnoremap <Leader>cc I//<ESC>j
+"---------------------------------}}}
+
+
+"--- Escape Save Source Quit ------------------------------------------------------{{{
+"Ctrl-s saves the file and sources if it is $VIMRC
+nnoremap <C-s> <esc>:w<cr>:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+inoremap <C-s> <esc>:w<cr>l:source $VIMRC<cr>:echom"-- NORMAL -- ctrl-s=save"<cr>
+
+set noesckeys
+set ttimeout
+set ttimeoutlen=1000
+set timeoutlen=1000
+
+nnoremap <esc> <esc>:echo"-- NORMAL -- esc"<cr>
+inoremap <esc> <esc>l:echo"-- NORMAL -- esc"<cr>
+"----------------------------------------------------------------------------------}}}
+
+
 "--- scripts autogroup autocmd ------------------------------{{{
 " This will enable code folding.
 " Use the marker method of folding.
-augroup filetype_vim
-    autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
-augroup END
+"augroup filetype_vim
+    "autocmd!
+    "autocmd FileType vim setlocal foldmethod=marker
+"augroup END
 
 " Display cursorline and cursorcolumn ONLY in active window.
 "augroup cursor_off
