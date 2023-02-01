@@ -39,6 +39,6 @@ ShortcutsNoMenukey=TRUE
 ShortcutsNoMnemonics=TRUE
 TitleMode=TERMINAL_TITLE_REPLACE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.820000
+BackgroundDarkness=0.850000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 
