@@ -60,6 +60,7 @@ alias cag='source ~/.aliases.sh && cat ~/.aliases.sh | grep -i --color '
 
 # shortcuts:
 alias c='cat'
+alias e="echo "
 alias g='grep --color=auto'
 alias hg='cat .bash_history | grep -i '
 alias os='cat /etc/os-release'
@@ -98,6 +99,9 @@ alias q='exit'
 
 
 #--- git ---------------------------------------------------{{{
+
+export BRANCH="master"
+
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 #echo $DATE  
 alias gs='git status'
