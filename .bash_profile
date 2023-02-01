@@ -53,6 +53,7 @@ if [ "$SHLVL" -lt 5 ]; then
     echo "Shell level below 5 automic git pull"
     echo "git pull: "
     git pull
+    pacman -Qdtq
 fi
 
 if [ "$SHLVL" -ge 5 ]; then
