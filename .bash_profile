@@ -47,20 +47,20 @@ if [ -n "$DEBUG" ]; then
     neofetch
 fi
 
-echo "SHELL LEVEL = $SHLVL"
-MAX_SHELL_LEVEL=7
-echo $MAX_SHELL_LEVEL
-
-if [ "$SHLVL" -lt "$MAX_SHELL_LEVEL" ]; then
-    echo "Shell level below $MAX_SHELL_LEVEL automic git pull"
-    echo "git pull: "
-    git pull
-    echo "Packages with NO dependencies:"
-    pacman -Qdtq
-fi
-
-if [ "$SHLVL" -ge "$MAX_SHELL_LEVEL" ]; then
-    echo "Shell level $MAX_SHELL_LEVEL and above pauses auto git"
-fi
+#echo "SHELL LEVEL = $SHLVL"
+#MAX_SHELL_LEVEL=7
+#echo $MAX_SHELL_LEVEL
+#
+#if [ "$SHLVL" -lt "$MAX_SHELL_LEVEL" ]; then
+    #echo "Shell level below $MAX_SHELL_LEVEL automic git pull"
+    #echo "git pull: "
+    #git pull
+    #echo "Packages with NO dependencies:"
+    #pacman -Qdtq
+#fi
+#
+#if [ "$SHLVL" -ge "$MAX_SHELL_LEVEL" ]; then
+    #echo "Shell level $MAX_SHELL_LEVEL and above pauses auto git"
+#fi
 
 
