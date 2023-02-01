@@ -48,16 +48,18 @@ if [ -n "$DEBUG" ]; then
 fi
 
 echo "SHELL LEVEL = $SHLVL"
+MAX_SHELL_LEVEL=7
+echo $MAX_SHELL_LEVEL
 
-if [ "$SHLVL" -lt 5 ]; then
-    echo "Shell level below 5 automic git pull"
+if [ "$SHLVL" -lt "$MAX_SHELL_LEVEL" ]; then
+    echo "Shell level below $MAX_SHELL_LEVEL automic git pull"
     echo "git pull: "
     git pull
     pacman -Qdtq
 fi
 
-if [ "$SHLVL" -ge 5 ]; then
-    echo "Shell level above 4 pauses auto git"
+if [ "$SHLVL" -ge "$MAX_SHELL_LEVEL" ]; then
+    echo "Shell level above $MAX_SHELL_LEVEL pauses auto git"
 fi
 
 
