@@ -68,7 +68,7 @@
     </property>
     <property name="plugin-25" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance15047;firefox.instance22489;firefox.instance5173;firefox.instance821"/>
+      <property name="mpris-players" type="string" value="firefox.instance15047;firefox.instance22489;firefox.instance5173;firefox.instance753507;firefox.instance821"/>
     </property>
   </property>
 </channel>
