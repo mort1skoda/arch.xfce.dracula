@@ -4,6 +4,7 @@
 .cache/
 #,config/
 .config/gh/
+.config/GIMP/
 .git/
 .gnupg/
 #.icons/
