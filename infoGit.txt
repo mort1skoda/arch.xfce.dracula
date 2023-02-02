@@ -3,8 +3,13 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M master
-git remote add origin https://github.com/mort1skoda/archXfce4.git
+git remote add origin https://github.com/mort1skoda/arch.xfce4.git
 git push -u origin master
+
+
+git pull
+git reflog
+
 
 it branch --set-upstream-to=origin/master
 git branch --set-upstream-to=origin/master
