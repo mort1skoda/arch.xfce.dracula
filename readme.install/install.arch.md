@@ -5,7 +5,7 @@
 
 #### Download torrent:
 
-    [archlinux.org/download](https://archlinux.org/download/)
+   [archlinux.org/download](https://archlinux.org/download/)
 
 
 #### Download arhc iso:
