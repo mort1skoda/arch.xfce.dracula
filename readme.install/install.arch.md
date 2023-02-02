@@ -20,6 +20,7 @@
     
 #### Make bootable usb:
 
+    lsblk
     sudo dd bs=4M if=archlinux-2023.02.01-x86_64.iso of=/dev/sdb conv=fsync oflag=direct status=progress
     
     
