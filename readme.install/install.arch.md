@@ -25,12 +25,12 @@
 
 #### Reboot into arch iso:
 
+![archlinux_scale_down](https://user-images.githubusercontent.com/6655776/215884852-a5e8a1e1-5d53-4ac0-a995-b6f9a2ac4d43.jpg)
+    
     ddsdda
 
 
-
-
-####To install via ssh:
+#### Install via ssh:
 ```
 passwd root
 ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0.198
