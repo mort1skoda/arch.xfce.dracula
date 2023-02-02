@@ -2,7 +2,6 @@
 ## install.archlinux
 ### UEFI system
 
-
 #### Download torrent:
 
    [archlinux.org/download](https://archlinux.org/download/)
@@ -41,18 +40,21 @@
 
 
 #### START INSTALLING:
+   
     loadkeys no
     passwd root
     ip a
     
 #### Install via ssh:
 
-   ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0.xxx
+    ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0.xxx
 
-#### alias and check time
+#### alias and check time:
 
-   alias l='ls -la --color --group-directories-first'
-   timedatectl status
+    alias l='ls -la --color --group-directories-first'
+    timedatectl status
+
+
 
 <pre>
 fdisk -l
