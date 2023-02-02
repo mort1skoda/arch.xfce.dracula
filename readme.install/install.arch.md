@@ -40,22 +40,19 @@
     F12 boot menu
 
 
+#### START INSTALLING:
+    loadkeys no
+    passwd root
+    ip a
+    
 #### Install via ssh:
-```
-passwd root
-ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0.198
-```
 
+   ssh -o StrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null" root@192.168.0.xxx
 
-####Start installing:
-```
-loadkeys no
-alias l='ls -la --color --group-directories-first'
-ls /sys/firmware/efi/efivars
-ip link
-ip a
-timedatectl status
-```
+#### alias and check time
+
+   alias l='ls -la --color --group-directories-first'
+   timedatectl status
 
 <pre>
 fdisk -l
