@@ -1,0 +1,7 @@
+1675339953 N rtorrent main: Starting thread.
+1675339953 N rtorrent scgi: Starting thread.
+1675339962 W Input failed: Could not find '=' in command 'd.add_tracker'.
+1675339988 E Could not create download: Could not find any trackers
+1675340000 N rtorrent scgi: Shutting down thread.
+1675340000 N rtorrent main: Shutting down thread.
+1675340000 N rtorrent disk: Shutting down thread.
