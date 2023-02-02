@@ -1,10 +1,12 @@
-
 ## install.archlinux
 ### UEFI system
+
+
 
 #### Download torrent:
 
    [archlinux.org/download](https://archlinux.org/download/)
+
 
 
 #### Install transmission-gtk
@@ -51,6 +53,7 @@
 
 #### alias and check time:
 
+    set -o vi
     alias l='ls -la --color --group-directories-first'
     timedatectl status
 
