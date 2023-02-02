@@ -10,7 +10,11 @@
 
 #### Download arhc iso:
 
-    Download arch iso with deluge
+    Download arch iso with transmission
+    
+#### Install transmission-gtk
+
+    sudo pacman -S transmission-gtk
 
 
 #### Make bootable usb:
