@@ -1,23 +1,36 @@
-## archlinux
-### UEFI system  Learn Linux TV
+## install.archlinux
+### UEFI system
 
-#### Download:
-[archlinux.org/download](https://archlinux.org/download/)
 
-<pre>
-You get a torrent file like this:
-archlinux-2023.01.01-x86_64.iso.torrent
+#### Download torrent:
 
-Open torrent file in: transmission
-And download the .iso file
-</pre>
+    [archlinux.org/download](https://archlinux.org/download/)
+
+
+#### Download arhc iso:
+
+    Download arch iso with transmission
+
 
 #### Make bootable usb:
-<pre>
-sudo dd bs=4M if=archlinux-2023.01.01-x86_64.iso of=/dev/sdb conv=fsync oflag=direct status=progress
-</pre>
 
-[Installation guide](https://wiki.archlinux.org/title/Installation_guide)
+    sudo dd bs=4M if=archlinux-2023.01.01-x86_64.iso of=/dev/sdb conv=fsync oflag=direct status=progress
+    
+    
+#### Read:
+
+    [Installation guide](https://wiki.archlinux.org/title/Installation_guide)
+    
+
+#### Reboot into arch iso:
+
+    ddsdda
+
+
+
+
+
+
 
 <pre>
 To install via ssh:

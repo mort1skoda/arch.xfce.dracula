@@ -1,11 +1,12 @@
 ## arch.xfce4.dracula
-### linux.basic.dotfiles
+#### TODO: add dracula to lf, bashTOP
 
-#### TODO: add dracula to vifm, bashTOP
+#### versions:
 
+    arch.xfce4.dracula
+    arch.lxde
 
-
-
+---
 
 ![archlinux_scale_down](https://user-images.githubusercontent.com/6655776/215884852-a5e8a1e1-5d53-4ac0-a995-b6f9a2ac4d43.jpg)
 

@@ -12,8 +12,8 @@
 
 
 "--- settings -----------------------------------------------{{{
-colorscheme molokai
-"colorscheme Dracula
+"colorscheme molokai
+colorscheme dracula
 
 " make it posible for aliases to function within vifm :!m r
 let $BASH_ENV = "~/.bash_aliases.sh"
@@ -58,7 +58,7 @@ nnoremap <C-o> <C-w>o
 "------------------------------------------------------------------}}}
 
 
-" ////////////// RENAMING //////////////////{{{
+"--- rename -----------------------------------------------{{{
 
 " i = insert / rename from start of filename
 nnoremap i cw<C-a>
@@ -69,6 +69,6 @@ nnoremap a cw
 " c = change / rename the whole filename.
 nnoremap c cw<C-u>
 
-"}}}
+"----------------------------------------------------------}}}
 
 

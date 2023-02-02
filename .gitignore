@@ -55,5 +55,8 @@ Pictures/
 *konsole*
 
 .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+.local/share/recently-used.xbel
+
 
 
