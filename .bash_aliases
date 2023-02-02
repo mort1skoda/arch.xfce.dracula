@@ -110,6 +110,7 @@ alias gpl="git pull"
 alias gr='git remote -v'
 alias grl="git reflog"
 alias gc='git commit -m "$DATE"'
+alias gco='git checkout '
 alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
