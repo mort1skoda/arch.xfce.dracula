@@ -204,6 +204,9 @@ sda      8:0    1 447.1G  0 disk
 
     reboot
 
+
+    set -o vi
+
     useradd -m -G wheel m
     passwd m
 
@@ -215,19 +218,37 @@ Put this at top of sudoers file:
 Go down to the first # %wheel
 and uncomment it
 
+    reboot
+
 ssh after reboot:
 =================
     ssh m@192.168.0.199
 
+
+    set -o vi
+
+    alias l='ls -la --color --group-directories-first'
+
+
+
 Git:
 ====
-    sudo pacman -S git github-cli -y
+
+    pacman -Qdtq
+    sudo pacman -Syu
+
     gh auth login
-    mkdir /home/m/clone
-    cd /home/m/clone
-    git clone https://github.com/mort1skoda/archlinux.git
-    cd archlinux
-    . .git_aliases
+    copy the XXX-XXX token
+    go to: https://github.com/login/device
+    sudo pacman -S git github-cli -y
+
+
+    sudo mkdir /rep 
+    cd /rep
+    git clone https://github.com/mort1skoda/<fav-repo>.git
+    cd <fav-repo>
+
+    . .bash_aliases   
     a
 
 
