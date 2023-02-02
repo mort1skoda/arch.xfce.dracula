@@ -28,7 +28,7 @@
     
 #### Read:
 
-    [Installation guide](https://wiki.archlinux.org/title/Installation_guide)
+   [Installation guide](https://wiki.archlinux.org/title/Installation_guide)
     
 
 #### Reboot into arch iso:
