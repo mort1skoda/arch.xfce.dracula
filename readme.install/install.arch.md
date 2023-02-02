@@ -15,7 +15,7 @@
 
 #### Download arhc iso:
 
-    Download arch iso with transmission
+   Download arch iso with transmission
 
     
 #### Make bootable usb:
