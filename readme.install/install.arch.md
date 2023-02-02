@@ -10,7 +10,7 @@
 
 #### Download arhc iso:
 
-    Download arch iso with transmission
+    Download arch iso with deluge
 
 
 #### Make bootable usb:
